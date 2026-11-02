@@ -1,0 +1,456 @@
+{
+  "metadata": {
+    "updated": "2026-11-01",
+    "japanLaunch": "2026-10-07",
+    "twLaunch": "2026-07-22",
+    "offsetDays": 77,
+    "notice": "台湾からの機械的な+77日予測は公式日程ではない。S1は日本時期予測を設けず韓国実績のみ。"
+  },
+  "sources": {
+    "jp1021": "https://mabinogimobile.nexon.co.jp/news/update/3567338",
+    "jp1028": "https://mabinogimobile.nexon.co.jp/news/update",
+    "jpguide": "https://mabinogimobile.nexon.co.jp/about/guide/3567340",
+    "tw0812": "https://forum.nexon.com/MabinogiMobileTW/board_view?board=7127&thread=3521038",
+    "tw0909": "https://forum.nexon.com/MabinogiMobileTW/board_view?board=7127&thread=3541097",
+    "kr0925": "https://mabinogimobile.nexon.com/News/Update/3147463",
+    "kr1113": "https://mabinogimobile.nexon.com/News/Update/3219468",
+    "community": "https://mabinogimobile.nipponhashi.com/en/guides/korea-taiwan-japan-calendar/",
+    "shop": "https://mabinogimobile.nipponhashi.com/ja/guides/jp-expedition-proof-shop/",
+    "krhistory": "https://mabinogimobile.nipponhashi.com/en/guides/s0-to-s1-paladin-prep/"
+  },
+  "timeline": [
+    {
+      "name": "ゲーム開始・Season 0",
+      "twDate": "2026-07-22",
+      "jpSameOffset": "2026-10-07",
+      "jpConfirmedDate": "2026-10-07",
+      "status": "JP実装",
+      "reward": "基本職・ルーン、Lv65",
+      "note": "開始日確定",
+      "source": "https://mabinogimobile.nipponhashi.com/en/guides/korea-taiwan-japan-calendar/"
+    },
+    {
+      "name": "マスアビス・亡霊の塔",
+      "twDate": "2026-07-29",
+      "jpSameOffset": "2026-10-14",
+      "jpConfirmedDate": "2026-10-14",
+      "status": "JP実装",
+      "reward": "週3回アビス、塔の初回報酬",
+      "note": "JP10/14実装",
+      "source": "https://mabinogimobile.nipponhashi.com/en/guides/korea-taiwan-japan-calendar/"
+    },
+    {
+      "name": "グラスギブネン・レイド EASY",
+      "twDate": "2026-08-05",
+      "jpSameOffset": "2026-10-21",
+      "jpConfirmedDate": "2026-10-21",
+      "status": "JP実装",
+      "reward": "遠征の証：週1回",
+      "note": "10/21日本公式",
+      "source": "https://mabinogimobile.nexon.co.jp/news/update/3567338"
+    },
+    {
+      "name": "マスアビス HELL1",
+      "twDate": "2026-08-10",
+      "jpSameOffset": "2026-10-26",
+      "jpConfirmedDate": "2026-10-26",
+      "status": "JP実装",
+      "reward": "赤い深淵の化石獲得（JP実機）",
+      "note": "10/26公式",
+      "source": "https://mabinogimobile.nexon.co.jp/news/update/3567338"
+    },
+    {
+      "name": "グラスギブネン HARD",
+      "twDate": "2026-08-17",
+      "jpSameOffset": "2026-11-02",
+      "jpConfirmedDate": "2026-11-02",
+      "status": "JP告知済",
+      "reward": "遠征の証週20は台湾基準",
+      "note": "日本版11/2告知、報酬数は日本実機要確認",
+      "source": "https://mabinogimobile.nexon.co.jp/news/update"
+    },
+    {
+      "name": "マスアビス HELL2",
+      "twDate": "2026-08-17",
+      "jpSameOffset": "2026-11-02",
+      "jpConfirmedDate": "2026-11-02",
+      "status": "JP告知済",
+      "reward": "台湾S0ではソロ不可",
+      "note": "日本版11/2告知",
+      "source": "https://mabinogimobile.nexon.co.jp/news/update"
+    },
+    {
+      "name": "電撃術師・バンホール・新狩場",
+      "twDate": "2026-09-09",
+      "jpSameOffset": "2026-11-25",
+      "jpConfirmedDate": null,
+      "status": "台湾日程から試算",
+      "reward": "追加職・地域・ダンジョン・エンチャント",
+      "note": "日本11/25は未発表・予測",
+      "source": "https://forum.nexon.com/MabinogiMobileTW/board_view?board=7127&thread=3541097"
+    },
+    {
+      "name": "マスアビス HELL3",
+      "twDate": "2026-09-14",
+      "jpSameOffset": "2026-11-30",
+      "jpConfirmedDate": null,
+      "status": "台湾日程から試算",
+      "reward": "高難度・赤石数量は未確認",
+      "note": "日本11/30は未発表",
+      "source": "https://forum.nexon.com/MabinogiMobileTW/board_view?board=7127&thread=3541097"
+    },
+    {
+      "name": "ホワイトサキュバス・レイド",
+      "twDate": "2026-09-21",
+      "jpSameOffset": "2026-12-07",
+      "jpConfirmedDate": null,
+      "status": "台湾日程から試算",
+      "reward": "4人の外伝レイド",
+      "note": "日本12/7は未発表",
+      "source": "https://mabinogimobile.nipponhashi.com/en/guides/korea-taiwan-japan-calendar/"
+    },
+    {
+      "name": "マスアビス HELL4",
+      "twDate": "2026-09-28",
+      "jpSameOffset": "2026-12-14",
+      "jpConfirmedDate": null,
+      "status": "台湾日程から試算",
+      "reward": "報酬数量未確認",
+      "note": "日本予測",
+      "source": "https://mabinogimobile.nipponhashi.com/en/guides/korea-taiwan-japan-calendar/"
+    },
+    {
+      "name": "原型ルーン26種",
+      "twDate": "2026-09-30",
+      "jpSameOffset": "2026-12-16",
+      "jpConfirmedDate": null,
+      "status": "台湾日程から試算",
+      "reward": "ドロップ入手・箱/昇級不可の先行情報",
+      "note": "JP導入日は未発表",
+      "source": "https://mabinogimobile.nipponhashi.com/en/guides/korea-taiwan-japan-calendar/"
+    },
+    {
+      "name": "マスアビス HELL5",
+      "twDate": "2026-10-05",
+      "jpSameOffset": "2026-12-21",
+      "jpConfirmedDate": null,
+      "status": "台湾日程から試算",
+      "reward": "報酬数量未確認",
+      "note": "日本予測",
+      "source": "https://mabinogimobile.nipponhashi.com/en/guides/korea-taiwan-japan-calendar/"
+    },
+    {
+      "name": "マスアビス HELL6",
+      "twDate": "2026-10-19",
+      "jpSameOffset": "2027-01-04",
+      "jpConfirmedDate": null,
+      "status": "台湾日程から試算",
+      "reward": "報酬数量未確認",
+      "note": "日本予測",
+      "source": "https://mabinogimobile.nipponhashi.com/en/guides/korea-taiwan-japan-calendar/"
+    },
+    {
+      "name": "ギルド船",
+      "twDate": "2026-10-21",
+      "jpSameOffset": "2027-01-06",
+      "jpConfirmedDate": null,
+      "status": "台湾日程から試算",
+      "reward": "ギルド造船・生活素材",
+      "note": "日本予測",
+      "source": "https://mabinogimobile.nipponhashi.com/en/guides/korea-taiwan-japan-calendar/"
+    }
+  ],
+  "season1": [
+    {
+      "name": "S1開始・★8ルーン404種",
+      "krDate": "2025-09-25",
+      "loot": "新エリアの狩場・通常/深層ダンジョン・アビス。追加武器61・防具106・エンブレム31・アクセ206。★8伝説235・★8神話12。",
+      "note": "シーズン開始日と追加先の一般的な範囲が公式で確認。各ルーン個別の排出率は未確認。",
+      "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+    },
+    {
+      "name": "バリ・アビス開始",
+      "krDate": "2025-10-02",
+      "loot": "バリのアビス報酬・願いの壺・化石交換へ報酬系統変更。",
+      "note": "マスと混同しない。個別アイテムの必要数は本版では未確定。",
+      "source": "https://mabinogimobile.nipponhashi.com/en/guides/s0-to-s1-paladin-prep/"
+    },
+    {
+      "name": "暗黒術師追加",
+      "krDate": "2025-10-16",
+      "loot": "追加職のアクセルーンが関係。",
+      "note": "クラス追加でルーンの選択先も変化する。",
+      "source": "https://mabinogimobile.nipponhashi.com/en/guides/s0-to-s1-paladin-prep/"
+    },
+    {
+      "name": "タバルタス・レイド入門",
+      "krDate": "2025-11-13",
+      "loot": "週1回：専用証16、魔力回路7、超越の精髄1、★5–★8ルーン3等（韓国公式）。",
+      "note": "専用★8防具6種はレイド戦利品・120証の選択箱。 初回の報酬リセットは2025/11/24（通常週と異なる）。",
+      "source": "https://mabinogimobile.nexon.com/News/Update/3219468"
+    },
+    {
+      "name": "バリHELL1〜10",
+      "krDate": "2025-11-17",
+      "loot": "バリHELL難度拡張・ランキング。",
+      "note": "台湾/日本への同時実装保証はない。",
+      "source": "https://mabinogimobile.nipponhashi.com/en/guides/s0-to-s1-paladin-prep/"
+    },
+    {
+      "name": "タバルタス HARD",
+      "krDate": "2025-12-01",
+      "loot": "韓国でレイドHARD解放。",
+      "note": "入門16証以外の週収入は未検証。",
+      "source": "https://mabinogimobile.nipponhashi.com/en/guides/s0-to-s1-paladin-prep/"
+    },
+    {
+      "name": "エイレル（風の精霊）レイド",
+      "krDate": "2026-01-15",
+      "loot": "外伝レイド報酬の追加。",
+      "note": "排出する個別ルーンと交換費用は未確認。",
+      "source": "https://mabinogimobile.nipponhashi.com/en/guides/s0-to-s1-paladin-prep/"
+    },
+    {
+      "name": "タバルタス VERY HARD",
+      "krDate": "2026-02-12",
+      "loot": "さらなる難度解放。",
+      "note": "報酬数は後続の公式表で要検証。",
+      "source": "https://mabinogimobile.nipponhashi.com/en/guides/s0-to-s1-paladin-prep/"
+    },
+    {
+      "name": "ホワイトサキュバス VERY HARD",
+      "krDate": "2026-03-26",
+      "loot": "既存外伝レイドの追加難度。",
+      "note": "入手テーブルの更新は要確認。",
+      "source": "https://mabinogimobile.nipponhashi.com/en/guides/s0-to-s1-paladin-prep/"
+    },
+    {
+      "name": "騎士追加",
+      "krDate": "2026-04-23",
+      "loot": "追加職ルーン・装備変換等の要素。",
+      "note": "日本の初期実装予定ではない。",
+      "source": "https://mabinogimobile.nipponhashi.com/en/guides/s0-to-s1-paladin-prep/"
+    }
+  ],
+  "items": [
+    {
+      "id": "raid-armour",
+      "name": "グラスギブネン伝説防具ルーン選択箱",
+      "season": "S0",
+      "place": "グラスギブネン・レイド交換所",
+      "method": "選択箱",
+      "currency": "遠征の証",
+      "price": 70,
+      "weekly": {
+        "EASY": 10,
+        "HARD": 20,
+        "VERY HARD": 30
+      },
+      "runes": [
+        "降り注ぐ火炎",
+        "燃え盛る心臓",
+        "巨人の腕",
+        "飢えた刃",
+        "破滅の烙印",
+        "共鳴する水晶"
+      ],
+      "source": "https://mabinogimobile.nipponhashi.com/ja/guides/jp-expedition-proof-shop/",
+      "note": "選択可能。週1回報酬は難易度共通。HARD/VERY HARDの数値は台湾先行で、日本実機再確認。",
+      "minWeeks": 3
+    },
+    {
+      "id": "raid-emblem",
+      "name": "グラスギブネン伝説エンブレムルーンランダム箱",
+      "season": "S0",
+      "place": "グラスギブネン・レイド交換所",
+      "method": "ランダム箱",
+      "currency": "遠征の証",
+      "price": 50,
+      "weekly": {
+        "EASY": 10,
+        "HARD": 20,
+        "VERY HARD": 30
+      },
+      "runes": [
+        "エンブレム（選択不可）"
+      ],
+      "source": "https://mabinogimobile.nipponhashi.com/ja/guides/jp-expedition-proof-shop/",
+      "note": "名称を指定して交換できない。",
+      "minWeeks": 2
+    },
+    {
+      "id": "raid-enchant",
+      "name": "グラスギブネン武器エンチャント選択箱（後期）",
+      "season": "S0後期",
+      "place": "グラスギブネン・レイド交換所（先行）",
+      "method": "選択箱",
+      "currency": "遠征の証",
+      "price": 120,
+      "weekly": {
+        "EASY": 10,
+        "HARD": 20,
+        "VERY HARD": 30
+      },
+      "runes": [
+        "武器エンチャント5種（ルーンではない）"
+      ],
+      "source": "https://mabinogimobile.nipponhashi.com/ja/guides/enchant-weapon-box-0909/",
+      "note": "韓国2025-07-28の追加実績。日本未実装・時期未発表。",
+      "minWeeks": 4
+    },
+    {
+      "id": "abyss-emblem",
+      "name": "アビス地獄 エンブレムルーン選択壺",
+      "season": "S0",
+      "place": "モーリー／アビス交換所（HELL1〜）",
+      "method": "条件達成後に選択",
+      "currency": "赤い深淵の化石",
+      "price": 900,
+      "prerequisite": 1200,
+      "weekly": {
+        "HELL1・3箇所+青石交換": 240,
+        "HELL1・3箇所のみ": 120
+      },
+      "firstBonus": 120,
+      "runes": [
+        "伝説エンブレム（対象はゲーム内交換説明）"
+      ],
+      "source": "local:2026-10-27 日本実機引継ぎ",
+      "note": "先に赤石累計1,200消費で販売解放、その後900消費。合計2,100個分を獲得・消費する必要あり。初回TAボーナスは3ダンジョン合計120。青石交換込み240/週は3種のHELL1達成前提。",
+      "minWeeks": 4
+    },
+    {
+      "id": "tab-armour",
+      "name": "タバルタス★8伝説防具ルーン選択箱",
+      "season": "S1・韓国実績",
+      "place": "タバルタス・レイド交換所",
+      "method": "選択箱",
+      "currency": "遠征の証：タバルタス",
+      "price": 120,
+      "weekly": {
+        "入門（韓国2025/11/13）": 16
+      },
+      "runes": [
+        "流星",
+        "超新星",
+        "蒼白の閃光（仮訳）",
+        "揺らめく炎",
+        "鳴り響く雷（仮訳）",
+        "稲妻の鞭"
+      ],
+      "source": "https://mabinogimobile.nexon.com/News/Update/3219468",
+      "note": "韓国公式で6種と価格を確認。日本語対訳の一部は暫定（例：유성、창백한 섬광、울려퍼지는 천둥）。「未知の防具ルーン」では出ない専用6種。 韓国初回の報酬リセットは2025/11/24と特例告知があり、「8週」は通常の週単位換算で暦上の8週間を保証しない。",
+      "minWeeks": 8
+    },
+    {
+      "id": "tab-emblem",
+      "name": "未所持★8エンブレムルーン箱",
+      "season": "S1・韓国実績",
+      "place": "タバルタス・レイド交換所",
+      "method": "未所持抽選",
+      "currency": "遠征の証：タバルタス",
+      "price": 120,
+      "weekly": {
+        "入門（韓国2025/11/13）": 16
+      },
+      "runes": [
+        "未所持★8エンブレム（選択不可）"
+      ],
+      "source": "https://mabinogimobile.nexon.com/News/Update/3219468",
+      "note": "レイド証を120使う。目当てのルーンを指定できる箱ではない。 韓国初回の報酬リセットは2025/11/24と特例告知があり、「8週」は通常の週単位換算で暦上の8週間を保証しない。",
+      "minWeeks": 8
+    },
+    {
+      "id": "tab-enchant",
+      "name": "タバルタス武器エンチャント選択箱",
+      "season": "S1・韓国実績",
+      "place": "タバルタス・レイド交換所",
+      "method": "選択箱",
+      "currency": "遠征の証：タバルタス",
+      "price": 150,
+      "weekly": {
+        "入門（韓国2025/11/13）": 16
+      },
+      "runes": [
+        "武器エンチャント（ルーンではない）"
+      ],
+      "source": "https://mabinogimobile.nexon.com/News/Update/3219468",
+      "note": "韓国入門証16なら10週。 韓国初回の報酬リセットは2025/11/24と特例告知があり、「8週」は通常の週単位換算で暦上の8週間を保証しない。",
+      "minWeeks": 10
+    },
+    {
+      "id": "tab-basic",
+      "name": "★8防具ルーン「基本技」（暫定訳）",
+      "season": "S1・韓国実績",
+      "place": "モーリーNPC交換所",
+      "method": "指定交換／キャラ1回",
+      "currency": "深淵の魔石",
+      "price": 10,
+      "weekly": {},
+      "runes": [
+        "基本技（기본기）"
+      ],
+      "source": "https://mabinogimobile.nexon.com/News/Update/3219468",
+      "note": "1キャラクター1回。通常昇級・未知ルーンでは入手不可。魔石の週供給は現時点で未検証。",
+      "minWeeks": null
+    }
+  ],
+  "acquisition": [
+    {
+      "name": "S0汎用武器・防具・アクセサリー",
+      "place": "ダンジョン・狩場・深層・アビス・ルーン昇級等",
+      "season": "S0",
+      "confidence": "コンテンツ種別の一般説明",
+      "note": "ルーンごとの個別ドロップ表は未確認。取得できる等級・難易度は個別に照合。",
+      "source": "https://mabinogimobile.nipponhashi.com/ja/guides/rune-primer/"
+    },
+    {
+      "name": "S0グラスギブネン専用防具6種",
+      "place": "グラスギブネンのドロップ／選択箱70証",
+      "season": "S0",
+      "confidence": "交換所と報酬を確認",
+      "note": "狙い撃ちしたい場合は70証の選択箱。",
+      "source": "https://mabinogimobile.nipponhashi.com/ja/guides/jp-expedition-proof-shop/"
+    },
+    {
+      "name": "S0エンブレム選択壺",
+      "place": "アビスHELL交換所／赤石1,200累計消費後900",
+      "season": "S0",
+      "confidence": "日本版実機・引継ぎ",
+      "note": "900個だけ持っていても1,200消費条件を満たしていなければ購入不可。",
+      "source": "local:2026-10-27 日本実機引継ぎ"
+    },
+    {
+      "name": "S1 ★8ルーン通常追加群（404種）",
+      "place": "2025/9/25以降の新地域・狩場・アビス・ダンジョンなど",
+      "season": "S1",
+      "confidence": "韓国公式：一般的な入手範囲",
+      "note": "404種それぞれの正確なドロップ場所・確率は未確認。公式の地域横断説明にとどめる。",
+      "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+    },
+    {
+      "name": "S1 ★8タバルタス専用防具6種",
+      "place": "2025/11/13以降タバルタス戦利品／選択箱120証",
+      "season": "S1",
+      "confidence": "韓国公式：専用入手先",
+      "note": "未知の防具ルーン箱からは出ないと明記。",
+      "source": "https://mabinogimobile.nexon.com/News/Update/3219468"
+    },
+    {
+      "name": "S1 未知のルーン",
+      "place": "★7エピック昇級失敗／★8伝説分解で欠片→100個",
+      "season": "S1",
+      "confidence": "韓国公式：獲得経路",
+      "note": "部位ごとの箱。アクセは現在職優先。★8タバルタス専用防具6種は含まれない。",
+      "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+    },
+    {
+      "name": "S1 ★8「基本技」防具ルーン",
+      "place": "2025/11/13追加NPCモーリー交換・深淵の魔石10",
+      "season": "S1",
+      "confidence": "韓国公式：指定入手先",
+      "note": "キャラクター1回、昇級と未知箱では入手不可。",
+      "source": "https://mabinogimobile.nexon.com/News/Update/3219468"
+    }
+  ]
+}

@@ -8,6 +8,8 @@
  const symbols={'武器':'⚔','防具':'⬡','アクセサリー':'✧','エンブレム':'◈'};
  const gradeClasses={'神話':'mythic','伝説':'legendary','エピック':'epic','エリート':'elite','レア':'rare','未確認':'unknown'};
  const statusClasses={'日本版実装':'status-jp','日本未実装':'status-future','日本未確認':'status-unknown','韓国のみ':'status-kr'};
+ const incomingQuery=new URLSearchParams(window.location.search).get('q');
+ if(incomingQuery)els.q.value=incomingQuery;
  const PAGE=48;let list=[],shown=0;
  function el(tag,cl,text){const x=document.createElement(tag);if(cl)x.className=cl;if(text!==undefined)x.textContent=text;return x}
  function card(r){
