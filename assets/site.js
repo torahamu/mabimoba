@@ -2,7 +2,7 @@
 (function(){
  const host=document.querySelector('#siteNav');if(!host)return;
  const root=host.dataset.root||'';
- const links=[['index.html','ホーム','home'],['jobs/index.html','職業別攻略','jobs'],['jobs/balance-history.html','韓国の職業調整','balance'],['jobs/balance-history.html','韓国の職業調整','balance'],['stats/index.html','ステータス','stats'],['growth/index.html','クラス育成','growth'],['guides/equipment.html','装備更新','equipment'],['content/index.html','コンテンツ','content'],['runes/index.html','ルーン図鑑','rune'],['tools/damagecalc.html','ダメージ計算','damagecalc'],['tools/weeklyplanner.html','週数計算','tools']];
+ const links=[['index.html','ホーム','home'],['jobs/index.html','職業別攻略','jobs'],['jobs/balance-history.html','韓国S0～S2調整','balance'],['stats/index.html','ステータス','stats'],['growth/index.html','クラス育成','growth'],['guides/equipment.html','装備更新','equipment'],['content/index.html','コンテンツ','content'],['runes/index.html','ルーン図鑑','rune'],['tools/damagecalc.html','ダメージ計算','damagecalc'],['tools/weeklyplanner.html','週数計算','tools']];
  const current=host.dataset.current;
  const header=document.createElement('header');header.className='portal-topbar';
  const inner=document.createElement('div');inner.className='portal-top-inner';

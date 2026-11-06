@@ -1,0 +1,38 @@
+#!/usr/bin/env python3
+"""Render Korean patch archive from data/class-balance-history.json; no external dependencies."""
+from pathlib import Path
+import json, html, collections
+P=Path(__file__).resolve().parents[1]
+d=json.loads((P/'data/class-balance-history.json').read_text(encoding='utf-8'))
+e=lambda s:html.escape(str(s),quote=True)
+classes=d['classes']; rows=[c for z in classes for c in z['changes']]
+counts=collections.Counter(z['phase'] for z in rows)
+sources=d['metadata']['sources']; has_profile=set(x['slug'] for x in json.loads((P/'data/job-builds.json').read_text(encoding='utf-8'))['jobs'])
+parts=['''<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#09111e"><meta name="description" content="韓国マビノギモバイルのS0・S1・S2公式パッチを21職別に時系列整理。各職の上方・下方・不具合修正と原文リンク。"><title>韓国S0～S2 全21職バランス調整履歴｜エリン調査ノート</title><link rel="stylesheet" href="../assets/site.css"><link rel="stylesheet" href="../assets/class-balance-history.css"><script defer src="../assets/site.js"></script><script defer src="../assets/class-balance-history.js"></script></head><body><div id="siteNav" data-current="balance" data-root="../"><a href="../index.html">ホーム</a></div><main class="portal-wrap">
+<section class="job-hero"><div class="portal-kicker">KR CLASS PATCH ARCHIVE · 2025 → 2026</div><h1 class="portal-page-title">韓国S0 → S1 → S2<br>全21職 バランス調整史</h1><p class="portal-lead">韓国の昔の職業評価と、現在の日本版の強さが違う理由を探すための時系列資料。公式パッチの<strong>スキル威力・CT・ルーン改造・パッシブ・挙動・不具合</strong>を同じ職業カード内で比較できます。</p><p class="balance-scope">韓国2025/4/24〜2026/11/5までの主要変更を調査｜韓国S2開始 2026/6/25｜S0職19＋S1追加職2＝21職</p></section>
+<div class="job-warning"><strong>読み方：</strong>これは<strong>韓国で実施した変更履歴</strong>です。日本版にいつ・どの部分が反映されたかを確定する資料ではありません。追加の新パッシブは内容の細かい補正が未収録の場合があり、「存在する」と「強さが確定」は別です。S1中盤（2025年11月〜2026年春）は調査が一部不足しており、<strong>全パッチの完全網羅ではありません</strong>。</div>
+<nav class="content-jumps"><a href="index.html">職業攻略一覧</a><a href="#overview">重要な転換点</a><a href="#shared-s2">S2共通の変更</a><a href="#filters">職業で探す</a><a href="#sources">公式原文一覧</a></nav>''']
+parts.append(f'''<section class="portal-panel" id="overview"><h2>収録状況</h2><div class="balance-milestones"><div><strong class="balance-metric">{len(classes)}</strong><b>職業</b><p>S0の19職＋S1追加の暗黒術師・騎士</p></div><div><strong class="balance-metric">{len(rows)}</strong><b>個別変更</b><p>選別した主要イベント数。1件に複数の数値調整が含まれる場合あり</p></div><div><strong class="balance-metric">{counts['S2']}</strong><b>S2の変更</b><p>6/25から11/5までに確認した個別イベント</p></div><div><strong class="balance-metric">{len(sources)}</strong><b>公式アップデート</b><p>参照先をページ末尾に一覧化</p></div></div><h3>注目すべき時期</h3><div class="balance-milestones"><div><b>2025/5〜8 · S0中盤〜末期</b><p>氷魔の凍結追加、通常魔法使い・デュアル・支援職の継続的改修</p></div><div><b>2025/9/25 · S1開始</b><p>全19職の再調整とブレイク延長・★8ルーン</p></div><div><b>2026/4/23 · S1後期</b><p>騎士が追加。S0の初期19職から増加</p></div><div><b>2026/6/25 · S2開始</b><p>全21職の新パッシブと大規模なスキル・ルーン調整</p></div><div><b>2026/7〜8 · S2序盤</b><p>ルーン連携、DoT、追撃、重複適用の修正。実戦DPSへの影響あり</p></div><div><b>2026/10〜11 · S2現行</b><p>長弓兵・電撃術師・格闘家の再調整を確認</p></div></div><p class="balance-note">「スキル+200%」などは<strong>該当スキルの威力</strong>についてであり、クラス全体のDPS増加率ではありません。S2は装備・敵の魔導抵抗の影響も変化しているため、旧ログとの単純比較に注意してください。</p></section>''')
+parts.append('''<section class="portal-panel" id="shared-s2"><h2>全職に影響する変更を先に確認</h2><h3>韓国S1のブレイク延長</h3><p>2025/9/25、ブレイク状態の敵を特定スキルでさらに延長できる仕組みが導入され、攻撃判定ごとの補正も変わりました。旧韓国S0の職別DPS表をそのまま使用しないでください。</p><a class="balance-source" href="https://mabinogimobile.nexon.com/News/Update/3147463" target="_blank" rel="noopener noreferrer">韓国公式 2025/9/25 ↗</a>''')
+for x in d['metadata']['global_s2']:
+ parts.append(f'<div class="balance-shared"><time datetime="{e(x["date"])}">{e(x["date"])}</time><h3>{e(x["title"])}</h3><p>{e(x["detail"])}</p><a class="balance-source" href="{e(x["url"])}" target="_blank" rel="noopener noreferrer">韓国公式原文 ↗</a></div>')
+parts.append('</section>')
+parts.append('<section class="portal-panel" id="filters"><h2>職業・シーズン・変更内容を検索</h2><div class="balance-filters"><label>職業<select id="balanceClass"><option value="all">21職すべて</option>')
+for c in classes:parts.append(f'<option value="{e(c["slug"])}">{e(c["name"])}</option>')
+parts.append('''</select></label><label>シーズン<select id="balancePhase"><option value="all">S0 / S1 / S2（すべて）</option><option value="S0">韓国S0</option><option value="S1">韓国S1</option><option value="S2">韓国S2</option></select></label><label>変更種別<select id="balanceType"><option value="all">すべて</option><option value="強化">強化</option><option value="弱体化">弱体化</option><option value="調整">上方・下方が混在</option><option value="仕様変更">仕様変更</option><option value="不具合修正">不具合修正</option><option value="新職追加">新職追加</option></select></label><label>キーワード<input type="search" id="balanceSearch" placeholder="例：氷剣 CT 連打 305%" autocomplete="off"></label></div><div class="balance-controls"><p id="balanceCount" class="balance-count" aria-live="polite"></p><button type="button" class="balance-reset" id="balanceReset">フィルターを解除</button></div><p class="balance-note">ボタンや選択を変えても検索結果はこの画面内で切り替わります。職業名のジャンプからは該当職のみを表示できます。</p></section><nav class="balance-job-jumps" aria-label="職業へジャンプ">''')
+for c in classes: parts.append(f'<a href="#class-{e(c["slug"])}" data-jump="{e(c["slug"])}">{e(c["name"])}</a>')
+parts.append('</nav><div id="balanceList">')
+clsmap={'強化':'up','弱体化':'down','調整':'mix','仕様変更':'change','不具合修正':'fix','新職追加':'new'}
+for c in classes:
+ n=len(c['changes']);phase=collections.Counter(x['phase'] for x in c['changes'])
+ profile = f'<a class="balance-job-link" href="{e(c["slug"])}.html">職業攻略へ →</a>' if c['slug'] in has_profile else '<span class="balance-job-link balance-nolink">職業攻略ページは未作成</span>'
+ parts.append(f'<section class="balance-class portal-panel" id="class-{e(c["slug"])}" data-class="{e(c["slug"])}"><div class="balance-class-head"><span class="balance-icon" aria-hidden="true">{e(c["icon"])}</span><div><div class="balance-family">{e(c["family"])} · 調整履歴 {n}件（S0 {phase["S0"]} / S1 {phase["S1"]} / S2 {phase["S2"]}）</div><h2>{e(c["name"])}</h2></div>{profile}</div><p class="balance-takeaway">{e(c["insight"])}</p><div class="balance-events">')
+ for x in c['changes']:
+  impact=f'<p class="balance-impact"><b>実戦への意味：</b>{e(x["impact"])}</p>' if x['impact'] else ''
+  parts.append(f'<article class="balance-event" data-phase="{e(x["phase"])}" data-type="{e(x["type"])}"><div class="balance-event-meta"><time datetime="{e(x["date"])}">{e(x["date"])}</time><span class="balance-tag {clsmap[x["type"]]}">{e(x["type"])}</span><span class="balance-tag season season-{e(x["phase"])}">KR {e(x["phase"])}</span></div><h3>{e(x["title"])}</h3><p>{e(x["detail"])}</p>{impact}<a class="balance-source" target="_blank" rel="noopener noreferrer" href="{e(x["source"])}">韓国公式パッチ原文 →</a></article>')
+ parts.append('</div></section>')
+parts.append('''</div><section class="portal-panel" id="sources"><h2>韓国NEXON公式アップデート一覧</h2><p>各修正カードにも原文リンクを付けています。韓国語から独自に要約した内容であり、公式日本語訳ではありません。</p><ul class="balance-source-list">''')
+for x in sources: parts.append(f'<li><time datetime="{e(x["date"])}">{e(x["date"])}</time> <a target="_blank" rel="noopener noreferrer" href="{e(x["url"])}">{e(x["label"])} →</a></li>')
+parts.append('''</ul><h3>掲載内容の限界</h3><p>このページは韓国の主要な職業変更を選別して掲載しています。2025年11月～2026年春のS1パッチは完全に収録していません。また、2026年9・11月など、確認したアップデートに個別職業の変更がなかった時期もあります。掲載がない期間＝全く修正がない、とは断定しません。</p><p>暗黒術師は韓国S1の2025/10/16、騎士はS1の2026/4/23追加です。この2職は韓国S0で比較できないため、S1初登場からの履歴として掲載しています。</p></section><footer class="portal-foot">エリン調査ノート／韓国公式を日本語要約／調査基準 2026-11-07。JP版反映状況および現行DPSを保証するものではありません。</footer></main></body></html>''')
+out=P/'jobs/balance-history.html';out.write_text(''.join(parts),encoding='utf-8')
+print('wrote',out,out.stat().st_size,'bytes')

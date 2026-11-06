@@ -1,1 +1,38 @@
-(function(){const by=id=>document.getElementById(id),cls=by('balanceClass'),phase=by('balancePhase'),typ=by('balanceType'),q=by('balanceSearch'),count=by('balanceCount'),panels=[...document.querySelectorAll('.balance-class')];function update(){let jobs=0,changes=0;const search=q.value.trim().toLocaleLowerCase();panels.forEach(p=>{let n=0;p.querySelectorAll('.balance-event').forEach(ev=>{const ok=(phase.value==='all'||ev.dataset.phase===phase.value)&&(typ.value==='all'||ev.dataset.type===typ.value)&&(!search||(p.querySelector('h2').textContent+' '+ev.textContent).toLocaleLowerCase().includes(search));ev.hidden=!ok;if(ok)n++});p.hidden=n===0||(cls.value!=='all'&&p.dataset.class!==cls.value);if(!p.hidden){jobs++;changes+=n}});count.textContent=`表示：${jobs}職・${changes}件の主要変更`;};[cls,phase,typ].forEach(x=>x.addEventListener('change',update));q.addEventListener('input',update);by('balanceReset').addEventListener('click',()=>{cls.value='all';phase.value='all';typ.value='all';q.value='';update()});if(location.hash.startsWith('#class-')){const key=location.hash.slice(7);if(panels.some(p=>p.dataset.class===key)){cls.value=key;}}update()})();
+(function () {
+  'use strict';
+  const $ = id => document.getElementById(id);
+  const cls = $('balanceClass'), phase = $('balancePhase'), typ = $('balanceType'), q = $('balanceSearch'), count = $('balanceCount');
+  if (!cls || !phase || !typ || !q) return;
+  const panels = [...document.querySelectorAll('.balance-class')];
+  function update() {
+    let jobs = 0, rows = 0;
+    const keyword = q.value.trim().toLocaleLowerCase();
+    for (const panel of panels) {
+      let matched = 0;
+      for (const event of panel.querySelectorAll('.balance-event')) {
+        const pass = (phase.value === 'all' || event.dataset.phase === phase.value) &&
+          (typ.value === 'all' || event.dataset.type === typ.value) &&
+          (!keyword || (panel.querySelector('h2').textContent + ' ' + event.textContent).toLocaleLowerCase().includes(keyword));
+        event.hidden = !pass;
+        if (pass) matched++;
+      }
+      panel.hidden = matched === 0 || (cls.value !== 'all' && panel.dataset.class !== cls.value);
+      if (!panel.hidden) { jobs++; rows += matched; }
+    }
+    count.textContent = `表示：${jobs}職 / ${rows}件の変更`; 
+    document.querySelectorAll('[data-jump]').forEach(a => {a.setAttribute('aria-current', a.dataset.jump === cls.value ? 'true' : 'false');});
+  }
+  [cls, phase, typ].forEach(x => x.addEventListener('change', update));
+  q.addEventListener('input', update);
+  $('balanceReset').addEventListener('click', () => { cls.value = phase.value = typ.value = 'all'; q.value = ''; history.replaceState(null, '', location.pathname); update(); });
+  document.querySelectorAll('[data-jump]').forEach(a => a.addEventListener('click', () => {
+    cls.value = a.dataset.jump; update();
+  }));
+  function selectFromHash() {
+    if (!location.hash.startsWith('#class-')) return;
+    const slug = decodeURIComponent(location.hash.slice(7));
+    if (panels.some(p => p.dataset.class === slug)) { cls.value = slug; update(); }
+  }
+  window.addEventListener('hashchange', selectFromHash);
+  selectFromHash(); update();
+})();
