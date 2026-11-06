@@ -1,0 +1,1149 @@
+{
+  "metadata": {
+    "title": "韓国S0後半〜S1初期 全19職バランス調整史",
+    "last_verified": "2026-11-07",
+    "region": "韓国",
+    "scope": "2025-04-24〜2025-10-30",
+    "caveat": "KR公式パッチ。日本実装の個別差分ではない。取得できた主要変更を抽出したもので全微修正を網羅しない。",
+    "sources": [
+      {
+        "date": "2025-04-24",
+        "label": "韓国公式 4/24",
+        "url": "https://mabinogimobile.nexon.com/News/Update/2839181"
+      },
+      {
+        "date": "2025-05-08",
+        "label": "韓国公式 5/8",
+        "url": "https://mabinogimobile.nexon.com/News/Update/2871156"
+      },
+      {
+        "date": "2025-05-29",
+        "label": "韓国公式 5/29",
+        "url": "https://mabinogimobile.nexon.com/News/Update/2919137"
+      },
+      {
+        "date": "2025-06-19",
+        "label": "韓国公式 6/19",
+        "url": "https://mabinogimobile.nexon.com/News/Update/2958152"
+      },
+      {
+        "date": "2025-07-17",
+        "label": "韓国公式 7/17",
+        "url": "https://mabinogimobile.nexon.com/News/Update/3038276"
+      },
+      {
+        "date": "2025-07-31",
+        "label": "韓国公式 7/31",
+        "url": "https://mabinogimobile.nexon.com/News/Update/3064411"
+      },
+      {
+        "date": "2025-08-21",
+        "label": "韓国公式 8/21",
+        "url": "https://mabinogimobile.nexon.com/News/Update/3100670"
+      },
+      {
+        "date": "2025-09-04",
+        "label": "韓国公式 9/4",
+        "url": "https://mabinogimobile.nexon.com/News/Update/3123745"
+      },
+      {
+        "date": "2025-09-25",
+        "label": "韓国公式 9/25",
+        "url": "https://mabinogimobile.nexon.com/News/Update/3147463"
+      },
+      {
+        "date": "2025-10-23",
+        "label": "韓国公式 10/23点検",
+        "url": "https://mabinogimobile.nexon.com/News/Notice/3190410"
+      },
+      {
+        "date": "2025-10-30",
+        "label": "韓国公式 10/30",
+        "url": "https://mabinogimobile.nexon.com/News/Update/3201526"
+      }
+    ]
+  },
+  "classes": [
+    {
+      "slug": "warrior",
+      "name": "戦士",
+      "family": "戦士系",
+      "icon": "🛡️",
+      "insight": "5/8の闘志・迎撃→S1のブレイク延長→10/30のガード／ダメージ枠強化。早期の「盾役だけ」の評判では今の手触りを説明しきれません。",
+      "changes": [
+        {
+          "class": "warrior",
+          "date": "2025-05-08",
+          "phase": "S0",
+          "type": "仕様変更",
+          "title": "闘志とブレイドスマッシュの手触り",
+          "detail": "闘志へ強化されたブレイドスマッシュは敵をその場でダウンさせるよう変更。強打や追加攻撃の命中でも闘志を生成するよう変更。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2871156"
+        },
+        {
+          "class": "warrior",
+          "date": "2025-05-29",
+          "phase": "S0",
+          "type": "強化",
+          "title": "アマランスキックと迎撃",
+          "detail": "アマランスキックの攻撃係数を調整、使用時ガード状態に変更、補助タグ追加。突撃ルーンで追加される貫きの増幅条件に無防備を追加。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2919137"
+        },
+        {
+          "class": "warrior",
+          "date": "2025-09-25",
+          "phase": "S1",
+          "type": "強化",
+          "title": "ブレイク延長専用のクエイク追加",
+          "detail": "ブレイク対象へクエイクを使用し、ブレイク継続時間とその間の被ダメージを増やす。戦場の咆哮の強化持続8→25秒、覇気ルーンのダメージ+36.4%、復讐心10→15秒。",
+          "impact": "盾役・ブレイク支援の役割が明確化。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+        },
+        {
+          "class": "warrior",
+          "date": "2025-10-30",
+          "phase": "S1",
+          "type": "強化",
+          "title": "ブレイドスマッシュ／貫きの火力",
+          "detail": "崩壊ルーン付きブレイドスマッシュ+20%、圧倒の補正を攻撃力→最終ダメージへ変更。極点ルーン付き突き+30%、ブレイドインパクト+30%。",
+          "impact": "戦士を「タンクだけ」と見る初期評とは異なります。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3201526"
+        },
+        {
+          "class": "warrior",
+          "date": "2025-10-30",
+          "phase": "S1",
+          "type": "強化",
+          "title": "ガード性能を改善",
+          "detail": "盾打ち／アマランスキックのガード開始から5秒スーパーアーマー。ガード成功時の軽減25→50%、移動・チャージ中に動作が固まる問題を改善。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3201526"
+        }
+      ]
+    },
+    {
+      "slug": "greatsword",
+      "name": "大剣戦士",
+      "family": "戦士系",
+      "icon": "⚔️",
+      "insight": "9/25のCT25%短縮が主な確認済み数値変更。HP条件の判定仕様にも注目。その他の時期に変更が無かったと断定する意味ではありません。",
+      "changes": [
+        {
+          "class": "greatsword",
+          "date": "2025-09-25",
+          "phase": "S1",
+          "type": "強化",
+          "title": "肩当て・踏みつけのCT短縮",
+          "detail": "ショルダーチャージとストンプのCT12→9秒（それぞれ25%短縮）。報復のHP消費条件は料理効果適用前のHP基準へ変更。",
+          "impact": "近接回転率とHP管理の安定に関わる。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+        }
+      ]
+    },
+    {
+      "slug": "swordmaster",
+      "name": "剣術士",
+      "family": "戦士系",
+      "icon": "🗡️",
+      "insight": "S1の集中-20ポイントと主要技の大幅強化が同時に入っています。単純に「ナーフ」「バフ」のどちらかへ分類するのは不正確。",
+      "changes": [
+        {
+          "class": "swordmaster",
+          "date": "2025-09-25",
+          "phase": "S1",
+          "type": "調整",
+          "title": "集中弱体化と主要攻撃の大規模上方",
+          "detail": "集中のクリダメ+50%→+30%。一方、鋼鉄楔+44%、鞘打ち／圧迫+40%、秘剣・鋼鉄楔+40%、秘剣・鞘打ち+30%、一閃+21%、落花+37.5%。落花にブレイク+1と集中30回復を追加。",
+          "impact": "パッシブは下方、主力スキルやリソース回収は上方。総DPSの単純合算は不可。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+        }
+      ]
+    },
+    {
+      "slug": "archer",
+      "name": "弓使い",
+      "family": "弓系",
+      "icon": "🏹",
+      "insight": "7/17の主力一律+10%、7/31の射程強化、9/25の弱点貫通＋多発射撃再設計の連続変更が重要。",
+      "changes": [
+        {
+          "class": "archer",
+          "date": "2025-07-17",
+          "phase": "S0",
+          "type": "強化",
+          "title": "主要7スキルのダメージ+10%",
+          "detail": "アロ―リボルバー、マグナムショット、サイドステップ、ホークショット、エスケープステップ、灼熱の軌跡、多発射撃のダメージを一律10%増（ルーン改造後の技も対象）。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3038276"
+        },
+        {
+          "class": "archer",
+          "date": "2025-07-31",
+          "phase": "S0",
+          "type": "仕様変更",
+          "title": "射程と位置取りを改善",
+          "detail": "通常攻撃10→12m、サイドステップ12→15m。アローリボルバー／マグナムショット使用時の後退を廃止。灼熱の軌跡の追加攻撃を直接ダメージへ修正。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3064411"
+        },
+        {
+          "class": "archer",
+          "date": "2025-09-25",
+          "phase": "S1",
+          "type": "仕様変更",
+          "title": "弱点貫通の新パッシブと多発射撃改修",
+          "detail": "攻撃時25%で最終ダメ+20%の弱点貫通を追加。多発射撃を40ヒットで解放し、その後の命中で威力増。ホークショットの標的中は弱点貫通を確定適用。多発射撃の同一対象への重複ダメージには大幅減衰。",
+          "impact": "単体と範囲で運用が違い、以前の多発射撃評価と単純比較できない。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+        }
+      ]
+    },
+    {
+      "slug": "crossbow",
+      "name": "クロスボウ使い",
+      "family": "弓系",
+      "icon": "🎯",
+      "insight": "5/29のガスティング調整で初期の突出を抑え、9/25には火薬／ヘルファイアを再強化。評価時期とビルドが合わないと判断が逆転します。",
+      "changes": [
+        {
+          "class": "crossbow",
+          "date": "2025-05-29",
+          "phase": "S0",
+          "type": "弱体化",
+          "title": "当時突出していたガスティングボルトを調整",
+          "detail": "強化ボルトを多く撃つほど、その弾のクリティカル率が下がる仕様に変更。スライディングステップのCTを延長（旧新の秒数は告知未記載）。",
+          "impact": "初期韓国で強かった職が後に調整された代表例。ルーン「連鎖」の連鎖雷クリティカルはこの減衰の対象外。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2919137"
+        },
+        {
+          "class": "crossbow",
+          "date": "2025-05-29",
+          "phase": "S0",
+          "type": "不具合修正",
+          "title": "連鎖ルーンとバスターショット",
+          "detail": "連鎖付きガスティングボルトの3連射目にスキルLv効果が乗らない不具合を修正。バスターショット使用時の後退を廃止。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2919137"
+        },
+        {
+          "class": "crossbow",
+          "date": "2025-08-21",
+          "phase": "S0",
+          "type": "強化",
+          "title": "バスターショットに移動速度バフ",
+          "detail": "使用後5秒、移動速度+10%。強化ボルト装填キャンセル時の消失問題も修正。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3100670"
+        },
+        {
+          "class": "crossbow",
+          "date": "2025-09-25",
+          "phase": "S1",
+          "type": "強化",
+          "title": "速度パッシブの対象変更と火薬強化",
+          "detail": "クイックアタックが攻撃速度上昇→スキル使用速度上昇に変更。火薬ルーンのバスターショット範囲ダメ+50%／粉塵+300%、ヘルファイア矢+50%／爆発+75%。",
+          "impact": "5月のガスティングボルト調整後も、火薬寄りの別ルートが強化。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+        }
+      ]
+    },
+    {
+      "slug": "longbow",
+      "name": "ロングボウ使い",
+      "family": "弓系",
+      "icon": "🏹",
+      "insight": "7/31の究極補正適用、9/25の出血パッシブの大改修。単体ボスへの継続的な性能を見直す必要があります。",
+      "changes": [
+        {
+          "class": "longbow",
+          "date": "2025-07-31",
+          "phase": "S0",
+          "type": "強化",
+          "title": "究極技補正の適用漏れを修正",
+          "detail": "デススティンガー、デッドリーショット、ドラゴンベインに究極技ステータスが乗っていなかった問題を修正。ハートシーカーのノックバック5→1.8m。",
+          "impact": "攻撃力だけでは見えないスキルの有効打と安定性の改善。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3064411"
+        },
+        {
+          "class": "longbow",
+          "date": "2025-07-31",
+          "phase": "S0",
+          "type": "仕様変更",
+          "title": "ブレイクタイプ変更・押し出し抑制",
+          "detail": "デススティンガーとデッドリーショットのブレイクをブロー→スタンへ。超音波ルーン付きハートシーカーが敵を押し出さないよう変更。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3064411"
+        },
+        {
+          "class": "longbow",
+          "date": "2025-09-25",
+          "phase": "S1",
+          "type": "強化",
+          "title": "鋭い矢の出血をスキル命中で発動",
+          "detail": "発動条件を通常攻撃命中→スキル攻撃命中へ。発動間隔-1秒、出血ダメージ+100%、強打・補助タグ追加。",
+          "impact": "手動でスキルを回すほど出血が更新されやすくなります。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+        }
+      ]
+    },
+    {
+      "slug": "mage",
+      "name": "魔法使い",
+      "family": "魔法系",
+      "icon": "✨",
+      "insight": "8/21の氷・火寄り強化、9/25の雷寄り下方、10/23の詠唱速度→CT連携追加と、わずか2か月間で構成評価が何度も変わっています。",
+      "changes": [
+        {
+          "class": "mage",
+          "date": "2025-05-29",
+          "phase": "S0",
+          "type": "不具合修正",
+          "title": "エレメンタルマスターと隕石",
+          "detail": "エレメンタルマスターのダメージ増幅が正しく乗らない問題を修正。隕石ルーンでのメテオストライクに究極ゲージ獲得とメディテーションが働かない不具合も修正。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2919137"
+        },
+        {
+          "class": "mage",
+          "date": "2025-06-19",
+          "phase": "S0",
+          "type": "不具合修正",
+          "title": "マナインフィニティがリセットする対象を改善",
+          "detail": "マナインフィニティのCTリセットがマナストーム／増幅ルーンに効かない問題を修正。ファイアボールの全スタックも即時充填するよう変更。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2958152"
+        },
+        {
+          "class": "mage",
+          "date": "2025-07-31",
+          "phase": "S0",
+          "type": "不具合修正",
+          "title": "マナインフィニティ下のファイアボール重複",
+          "detail": "究極技後のファイアボールが同一対象に重複命中しない不具合を改善。重複時のダメージ比率50%を明記。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3064411"
+        },
+        {
+          "class": "mage",
+          "date": "2025-08-21",
+          "phase": "S0",
+          "type": "強化",
+          "title": "アイスダガーの基本設計を変更",
+          "detail": "詠唱1秒→0.5秒、マナ20→7。追撃投射を再入力なしで周囲の敵に発射する方式に変え、凍結付与のタイミングを最終撃→初撃へ移動。",
+          "impact": "操作負担・燃費・状態異常付与が大幅改善。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3100670"
+        },
+        {
+          "class": "mage",
+          "date": "2025-08-21",
+          "phase": "S0",
+          "type": "強化",
+          "title": "霜の棘・山崩れ・隕石を強化",
+          "detail": "霜の棘の投射ダメージ+100%、隕石着弾即時ダメージ+50%。山崩れは12秒間の元素ダメージ+10%追加、射程7.5→10m。",
+          "impact": "「旧韓国魔法使いが弱かった」という評価は特にこの日以前か確認したい。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3100670"
+        },
+        {
+          "class": "mage",
+          "date": "2025-08-21",
+          "phase": "S0",
+          "type": "強化",
+          "title": "エレメンタルハーモニー／DoTを改善",
+          "detail": "ファイアボール・アイスダガーの元素調和DoT+50%、隕石・霜の棘の該当DoT+250%。ライトニングの落雷ルーンによる感電DoT+25%。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3100670"
+        },
+        {
+          "class": "mage",
+          "date": "2025-09-04",
+          "phase": "S0",
+          "type": "不具合修正",
+          "title": "テレキネシスのオート停止を修正",
+          "detail": "クラス特化アシスト中にテレキネシスが使われず戦闘が停止する問題を修正。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3123745"
+        },
+        {
+          "class": "mage",
+          "date": "2025-09-25",
+          "phase": "S1",
+          "type": "弱体化",
+          "title": "雷主体のダメージと究極回収を調整",
+          "detail": "ライトニングのダメージ-22%、感電DoT-25%。ライトニングおよび落雷ルーンの究極ゲージ獲得量-30%。アイスダガー／霜の棘のタグは生存→妨害へ変更、テレキネシス範囲+10%。",
+          "impact": "8月の氷・火系の強化と9月の雷系弱体化が重なり、3属性間の比重が変化。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+        },
+        {
+          "class": "mage",
+          "date": "2025-10-23",
+          "phase": "S1",
+          "type": "強化",
+          "title": "メディテーションに詠唱速度連携を追加",
+          "detail": "持続マナ回復の発動間隔をキャスト速度に応じて短縮。キャストスキルのCTがキャスト速度に応じて加速し、速度判定はスキル使用時に決定される。",
+          "impact": "速度装備・超自然+等との組み合わせは、この日以前と以後で仕組みが違います。",
+          "source": "https://mabinogimobile.nexon.com/News/Notice/3190410"
+        },
+        {
+          "class": "mage",
+          "date": "2025-10-23",
+          "phase": "S1",
+          "type": "不具合修正",
+          "title": "ウーレ・岩石系のCT加速不具合",
+          "detail": "雷鳴／岩石ルーン適用時にマナストームのCT加速が働かない問題を修正。究極技終了後にメディテーションの継続回復が消える不具合も修正。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Notice/3190410"
+        }
+      ]
+    },
+    {
+      "slug": "firemage",
+      "name": "火炎術師",
+      "family": "魔法系",
+      "icon": "🔥",
+      "insight": "9/25の熱気生成・火柱強化に10/30のインフェルノ大型強化。短時間戦と長期戦での評価を分けると理解しやすい。",
+      "changes": [
+        {
+          "class": "firemage",
+          "date": "2025-09-04",
+          "phase": "S0",
+          "type": "仕様変更",
+          "title": "標的消失時のスキル継続",
+          "detail": "フレイムキャノン／ラピッドファイアの途中で標的が消えても旧方向へ継続。クロスファイアは旧標的位置へ発射。",
+          "impact": "移動ボスや雑魚切替時の手動・オートの取りこぼしを軽減。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3123745"
+        },
+        {
+          "class": "firemage",
+          "date": "2025-09-25",
+          "phase": "S1",
+          "type": "強化",
+          "title": "熱気獲得と火柱の火力向上",
+          "detail": "ラピッドファイア＋火種ルーンの熱気基本獲得10→15。ファイアストーム＋火柱ルーンのダメージ+53.8%。熱風ルーンの熱気基本獲得10→20。",
+          "impact": "熱気の立ち上がりと範囲主力の出力が改善。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+        },
+        {
+          "class": "firemage",
+          "date": "2025-10-30",
+          "phase": "S1",
+          "type": "強化",
+          "title": "インフェルノが大幅上方",
+          "detail": "1段階炎ビーム+100%、2段階炎ビーム+200%、2段階爆発+100%。チャネリング周期ごとに熱気6を生成し、さらに熱気の持続回復バフを獲得。",
+          "impact": "S1開始時の火柱強化に続く大幅な火力と燃費の改善。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3201526"
+        },
+        {
+          "class": "firemage",
+          "date": "2025-10-30",
+          "phase": "S1",
+          "type": "仕様変更",
+          "title": "バーニングソウルの増幅枠変更",
+          "detail": "バーニングソウルの増幅が攻撃力上昇→最終ダメージ上昇に変更。青炎ルーン付きフレイムキャノンの範囲2→3m。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3201526"
+        }
+      ]
+    },
+    {
+      "slug": "frostmage",
+      "name": "氷結術師",
+      "family": "魔法系",
+      "icon": "❄️",
+      "insight": "5/29の凍結導入と高速化、9/25の主力強化・凍結下方を両方見るのが重要。韓国初期の評価をそのまま日本へ流用できません。",
+      "changes": [
+        {
+          "class": "frostmage",
+          "date": "2025-05-29",
+          "phase": "S0",
+          "type": "強化",
+          "title": "氷結（凍結）効果を新規導入",
+          "detail": "アイシクルマークの単体にしか印を付けられない制約を撤廃。氷属性の直接攻撃で凍結スタックを付け、一定回数で大ダメージ。低HPの敵には防御無視の即時ダメージも発動。",
+          "impact": "韓国サービス初期の氷魔と、5月末以降の氷魔は基本ギミック自体が別物。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2919137"
+        },
+        {
+          "class": "frostmage",
+          "date": "2025-05-29",
+          "phase": "S0",
+          "type": "強化",
+          "title": "クリスタルエッジ高速化と凍結連携",
+          "detail": "クリスタルエッジの使用速度を大幅上昇、後隙を短縮、CT計測を初撃時から開始。マナの激流が乗らない問題を修正。氷剣のクリスタルソードとオーロラのフローズングローブにも凍結付与を追加。",
+          "impact": "手数・ルーン相性・オート時の回転が大きく改善。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2919137"
+        },
+        {
+          "class": "frostmage",
+          "date": "2025-05-29",
+          "phase": "S0",
+          "type": "強化",
+          "title": "アイススパイク／究極技の改善",
+          "detail": "アイススパイクの攻撃係数を調整。アブソリュートゼロにブレイク3ゲージ相当を追加。凍結ギミックの追加に合わせた組み替え。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2919137"
+        },
+        {
+          "class": "frostmage",
+          "date": "2025-06-19",
+          "phase": "S0",
+          "type": "強化",
+          "title": "クリスタルエッジのモーションを再加速",
+          "detail": "スキルの実行モーションを以前より速く変更。5月の調整から続く操作時間短縮。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2958152"
+        },
+        {
+          "class": "frostmage",
+          "date": "2025-09-25",
+          "phase": "S1",
+          "type": "調整",
+          "title": "面攻撃・クリスタルエッジを増強",
+          "detail": "フリージングフィールド+53.8%、冬+41.2%、グレイシアカッター／北風+42.8%。クリスタルエッジ初撃+66.6%、2撃+50%、3撃+40%。究極強化フィールドと通常フィールドの重複ダメージを許可。",
+          "impact": "5月のモーション改善と組み合わせると旧韓国データと大きく異なります。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+        },
+        {
+          "class": "frostmage",
+          "date": "2025-09-25",
+          "phase": "S1",
+          "type": "弱体化",
+          "title": "凍結パッシブを引き下げ",
+          "detail": "刺すような冷気（사무치는 냉기）のダメージ-53.4%、アイシクルマークの凍結ダメージ-25%。凍結に必要なスタック20→25。",
+          "impact": "氷魔全体の与ダメージが一律+40%以上になったわけではありません。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+        },
+        {
+          "class": "frostmage",
+          "date": "2025-09-25",
+          "phase": "S1",
+          "type": "仕様変更",
+          "title": "ブレイク延長アイシクルシャックル追加",
+          "detail": "ブレイク中の敵に氷槍で追撃してブレイク時間を延長。ブレイク中の追加被ダメージ効果も付与。",
+          "impact": "韓国S1の日付は9/25。ただし台湾S0には先行搭載の報告があるため、JP新要素とは限らない。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+        }
+      ]
+    },
+    {
+      "slug": "healer",
+      "name": "ヒーラー",
+      "family": "回復系",
+      "icon": "💚",
+      "insight": "5/8の攻撃寄り支援、8/21の自己回復と追加火力、9/25の攻撃ルーンDoT強化。ヒーラー＝回復専業の印象は更新が必要です。",
+      "changes": [
+        {
+          "class": "healer",
+          "date": "2025-05-08",
+          "phase": "S0",
+          "type": "強化",
+          "title": "回復だけでない戦闘・支援性能へ",
+          "detail": "ウィングオブエンジェルの対敵ダメージが大幅上昇。バイタルブーストの追加回復対象に移動速度上昇を付与。蘇生習得後は味方回復・追加攻撃命中で自身の与ダメージが徐々に伸びる効果も追加。",
+          "impact": "旧「純ヒーラー」評価をそのまま当てはめられない転換点です。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2871156"
+        },
+        {
+          "class": "healer",
+          "date": "2025-05-08",
+          "phase": "S0",
+          "type": "強化",
+          "title": "波・心拍系の回復改善",
+          "detail": "生명의鼓動に「波」「心拍」ルーンを適用したときの回復量を増加。リンク中は低HPの味方を優先して対象選択し、リンクの接続距離も延長。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2871156"
+        },
+        {
+          "class": "healer",
+          "date": "2025-08-21",
+          "phase": "S0",
+          "type": "強化",
+          "title": "自己回復・HP比例攻撃・設置火力",
+          "detail": "生命の鼓動で自分自身も回復。プロテクションが敵に付与する弱体に「敵の残HPが多いほど与ダメ増」を追加。光群ルーンはリンク中でも標的付近に範囲攻撃の光結晶を追加。",
+          "impact": "ヒーラー＝回復専門ではなく、攻撃補助と自己耐久が上昇。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3100670"
+        },
+        {
+          "class": "healer",
+          "date": "2025-08-21",
+          "phase": "S0",
+          "type": "不具合修正",
+          "title": "転移パッシブのルーン連携",
+          "detail": "誓約・包容などの効果が転移パッシブを正しく受けられない／追加シールドが吸収しない問題を修正。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3100670"
+        },
+        {
+          "class": "healer",
+          "date": "2025-09-25",
+          "phase": "S1",
+          "type": "強化",
+          "title": "誓約・光群の継続ダメージを大幅増",
+          "detail": "誓約付きライフリンクの持続ダメージ+500%、光群付きサモンルミナスの持続ダメージ+263%。抑圧ルーンの跳躍距離10→15m。リンクのアシスト挙動も修正。",
+          "impact": "支援一辺倒ではなく、攻撃ルーン運用の評価を変える修正。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+        }
+      ]
+    },
+    {
+      "slug": "priest",
+      "name": "司祭",
+      "family": "回復系",
+      "icon": "🌟",
+      "insight": "5/8と8/21に神聖力回転を強化、9/25に聖戦補正を抑え、10/30にホーリースピア確定クリティカル。10月末以前の比較は別世代です。",
+      "changes": [
+        {
+          "class": "priest",
+          "date": "2025-05-08",
+          "phase": "S0",
+          "type": "強化",
+          "title": "聖なる力の回収と槍の回転率を改善",
+          "detail": "「燃える光」習得後、強打が命中すると神聖力を回復し、ホーリースピアの残りCTを短縮。救済の光の敵へのダメージも大幅上昇し、リンク距離を延長。",
+          "impact": "神聖力をただ溜めるだけでなく、強打命中を絡めた回転が改善。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2871156"
+        },
+        {
+          "class": "priest",
+          "date": "2025-07-17",
+          "phase": "S0",
+          "type": "不具合修正",
+          "title": "翼ルーンの射出回数を修正",
+          "detail": "ディヴァインウィングに翼ルーン適用時、9秒間で6発の投射を撃つよう修正。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3038276"
+        },
+        {
+          "class": "priest",
+          "date": "2025-07-31",
+          "phase": "S0",
+          "type": "不具合修正",
+          "title": "ホーリースピアに詠唱速度を適用",
+          "detail": "キャスト速度上昇がホーリースピアに乗らない不具合を修正。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3064411"
+        },
+        {
+          "class": "priest",
+          "date": "2025-08-21",
+          "phase": "S0",
+          "type": "強化",
+          "title": "聖戦パッシブに神聖力消費時の最終補正",
+          "detail": "神聖力1消費につきスキルの最終ダメージ+1%。弱化発動時は10秒で神聖力40回復。ディヴァインウィングにブレイク0.5ゲージ相当（翼付きは投射1発0.25）を追加。",
+          "impact": "次月のS1で+1%→+0.8%へ下方修正される点に注意。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3100670"
+        },
+        {
+          "class": "priest",
+          "date": "2025-09-25",
+          "phase": "S1",
+          "type": "調整",
+          "title": "聖戦を弱体化、蘇生を強化",
+          "detail": "聖戦の神聖力1消費ごとのダメージ増加を1→0.8%へ。ケルティッククロスの蘇生を10→20秒に延長し、救済の光にも蘇生を追加（シナジーダメージ+10%、毎秒HP0.5%回復）。",
+          "impact": "瞬間火力は下がる方向、パーティ支援は上昇。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+        },
+        {
+          "class": "priest",
+          "date": "2025-10-30",
+          "phase": "S1",
+          "type": "強化",
+          "title": "ホーリースピアを確定クリティカルへ",
+          "detail": "通常時も光芒ルーン付きも確定クリティカル。クリティカル率に応じた追加ダメージを付与。サンクチュアリCTをディヴァインウィング／ケルティッククロス使用ごとに-1秒。",
+          "impact": "日本で司祭が想定以上に火力を出すなら重要な変更候補。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3201526"
+        },
+        {
+          "class": "priest",
+          "date": "2025-10-30",
+          "phase": "S1",
+          "type": "強化",
+          "title": "ケルティッククロスの審判ルーンを強化",
+          "detail": "審判ルーン付きケルティッククロスの基本攻撃+33.3%、回復範囲も拡大。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3201526"
+        }
+      ]
+    },
+    {
+      "slug": "monk",
+      "name": "修道士",
+      "family": "回復系",
+      "icon": "☯️",
+      "insight": "5/8・8/21・9/25の各段階で火力が伸びています。特に8/21の化身中+25→+100と9/25の光輝+90.9%が重要。",
+      "changes": [
+        {
+          "class": "monk",
+          "date": "2025-05-08",
+          "phase": "S0",
+          "type": "強化",
+          "title": "信念の要塞の対敵火力",
+          "detail": "信念の要塞の敵へのダメージが大幅に増加。業火へ生存タグが追加。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2871156"
+        },
+        {
+          "class": "monk",
+          "date": "2025-07-31",
+          "phase": "S0",
+          "type": "不具合修正",
+          "title": "連携スキルの向き",
+          "detail": "「殺到」「雷霆打」を使う際、標的と違う方向へ発動することがある問題を修正。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3064411"
+        },
+        {
+          "class": "monk",
+          "date": "2025-08-21",
+          "phase": "S0",
+          "type": "強化",
+          "title": "化身中の火力と悟り発動率",
+          "detail": "化身中の「殺到」「雷霆打」ダメージ増加25%→100%、悟りパッシブ発動率30%→60%。信念の要塞内のノックバック耐性も改善。",
+          "impact": "S0後半だけで強化状態の価値が大きく変わりました。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3100670"
+        },
+        {
+          "class": "monk",
+          "date": "2025-09-25",
+          "phase": "S1",
+          "type": "強化",
+          "title": "光輝と業火のルーン火力を上方",
+          "detail": "化身＋光輝ルーンの起動ダメージ+90.9%、治癒＋業火ルーンの対象ダメージ+36.6%。",
+          "impact": "旧「火力が低い」評価と比較するとルーン前提が異なります。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+        }
+      ]
+    },
+    {
+      "slug": "bard",
+      "name": "吟遊詩人",
+      "family": "音楽系",
+      "icon": "🎵",
+      "insight": "5/29の30秒バフ、8/21のCT循環、9/25の勇猛下方、10/30の支援更新改善。PT支援量と本人DPSを混ぜないで評価。",
+      "changes": [
+        {
+          "class": "bard",
+          "date": "2025-05-29",
+          "phase": "S0",
+          "type": "強化",
+          "title": "演奏ダメージとバフ維持",
+          "detail": "フィーバーが演奏スキルのダメージも増幅。戦場の歌の持続が10秒→30秒へ延長。即興演奏の「勇猛」獲得条件にメロディショック使用を追加。",
+          "impact": "支援更新頻度と演奏の攻撃性能が改善。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2919137"
+        },
+        {
+          "class": "bard",
+          "date": "2025-08-21",
+          "phase": "S0",
+          "type": "強化",
+          "title": "楽想生成とCT循環を改善",
+          "detail": "ストリングショットで現在と異なる楽想を等確率取得。楽想獲得ごとにバズテイルCT-1秒、和音ルーン付きトリプルストロークCT-2秒。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3100670"
+        },
+        {
+          "class": "bard",
+          "date": "2025-08-21",
+          "phase": "S0",
+          "type": "強化",
+          "title": "勝利のセレモニーとオート",
+          "detail": "勝利のセレモニーのシナジーダメージ増加10%→15%。アシストモードでは「死んだふり」を自動使用しない仕様へ。",
+          "impact": "支援量と半オートの事故防止が改善。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3100670"
+        },
+        {
+          "class": "bard",
+          "date": "2025-09-04",
+          "phase": "S0",
+          "type": "不具合修正",
+          "title": "弱点露出の消費判定を修正",
+          "detail": "ストリングショット／サプライズショットの弱点露出が間接ダメージで消費されないよう変更。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3123745"
+        },
+        {
+          "class": "bard",
+          "date": "2025-09-25",
+          "phase": "S1",
+          "type": "調整",
+          "title": "勇猛の賛歌弱体・対価として別ルーン強化",
+          "detail": "勇猛の賛歌の演奏増幅+30→+15%。死んだふり中の被ダメ-40%、欺瞞ルーンのサプライズショット+75%、機転ルーンの反撃+81%。",
+          "impact": "最高支援量だけを比較した古いTier表には注意。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+        },
+        {
+          "class": "bard",
+          "date": "2025-10-30",
+          "phase": "S1",
+          "type": "強化",
+          "title": "即興演奏+で強化持続延長",
+          "detail": "バズテイル、戦闘交響曲、勝利のセレモニーのバフ持続+6秒。複数演奏スキル+10%、無我ルーン付き戦闘交響曲で確定究極の楽想を獲得。",
+          "impact": "PT支援の更新負担が軽減。CT短縮そのものが+6秒間続くわけではない。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3201526"
+        }
+      ]
+    },
+    {
+      "slug": "dancer",
+      "name": "ダンサー",
+      "family": "音楽系",
+      "icon": "💃",
+      "insight": "6/19追撃判定変更、8/21喝采CT撤廃、9/25最終ダメージ枠化。パーティ人数・バフ消費速度で強さが変わります。",
+      "changes": [
+        {
+          "class": "dancer",
+          "date": "2025-06-19",
+          "phase": "S0",
+          "type": "仕様変更",
+          "title": "喝采追撃が直接ダメージに",
+          "detail": "アドリブの強化効果発動時にCTをリセットし、テンポ2段階で即強化。喝采の追撃が「間接→直接ダメージ」に変更。",
+          "impact": "スキル・ステータスによる加算判定が変わるため、古いDPS議論に注意。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2958152"
+        },
+        {
+          "class": "dancer",
+          "date": "2025-06-19",
+          "phase": "S0",
+          "type": "調整",
+          "title": "フィナーレの熱気係数を再配分",
+          "detail": "フィナーレによる熱気の追加攻撃力係数を2倍へ、最大スタックは半減。前ステージとの単純倍率比較はできません。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2958152"
+        },
+        {
+          "class": "dancer",
+          "date": "2025-08-21",
+          "phase": "S0",
+          "type": "強化",
+          "title": "喝采の内部CTとアンコールを改善",
+          "detail": "喝采付きアドリブの追撃バフ重複問題を修正し、内部CTを除去してスキル1回につき1回発動。アンコールをアクティブスキルLv合計に応じ最大300%ダメージへ強化、使用中移動速度+30%。",
+          "impact": "多人数PTの採用評価は8月前後で結論が変わり得ます。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3100670"
+        },
+        {
+          "class": "dancer",
+          "date": "2025-08-21",
+          "phase": "S0",
+          "type": "強化",
+          "title": "ウィンドミルとピルエット",
+          "detail": "ウィンドミル使用中のノックバック無効化。ピルエットの強化ルーン効果が正しく反映されない問題も修正。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3100670"
+        },
+        {
+          "class": "dancer",
+          "date": "2025-09-25",
+          "phase": "S1",
+          "type": "強化",
+          "title": "テンポとフィナーレのダメージ枠を変更",
+          "detail": "テンポが「スキルダメージ増加」→「最終ダメージ増加」に変更。フィナーレの熱気消費1単位あたりダメージを+100%。熱気保有時はスキル使用速度+10%。",
+          "impact": "最終ダメージ枠になり、他補正と相互作用が変化。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+        },
+        {
+          "class": "dancer",
+          "date": "2025-09-25",
+          "phase": "S1",
+          "type": "仕様変更",
+          "title": "アンコールの耐性・タグ追加",
+          "detail": "アンコールに連打・移動タグ、発動中にノックバック無効／ブレイク無効を追加。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+        }
+      ]
+    },
+    {
+      "slug": "musician",
+      "name": "楽師",
+      "family": "音楽系",
+      "icon": "🎼",
+      "insight": "7/31の終焉+117.4%、9/25の集中攻撃、10/30のカデンツァ大型強化。遠距離支援だけでなく火力評価も変化。",
+      "changes": [
+        {
+          "class": "musician",
+          "date": "2025-07-31",
+          "phase": "S0",
+          "type": "強化",
+          "title": "星のソナタと終焉、集中攻撃",
+          "detail": "星のソナタの連携猶予10→12秒。凶声ルーン付き「第3楽章：終焉」のダメージ約+117.4%。「第3楽章：激情の嵐」は対象が少ない場合余った攻撃を対象へ集中。",
+          "impact": "多対少・単体のダメージが従来と大きく変わります。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3064411"
+        },
+        {
+          "class": "musician",
+          "date": "2025-09-04",
+          "phase": "S0",
+          "type": "不具合修正",
+          "title": "永遠の旋律のCT短縮対象",
+          "detail": "残りCT0.5秒以下のスキルをランダムCT短縮の対象に選ばないよう修正。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3123745"
+        },
+        {
+          "class": "musician",
+          "date": "2025-09-25",
+          "phase": "S1",
+          "type": "仕様変更",
+          "title": "演奏集中とオートの挙動改善",
+          "detail": "第3楽章：激情の嵐の攻撃が対象に集中しやすくなる変更。アシスト射程・クライマックス発動条件の不具合修正。",
+          "impact": "7月の単体集中変更と合わせ、操作や敵人数で差が出る。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+        },
+        {
+          "class": "musician",
+          "date": "2025-10-30",
+          "phase": "S1",
+          "type": "強化",
+          "title": "カデンツァを大幅強化",
+          "detail": "基本DoT+287%、演奏ダメージ+284%。最大6回演奏で終了し、①～⑤のスキル使用でその枠のダメージ+25%（15秒／3重複）、⑥で最終ダメ+5%（15秒／3重複）。",
+          "impact": "単体火力・パーティ支援・スキル順が大きく変わる修正。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3201526"
+        },
+        {
+          "class": "musician",
+          "date": "2025-10-30",
+          "phase": "S1",
+          "type": "仕様変更",
+          "title": "セレナーデ＋魅惑ルーンのチャネリング",
+          "detail": "魅惑ルーン付きセレナーデはチャネリング3.5秒、発動周期0.7秒へ。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3201526"
+        }
+      ]
+    },
+    {
+      "slug": "rogue",
+      "name": "盗賊",
+      "family": "盗賊系",
+      "icon": "🗡️",
+      "insight": "7/31の隠身追撃+472.5%と9/25のブリッツラッシュ+100%が大きい。初期低評価と比較するなら必須の履歴。",
+      "changes": [
+        {
+          "class": "rogue",
+          "date": "2025-04-24",
+          "phase": "S0",
+          "type": "新職追加",
+          "title": "盗賊系3職が登場",
+          "detail": "盗賊・格闘家・デュアルブレイドが同日に実装。韓国サービス開始日の評価には、この3職自体が含まれていません。",
+          "impact": "初期の職業ランキングと比較するときの前提が変わります。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2839181"
+        },
+        {
+          "class": "rogue",
+          "date": "2025-05-29",
+          "phase": "S0",
+          "type": "強化",
+          "title": "毒の継続ダメージを強化",
+          "detail": "ポイズンアタックのパッシブによる毒ダメージを増加（具体的な倍率は公式告知に記載なし）。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2919137"
+        },
+        {
+          "class": "rogue",
+          "date": "2025-07-31",
+          "phase": "S0",
+          "type": "強化",
+          "title": "隠密攻撃の発動条件と隠身火力を再設計",
+          "detail": "スニークアタックを「ブレイク時10秒の通常攻撃+30%追加」から「初撃／隠身解除時7秒の追加攻撃率+15%」に変更。隠身の追撃ダメージが約+472.5%、間接→直接ダメージへ変更。",
+          "impact": "ブレイク依存から開幕・隠身解除中心へ。数値だけでなく発動機会が変わります。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3064411"
+        },
+        {
+          "class": "rogue",
+          "date": "2025-07-31",
+          "phase": "S0",
+          "type": "強化",
+          "title": "アドレナリンの攻撃速度",
+          "detail": "オーバーチャージ時の攻撃速度補正20%→40%。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3064411"
+        },
+        {
+          "class": "rogue",
+          "date": "2025-08-21",
+          "phase": "S0",
+          "type": "仕様変更",
+          "title": "スニークアタックの開幕判定改善",
+          "detail": "隠身へ入ったときにも追加攻撃率上昇効果が発動。毒霧ルーン付きポイズントラップの直接攻撃にも毒属性を付与。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3100670"
+        },
+        {
+          "class": "rogue",
+          "date": "2025-09-25",
+          "phase": "S1",
+          "type": "強化",
+          "title": "ブリッツラッシュを倍増",
+          "detail": "ブリッツラッシュの連続ヒット部と最後の一撃をそれぞれ+100%。ポイズンアタックの連打・補助タグ追加。",
+          "impact": "究極技ダメージの寄与が大きく変わります。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+        }
+      ]
+    },
+    {
+      "slug": "fighter",
+      "name": "格闘家",
+      "family": "盗賊系",
+      "icon": "🥊",
+      "insight": "9/25のコンボ猶予倍増と主要スキル大幅強化が決定打。S0の古い評価を日本へ持ち込むと最も誤りやすい職の一つ。",
+      "changes": [
+        {
+          "class": "fighter",
+          "date": "2025-04-24",
+          "phase": "S0",
+          "type": "新職追加",
+          "title": "格闘家が登場",
+          "detail": "盗賊系追加により、新たなコンボ型近接職が選択可能に。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2839181"
+        },
+        {
+          "class": "fighter",
+          "date": "2025-06-19",
+          "phase": "S0",
+          "type": "仕様変更",
+          "title": "応急処置の発動条件を追加",
+          "detail": "被弾時、最大HPの50%以下で攻撃力15%相当を回復、発動制限10秒と明示。常時発動の回復とは異なる。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2958152"
+        },
+        {
+          "class": "fighter",
+          "date": "2025-09-25",
+          "phase": "S1",
+          "type": "強化",
+          "title": "コンボ猶予と各主力技を大幅強化",
+          "detail": "連携・コンボ入力猶予5→10秒。チャージングフィスト各段階+150%、スクリューアッパー+50%、スラストキック+50%、スタンプキック＋跳躍ルーン+50%、バーストパンチ+30%。",
+          "impact": "S0初期の低評価をひっくり返し得る大型修正。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+        },
+        {
+          "class": "fighter",
+          "date": "2025-09-25",
+          "phase": "S1",
+          "type": "強化",
+          "title": "射程と自己回復を拡大",
+          "detail": "バーストパンチ射程1.65→3m、前半段の範囲半径1.5→3m。応急処置回復量は攻撃力の15→20%。衝撃波に強打タグ追加。",
+          "impact": "近接の当てやすさ・生存性が上がり、理論火力以上に実戦差が出ます。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+        }
+      ]
+    },
+    {
+      "slug": "dualblade",
+      "name": "デュアルブレイド",
+      "family": "盗賊系",
+      "icon": "⚡",
+      "insight": "5/29→7/31→8/21→9/25の四段階の強化。韓国S0序盤の評判をそのまま使うのは危険。",
+      "changes": [
+        {
+          "class": "dualblade",
+          "date": "2025-04-24",
+          "phase": "S0",
+          "type": "新職追加",
+          "title": "デュアルブレイドが登場",
+          "detail": "盗賊系の追加職として実装。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2839181"
+        },
+        {
+          "class": "dualblade",
+          "date": "2025-05-29",
+          "phase": "S0",
+          "type": "仕様変更",
+          "title": "活気パッシブが主力技と究極技へ乗る",
+          "detail": "従来の「連打→次の強打増加」から「連打→次の強化スキルおよび究極技増加」へ変更。スプリットスラッシュ／スプリットダウンは突進機能追加・射程延長。",
+          "impact": "複数のスキルに恩恵が広がり、接敵性能も向上。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2919137"
+        },
+        {
+          "class": "dualblade",
+          "date": "2025-05-29",
+          "phase": "S0",
+          "type": "不具合修正",
+          "title": "強化・移動スキルとオート動作",
+          "detail": "一部の強化スキルに強化ルーンが効かない問題と体型依存の入力遅延を修正。アシストモードの使用順も変更。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2919137"
+        },
+        {
+          "class": "dualblade",
+          "date": "2025-06-19",
+          "phase": "S0",
+          "type": "仕様変更",
+          "title": "スプリット系に移動タグを追加",
+          "detail": "スプリットスラッシュ／ダウンと「熱傷」ルーン適用時に移動タグ追加。移動系宝石の評価に影響。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2958152"
+        },
+        {
+          "class": "dualblade",
+          "date": "2025-07-31",
+          "phase": "S0",
+          "type": "強化",
+          "title": "活気・風の刃をさらに強化",
+          "detail": "活気の「連打時の強化スキル威力増加」20%→30%。風の刃の通常攻撃時追加リソース獲得確率20%→25%。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3064411"
+        },
+        {
+          "class": "dualblade",
+          "date": "2025-08-21",
+          "phase": "S0",
+          "type": "強化",
+          "title": "フューリー・ハリケーンを強化",
+          "detail": "グライディング／ライトニングフューリーがクリティカル時に追撃し、連打タグ追加。3960ハリケーンは移動速度+30%、旋回時間と攻撃周期を半減。",
+          "impact": "多段攻撃と移動しながらの削りが強化。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3100670"
+        },
+        {
+          "class": "dualblade",
+          "date": "2025-08-21",
+          "phase": "S0",
+          "type": "強化",
+          "title": "ハウリング系に耐久と耐妨害",
+          "detail": "ハウリングゲイル／テンペスト使用中に被ダメージ50%減とノックバック無効化を追加。",
+          "impact": "",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3100670"
+        },
+        {
+          "class": "dualblade",
+          "date": "2025-09-25",
+          "phase": "S1",
+          "type": "強化",
+          "title": "ファイナルヒットを大幅強化",
+          "detail": "ファイナルヒットの連撃ダメージ+50%、最後の一撃+50%。",
+          "impact": "5月～8月の段階的な強化を踏まえて評価すべき究極技。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+        }
+      ]
+    },
+    {
+      "slug": "lightning",
+      "name": "電撃術師",
+      "family": "魔法系",
+      "icon": "⚡",
+      "insight": "6/19に初登場、9/25の過充電・超越変更。韓国3～5月の評価データは存在しません。",
+      "changes": [
+        {
+          "class": "lightning",
+          "date": "2025-06-19",
+          "phase": "S0",
+          "type": "新職追加",
+          "title": "電撃術師がS0途中に追加",
+          "detail": "6月19日に新しい魔法系転職として実装。韓国2025年3～5月の初期ランキングに雷が存在しないのは当然です。",
+          "impact": "台湾・日本への実装時期とは区別。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/2958152"
+        },
+        {
+          "class": "lightning",
+          "date": "2025-09-25",
+          "phase": "S1",
+          "type": "調整",
+          "title": "過充電・超越の運用を再調整",
+          "detail": "落雷のダメージ-10%、過充電1スタックの与ダメージ+10→+9%。破壊の閃光へ過充電の増幅を重ねて適用。超越中はスタック増減を停止し、発動時点のスタックを保持、終了時に消滅。",
+          "impact": "単純ナーフではなく、究極技前のスタック準備を重視する仕様へ。",
+          "source": "https://mabinogimobile.nexon.com/News/Update/3147463"
+        }
+      ]
+    }
+  ]
+}

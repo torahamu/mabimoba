@@ -225,3 +225,11 @@ https://creativecommons.org/licenses/by/4.0/
 - クラス共通のEXP/痕跡テーブルなのでクラス選択を削除。
 - 初期値を現在Lv1、目標Lv65に変更。計算結果から職業名も削除。
 - 既存のLv1〜65データおよびほかのページは変更なし。
+
+## v9（2026-11-07）：韓国S0～S1職業調整史
+
+- 新ページ `jobs/balance-history.html`：韓国公式の2025年4月～10月の19職・主要91変更を時系列で閲覧可能。
+- 日本版の確認済み差分ではありません。韓国の「当時どう変わったか」を記録する独立ページです。
+- 公開用の構造化データ：`data/class-balance-history.json`。追記・修正は `scripts/build_balance_history.py` 内の登録データを編集して再生成してください（JSONの直接編集だけではHTMLに反映されません）。
+- `scripts/` は閲覧・GitHub Pagesの表示には不要ですが、再生成時のソースとして残すと便利です。
+- 詳細は `CHANGELOG_v9.md`。
