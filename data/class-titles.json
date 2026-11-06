@@ -1,0 +1,204 @@
+{
+  "reference_date": "2026-11-06",
+  "status": "韓国先行（+25×2）。Lv65で称号獲得自体は日本公式確認。各職組み合わせは日本実機要照合。",
+  "items": [
+    {
+      "slug": "warrior",
+      "job": "戦士",
+      "family": "戦士系",
+      "attrs": [
+        "STR",
+        "WILL"
+      ],
+      "source": "韓国先行の候補値",
+      "status": "要JP照合"
+    },
+    {
+      "slug": "greatsword",
+      "job": "大剣戦士",
+      "family": "戦士系",
+      "attrs": [
+        "STR",
+        "WILL"
+      ],
+      "source": "韓国先行の候補値",
+      "status": "要JP照合"
+    },
+    {
+      "slug": "swordmaster",
+      "job": "剣術士",
+      "family": "戦士系",
+      "attrs": [
+        "STR",
+        "LUCK"
+      ],
+      "source": "韓国先行の候補値",
+      "status": "要JP照合"
+    },
+    {
+      "slug": "archer",
+      "job": "弓使い",
+      "family": "弓系",
+      "attrs": [
+        "DEX",
+        "LUCK"
+      ],
+      "source": "韓国先行の候補値",
+      "status": "要JP照合"
+    },
+    {
+      "slug": "crossbow",
+      "job": "クロスボウ使い",
+      "family": "弓系",
+      "attrs": [
+        "DEX",
+        "LUCK"
+      ],
+      "source": "韓国先行の候補値",
+      "status": "要JP照合"
+    },
+    {
+      "slug": "longbow",
+      "job": "ロングボウ使い",
+      "family": "弓系",
+      "attrs": [
+        "DEX",
+        "WILL"
+      ],
+      "source": "韓国先行の候補値",
+      "status": "要JP照合"
+    },
+    {
+      "slug": "mage",
+      "job": "魔法使い",
+      "family": "魔法系",
+      "attrs": [
+        "INT",
+        "LUCK"
+      ],
+      "source": "韓国先行の候補値",
+      "status": "要JP照合"
+    },
+    {
+      "slug": "firemage",
+      "job": "火炎術師",
+      "family": "魔法系",
+      "attrs": [
+        "INT",
+        "LUCK"
+      ],
+      "source": "韓国先行の候補値",
+      "status": "要JP照合"
+    },
+    {
+      "slug": "frostmage",
+      "job": "氷結術師",
+      "family": "魔法系",
+      "attrs": [
+        "INT",
+        "WILL"
+      ],
+      "source": "韓国先行の候補値",
+      "status": "要JP照合"
+    },
+    {
+      "slug": "healer",
+      "job": "ヒーラー",
+      "family": "回復系",
+      "attrs": [
+        "INT",
+        "WILL"
+      ],
+      "source": "韓国先行の候補値",
+      "status": "要JP照合"
+    },
+    {
+      "slug": "priest",
+      "job": "司祭",
+      "family": "回復系",
+      "attrs": [
+        "INT",
+        "WILL"
+      ],
+      "source": "韓国先行の候補値",
+      "status": "要JP照合"
+    },
+    {
+      "slug": "monk",
+      "job": "修道士",
+      "family": "回復系",
+      "attrs": [
+        "INT",
+        "WILL"
+      ],
+      "source": "韓国先行の候補値",
+      "status": "要JP照合"
+    },
+    {
+      "slug": "bard",
+      "job": "吟遊詩人",
+      "family": "音楽系",
+      "attrs": [
+        "DEX",
+        "LUCK"
+      ],
+      "source": "韓国先行の候補値",
+      "status": "要JP照合"
+    },
+    {
+      "slug": "dancer",
+      "job": "ダンサー",
+      "family": "音楽系",
+      "attrs": [
+        "DEX",
+        "LUCK"
+      ],
+      "source": "韓国先行の候補値",
+      "status": "要JP照合"
+    },
+    {
+      "slug": "musician",
+      "job": "楽師",
+      "family": "音楽系",
+      "attrs": [
+        "DEX",
+        "WILL"
+      ],
+      "source": "韓国先行の候補値",
+      "status": "要JP照合"
+    },
+    {
+      "slug": "rogue",
+      "job": "盗賊",
+      "family": "盗賊系",
+      "attrs": [
+        "DEX",
+        "LUCK"
+      ],
+      "source": "韓国先行の候補値",
+      "status": "要JP照合"
+    },
+    {
+      "slug": "fighter",
+      "job": "格闘家",
+      "family": "盗賊系",
+      "attrs": [
+        "DEX",
+        "WILL"
+      ],
+      "source": "韓国先行の候補値",
+      "status": "要JP照合"
+    },
+    {
+      "slug": "dualblade",
+      "job": "デュアルブレイド",
+      "family": "盗賊系",
+      "attrs": [
+        "DEX",
+        "LUCK"
+      ],
+      "source": "韓国先行の候補値",
+      "status": "要JP照合"
+    }
+  ]
+}

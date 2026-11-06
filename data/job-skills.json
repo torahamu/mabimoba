@@ -1,12 +1,22 @@
 {
-  "updated": "2026-11-01",
-  "method": "JP Season0 accessories linked by named skill in effect, some slot/tag values verified separately",
+  "updated": "2026-11-02",
+  "method": "GameWith JP skill mechanics paraphrased + Japanese community skill slot/tag tables for confirmed classes + pre-existing CC BY4.0 rune catalog. S0/S1 mixed source caution.",
   "jobs": {
     "warrior": {
       "class": "戦士",
       "source_gamewith": "https://gamewith.jp/mabinogimobile/577045",
       "source_runes": "https://mabinogimobile.nipponhashi.com/ja/runes/",
       "skills": [
+        {
+          "name": "ブレイドインパクト",
+          "slot": 6,
+          "tags": [],
+          "description": "敵の密集地点へ跳躍して衝撃波で攻撃し、短時間のHP上昇と被ダメージ軽減を得る。",
+          "runes": [],
+          "kind": "究極技",
+          "description_source": "https://www.pc-support-help.com/2026/10/17/mabinogi-mobile-warrior-skills/",
+          "slot_source": "https://www.pc-support-help.com/2026/10/17/mabinogi-mobile-warrior-skills/"
+        },
         {
           "name": "シールドバッシュ（旧・別表記の可能性）",
           "slot": null,
@@ -19,13 +29,15 @@
               "status": "日本版実装",
               "effect": "戦士のシールドバッシュスキルに変化を与える。短い距離を突進して敵を攻撃する。ブレイクされた状態でも使用できる。"
             }
-          ]
+          ],
+          "kind": "基本スキル",
+          "translation_note": "シールドバッシュ／シールドラッシュの表記に差があります。ルーン「突進」の効果文とゲーム内を照合してください。"
         },
         {
           "name": "ブレイドスマッシュ",
           "slot": null,
           "tags": [],
-          "description": "前方を強く斬る範囲攻撃。闘志が最大なら高速化・全周囲攻撃が可能。",
+          "description": "前方の敵を剣で薙ぎ払い転倒させる。闘志最大時は全周囲へ高速で攻撃する。",
           "runes": [
             {
               "name": "斬撃",
@@ -33,13 +45,15 @@
               "status": "日本版実装",
               "effect": "戦士のブレイドスマッシュを変化させる。常に周辺の円形の範囲にいる敵を素早く攻撃し、追加で持続ダメージ:火傷を付与する。攻撃した敵の数に応じてダメージがアップする。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577045",
+          "kind": "基本スキル"
         },
         {
           "name": "ラピッドスラッシュ",
           "slot": null,
           "tags": [],
-          "description": "敵へ接近して連続で斬る。闘志が最大のとき攻撃回数と速度が増える。",
+          "description": "敵へ一気に接近し連続斬撃。闘志最大時に攻撃回数とスキル使用速度が伸びる。",
           "runes": [
             {
               "name": "猛攻",
@@ -47,7 +61,9 @@
               "status": "日本版実装",
               "effect": "戦士のラピッドスラッシュを変化させる。ガード状態の場合、敵に猛烈な連続攻撃を行い、しばらく攻撃力がアップする制圧に変化する。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577045",
+          "kind": "基本スキル"
         },
         {
           "name": "戦場の咆哮",
@@ -61,13 +77,14 @@
               "status": "日本版実装",
               "effect": "戦士の戦場の咆哮スキルに変化を与える。闘志が上昇する代わりに、咆哮のダメージが大幅に増加する。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         },
         {
           "name": "戦場の雄叫び",
           "slot": null,
           "tags": [],
-          "description": "闘志と味方への強化に関わる雄叫び。ルーン「咆哮」で最大闘志時の支援効果と範囲ダメージを強める。",
+          "description": "周囲の敵を挑発し、攻防の支援と闘志獲得に使用する。",
           "runes": [
             {
               "name": "咆哮",
@@ -75,13 +92,15 @@
               "status": "日本版実装",
               "effect": "戦士の戦場の雄叫びを変化させる。闘志が最高値に達すると、味方に付与するダメージアップ効果が強化され、周辺の全ての敵を薙ぎ払う非常に強力な衝撃波を引き起こす。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577045",
+          "kind": "基本スキル"
         },
         {
           "name": "突き",
           "slot": null,
           "tags": [],
-          "description": "剣で敵を突く技。ルーン「突撃」により高威力の突進攻撃「貫き」に切り替わる。",
+          "description": "敵へ突進する剣技。ルーン「突撃」を付けると高威力の「貫き」に切り替わる。",
           "runes": [
             {
               "name": "突撃",
@@ -89,7 +108,9 @@
               "status": "日本版実装",
               "effect": "戦士の突きを貫きに切り替える。全ての力を切っ先に集め、ターゲットに強力な突進攻撃を行う。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577045",
+          "kind": "基本スキル"
         }
       ],
       "unreleased_count": 3
@@ -100,10 +121,27 @@
       "source_runes": "https://mabinogimobile.nipponhashi.com/ja/runes/",
       "skills": [
         {
-          "name": "ショルダーアタック",
-          "slot": null,
+          "name": "ライジングスマッシュ",
+          "slot": 2,
           "tags": [],
-          "description": "接近する突進攻撃。ルーン「憤怒」では技のテンポが変わる。",
+          "description": "斬り上げて範囲の敵を浮かせる。前構えでは素早く使えて戦闘テンポを得る。",
+          "runes": [
+            {
+              "name": "反撃",
+              "grade": "エピック",
+              "status": "日本版実装",
+              "effect": "大剣戦士のライジングスマッシュスキルに変化を与える。スキルのチャージが可能になり、より大きなダメージを与える。チャージ中にダメージを受けるとチャージ段階が最大に上がり、ブレイクダメージを受けた場合はより強いブレイクダメージで反撃する。また、二倍に増加した強化効果：不屈を得る。スキル使用中に攻撃を受けると、構えに関係なく戦闘テンポを1獲得する。"
+            }
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577047",
+          "kind": "基本スキル",
+          "slot_source": "https://mabi.games-wiki.com/classes/greatsword-warrior"
+        },
+        {
+          "name": "ショルダーアタック",
+          "slot": 3,
+          "tags": [],
+          "description": "勢いよく敵へ接近して押し戻す。構えでストンプと切り替わる。",
           "runes": [
             {
               "name": "憤怒",
@@ -111,7 +149,52 @@
               "status": "日本版実装",
               "effect": "大剣戦士のストンプとショルダーアタックを変化させる。ショルダーアタック使用時、戦闘のテンポがアップする。ストンプの場合、ブレイクダメージが追加される。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577047",
+          "kind": "基本スキル",
+          "slot_source": "https://mabi.games-wiki.com/classes/greatsword-warrior"
+        },
+        {
+          "name": "スラッシュ",
+          "slot": 4,
+          "tags": [],
+          "description": "大剣で攻撃する技。ルーン「弾力」でチャージ攻撃に変化し、ほかのチャージスキルを強める。",
+          "runes": [
+            {
+              "name": "弾力",
+              "grade": "エピック",
+              "status": "日本版実装",
+              "effect": "大剣戦士のスラッシュを変化させる。スキルチャージが可能になり、更に大きなダメージを与える。スラッシュ使用時、チャージ段階に応じて弾力効果が適用される。スラッシュを除外したチャージスキル使用時、弾力効果を消費することでチャージ段階がアップする。"
+            }
+          ],
+          "kind": "基本スキル",
+          "slot_source": "https://mabi.games-wiki.com/classes/greatsword-warrior"
+        },
+        {
+          "name": "大剣術",
+          "slot": 5,
+          "tags": [],
+          "description": "溜めた戦闘テンポを消費して強力な一撃を放つ主力技。",
+          "runes": [
+            {
+              "name": "会心",
+              "grade": "エリート",
+              "status": "日本版実装",
+              "effect": "大剣戦士の大剣術スキルに変化を与える。大剣術使用時、チャージ段階に応じて増加したクリティカル率を得て、敵が一定体力以下の場合はクリティカル率が二倍に増加する。"
+            }
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577047",
+          "kind": "基本スキル",
+          "slot_source": "https://mabi.games-wiki.com/classes/greatsword-warrior"
+        },
+        {
+          "name": "必死の一撃",
+          "slot": 6,
+          "tags": [],
+          "description": "地面を崩す大範囲攻撃を行い、戦闘テンポを最大まで高めて攻撃力強化を得る。",
+          "runes": [],
+          "kind": "究極技",
+          "description_source": "https://gamewith.jp/mabinogimobile/577047"
         },
         {
           "name": "ストンプ",
@@ -125,13 +208,14 @@
               "status": "日本版実装",
               "effect": "大剣戦士のストンプとショルダーアタックを変化させる。ショルダーアタック使用時、戦闘のテンポがアップする。ストンプの場合、ブレイクダメージが追加される。"
             }
-          ]
+          ],
+          "kind": "構えで切替"
         },
         {
           "name": "スピニングスラッシュ",
           "slot": null,
           "tags": [],
-          "description": "周囲を一閃する範囲斬撃。構えによって動作が変化する。",
+          "description": "周辺の敵を素早く斬る。剣の構えが後ろなら動作が速くなり戦闘テンポも得る。",
           "runes": [
             {
               "name": "切断",
@@ -145,52 +229,13 @@
               "status": "日本版実装",
               "effect": "大剣戦士のスピニングスラッシュを変化させる。回転数が上がり、敵を斬る回数が増える。使用時間とクールタイムが大幅にアップする。"
             }
-          ]
-        },
-        {
-          "name": "スラッシュ",
-          "slot": null,
-          "tags": [],
-          "description": "大剣で攻撃する技。ルーン「弾力」でチャージ攻撃に変化し、ほかのチャージスキルを強める。",
-          "runes": [
-            {
-              "name": "弾力",
-              "grade": "エピック",
-              "status": "日本版実装",
-              "effect": "大剣戦士のスラッシュを変化させる。スキルチャージが可能になり、更に大きなダメージを与える。スラッシュ使用時、チャージ段階に応じて弾力効果が適用される。スラッシュを除外したチャージスキル使用時、弾力効果を消費することでチャージ段階がアップする。"
-            }
-          ]
-        },
-        {
-          "name": "ライジングスマッシュ",
-          "slot": null,
-          "tags": [],
-          "description": "敵を斬り上げる攻撃。ルーンでチャージと反撃動作を追加できる。",
-          "runes": [
-            {
-              "name": "反撃",
-              "grade": "エピック",
-              "status": "日本版実装",
-              "effect": "大剣戦士のライジングスマッシュスキルに変化を与える。スキルのチャージが可能になり、より大きなダメージを与える。チャージ中にダメージを受けるとチャージ段階が最大に上がり、ブレイクダメージを受けた場合はより強いブレイクダメージで反撃する。また、二倍に増加した強化効果：不屈を得る。スキル使用中に攻撃を受けると、構えに関係なく戦闘テンポを1獲得する。"
-            }
-          ]
-        },
-        {
-          "name": "大剣術",
-          "slot": null,
-          "tags": [],
-          "description": "大剣のチャージ段階に関係する技。ルーン「会心」でクリティカル率を強める。",
-          "runes": [
-            {
-              "name": "会心",
-              "grade": "エリート",
-              "status": "日本版実装",
-              "effect": "大剣戦士の大剣術スキルに変化を与える。大剣術使用時、チャージ段階に応じて増加したクリティカル率を得て、敵が一定体力以下の場合はクリティカル率が二倍に増加する。"
-            }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577047",
+          "kind": "基本スキル"
         }
       ],
-      "unreleased_count": 3
+      "unreleased_count": 3,
+      "slot_table_source": "https://mabi.games-wiki.com/classes/greatsword-warrior"
     },
     "swordmaster": {
       "class": "剣術士",
@@ -198,10 +243,55 @@
       "source_runes": "https://mabinogimobile.nipponhashi.com/ja/runes/",
       "skills": [
         {
+          "name": "鋼のくさび",
+          "slot": 1,
+          "tags": [
+            "強打",
+            "補助"
+          ],
+          "description": "敵へ突き込み、確率で秘剣へ直ちにつなぐ。集中状態では発動率が高まる。",
+          "runes": [
+            {
+              "name": "貫通",
+              "grade": "エピック",
+              "status": "日本版実装",
+              "effect": "剣術士の鋼のくさびを変化させる。鋼のくさびまたは秘剣:鋼のくさびを1回使用時、範囲ダメージを与える快剣を使用できる。"
+            }
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577046",
+          "kind": "基本スキル",
+          "slot_source": "https://mabi.games-wiki.com/classes/swordmaster",
+          "tag_source": "https://mabi.games-wiki.com/classes/swordmaster"
+        },
+        {
+          "name": "鞘アタック",
+          "slot": 2,
+          "tags": [
+            "強打",
+            "妨害"
+          ],
+          "description": "鞘で強打した後に剣で斬りつける。",
+          "runes": [
+            {
+              "name": "圧迫",
+              "grade": "エリート",
+              "status": "日本版実装",
+              "effect": "剣術士の鞘アタックを変化させる。鞘アタックまたは秘剣:鞘アタックの攻撃が敵の周辺に影響を与える範囲ダメージに強化される。"
+            }
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577046",
+          "kind": "基本スキル",
+          "slot_source": "https://mabi.games-wiki.com/classes/swordmaster",
+          "tag_source": "https://mabi.games-wiki.com/classes/swordmaster"
+        },
+        {
           "name": "ソードダンス",
-          "slot": null,
-          "tags": [],
-          "description": "斬撃を連続で繰り出し、集中状態でCTが下がる。",
+          "slot": 3,
+          "tags": [
+            "強打",
+            "連打"
+          ],
+          "description": "前方を連続斬撃。集中状態ではクールタイムが大きく減る。",
           "runes": [
             {
               "name": "舞姫",
@@ -215,27 +305,17 @@
               "status": "日本版実装",
               "effect": "剣術士のソードダンスを変化させる。スキル使用時、持続ダメージ:傷を追加で付与する。"
             }
-          ]
-        },
-        {
-          "name": "看破",
-          "slot": null,
-          "tags": [],
-          "description": "相手の攻撃への対応に使う技。ルーン「猛烈」で看破成功後の追加ダメージが発生する。",
-          "runes": [
-            {
-              "name": "猛烈",
-              "grade": "エリート",
-              "status": "日本版実装",
-              "effect": "剣術士の看破を変化させる。看破に成功した場合、一定時間剣術士が敵に追加ダメージを与える。"
-            }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577046",
+          "kind": "基本スキル",
+          "slot_source": "https://mabi.games-wiki.com/classes/swordmaster",
+          "tag_source": "https://mabi.games-wiki.com/classes/swordmaster"
         },
         {
           "name": "秘剣",
-          "slot": null,
+          "slot": 4,
           "tags": [],
-          "description": "ほかの剣技を強化してつなぐ剣術。ルーン「落花」で異なる秘剣を使い分けた後の大技を追加する。",
+          "description": "直前に使った剣技を強化して再使用する。使用順が火力を左右する。",
           "runes": [
             {
               "name": "落花",
@@ -243,38 +323,51 @@
               "status": "日本版実装",
               "effect": "剣術士の秘剣を変化させる。それぞれ異なる秘剣スキルを全て使用すると、ダメージが高い秘剣:落花を使用できる。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577046",
+          "kind": "基本スキル",
+          "slot_source": "https://mabi.games-wiki.com/classes/swordmaster"
         },
         {
-          "name": "鋼のくさび",
-          "slot": null,
-          "tags": [],
-          "description": "敵に素早く突き込み、秘剣の使用につなげる。",
+          "name": "看破",
+          "slot": 5,
+          "tags": [
+            "強打",
+            "移動",
+            "生存"
+          ],
+          "description": "敵の攻撃へ備え、条件成立時に敵の背後へ回ってカウンターする。発動中は被ダメージを軽減する。",
           "runes": [
             {
-              "name": "貫通",
-              "grade": "エピック",
-              "status": "日本版実装",
-              "effect": "剣術士の鋼のくさびを変化させる。鋼のくさびまたは秘剣:鋼のくさびを1回使用時、範囲ダメージを与える快剣を使用できる。"
-            }
-          ]
-        },
-        {
-          "name": "鞘アタック",
-          "slot": null,
-          "tags": [],
-          "description": "剣と鞘で薙ぎ払う攻撃。",
-          "runes": [
-            {
-              "name": "圧迫",
+              "name": "猛烈",
               "grade": "エリート",
               "status": "日本版実装",
-              "effect": "剣術士の鞘アタックを変化させる。鞘アタックまたは秘剣:鞘アタックの攻撃が敵の周辺に影響を与える範囲ダメージに強化される。"
+              "effect": "剣術士の看破を変化させる。看破に成功した場合、一定時間剣術士が敵に追加ダメージを与える。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577046",
+          "kind": "基本スキル",
+          "slot_source": "https://mabi.games-wiki.com/classes/swordmaster",
+          "tag_source": "https://mabi.games-wiki.com/classes/swordmaster"
+        },
+        {
+          "name": "一閃",
+          "slot": 6,
+          "tags": [
+            "強打",
+            "移動",
+            "補助"
+          ],
+          "description": "集中状態に入り、直線上の敵を高速で斬り抜ける。終了後は疾風態勢につながる。",
+          "runes": [],
+          "kind": "究極技",
+          "description_source": "https://gamewith.jp/mabinogimobile/577046",
+          "slot_source": "https://mabi.games-wiki.com/classes/swordmaster",
+          "tag_source": "https://mabi.games-wiki.com/classes/swordmaster"
         }
       ],
-      "unreleased_count": 3
+      "unreleased_count": 3,
+      "slot_table_source": "https://mabi.games-wiki.com/classes/swordmaster"
     },
     "archer": {
       "class": "弓使い",
@@ -282,10 +375,19 @@
       "source_runes": "https://mabinogimobile.nipponhashi.com/ja/runes/",
       "skills": [
         {
+          "name": "灼熱の軌跡",
+          "slot": 6,
+          "tags": [],
+          "description": "火の矢を放って全スキルの待機時間をリセットし、一定時間の攻撃を火矢へ強化する。",
+          "runes": [],
+          "kind": "究極技",
+          "description_source": "https://gamewith.jp/mabinogimobile/577048"
+        },
+        {
           "name": "アローリボルバー",
           "slot": null,
           "tags": [],
-          "description": "矢を連続で放つ主力の一つ。ルーン「致命」で疾風状態の攻撃が強化される。",
+          "description": "矢を連射する。通常攻撃・スキル命中で待機時間が短縮し、疾風中は近くの敵にも命中。",
           "runes": [
             {
               "name": "致命",
@@ -293,7 +395,9 @@
               "status": "日本版実装",
               "effect": "弓使いのアローリボルバーを変化させる。疾風状態で使用時、致命的な射撃を使用できる。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577048",
+          "kind": "基本スキル"
         },
         {
           "name": "エスケープステップ",
@@ -307,13 +411,14 @@
               "status": "日本版実装",
               "effect": "弓使いのエスケープステップを変化させる。ブレイク状態でもエスケープステップを使用でき、自身のブレイク状態を解除する。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         },
         {
           "name": "サイドステップ",
           "slot": null,
           "tags": [],
-          "description": "移動・回避に使うステップ。ルーン「俊敏」で急所回避と移動速度の補助を受ける。",
+          "description": "敵の攻撃をかわしながら矢を放つ回避射撃。",
           "runes": [
             {
               "name": "俊敏",
@@ -321,7 +426,9 @@
               "status": "日本版実装",
               "effect": "弓使いのサイドステップを変化させる。サイドステップ使用時、急所回避及び移動速度アップ効果が適用される。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577048",
+          "kind": "基本スキル"
         },
         {
           "name": "ホークショット",
@@ -335,13 +442,14 @@
               "status": "日本版実装",
               "effect": "弓使いのホークショットを変化させる。ホークショットの弱体化効果が付与されたターゲットにラッシュウィンドの跳弾効果が発生したものの、周辺に他の敵がいない場合、跳ね返った矢が戻ってきてターゲットを再度攻撃する。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         },
         {
           "name": "マグナムショット",
           "slot": null,
           "tags": [],
-          "description": "強い一矢を放つ技。ルーン「猛威」「素早さ」で火力・射程周辺制圧の方向性が変わる。",
+          "description": "強い一矢で前方を薙ぎ払う。疾風中は詠唱が短くなる。",
           "runes": [
             {
               "name": "猛威",
@@ -355,7 +463,9 @@
               "status": "日本版実装",
               "effect": "弓使いのマグナムショットを変化させる。直ちに跳躍し、ターゲット周辺の敵をスタンさせる強力な矢を発射する。マグナムショットの最大スタック数がアップする。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577048",
+          "kind": "基本スキル"
         }
       ],
       "unreleased_count": 3
@@ -366,10 +476,19 @@
       "source_runes": "https://mabinogimobile.nipponhashi.com/ja/runes/",
       "skills": [
         {
+          "name": "ヘルファイア",
+          "slot": 6,
+          "tags": [],
+          "description": "多数のボルトを撃ったのち爆発ボルトで広域攻撃し、強化ボルト弾倉を装填する。",
+          "runes": [],
+          "kind": "究極技",
+          "description_source": "https://gamewith.jp/mabinogimobile/577050"
+        },
+        {
           "name": "ガスティングボルト",
           "slot": null,
           "tags": [],
-          "description": "強化ボルトを消費して連射する、クールタイムのない主力攻撃。",
+          "description": "強化ボルトを連射して大ダメージを与える。連射するほど命中時クリ率に減衰がある。",
           "runes": [
             {
               "name": "連鎖",
@@ -377,13 +496,15 @@
               "status": "日本版実装",
               "effect": "クロスボウ使いのガスティングボルトを変化させる。ガスティングボルトに電気属性が適用され、クリティカル命中時、連鎖する稲妻の枝を放出し、ターゲットと近接した敵にもダメージを与える。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577050",
+          "kind": "基本スキル"
         },
         {
           "name": "ショックエクスプロージョン",
           "slot": null,
           "tags": [],
-          "description": "電気のボルトを爆発させて範囲攻撃・スタンと装填を行う。",
+          "description": "ボルトの爆発で敵をスタンさせ、強化ボルト弾倉を補給する。",
           "runes": [
             {
               "name": "感電",
@@ -391,13 +512,15 @@
               "status": "日本版実装",
               "effect": "クロスボウ使いのショックエクスプロージョンを変化させる。電気属性が注入されたボルトで敵に持続ダメージ:感電を付与し、一定時間クリティカル率がアップする。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577050",
+          "kind": "基本スキル"
         },
         {
-          "name": "スプレッディングボルト",
+          "name": "スプレッドボルト",
           "slot": null,
           "tags": [],
-          "description": "複数対象に攻撃するボルト技。ルーン「電流」で感電と弾倉消費を変更する。",
+          "description": "扇形に強化ボルトを発射し、前方の複数の敵へ範囲ダメージを与える。",
           "runes": [
             {
               "name": "電流",
@@ -405,13 +528,15 @@
               "status": "日本版実装",
               "effect": "クロスボウ使いのスプレッディングボルトスキルに変化を与える。一定確率で過充電され、強化ボルトの弾倉を消費せずに周囲の敵に持続ダメージ：感電を与えるサンダースプレッディングボルトを使用できる。"
             }
-          ]
+          ],
+          "translation_note": "旧図鑑内の「スプレッディングボルト」と同一の技と推定。日本語スキル名はGameWithに準拠。",
+          "kind": "基本スキル"
         },
         {
           "name": "スライディングステップ",
           "slot": null,
           "tags": [],
-          "description": "移動と強化ボルト装填を組み合わせる技。ルーン「反転」「妨害」で補給・攻撃方向に改造する。",
+          "description": "後方へ滑りながら複数の矢を撃ち、弾倉を装填。被ダメージ軽減も得る。",
           "runes": [
             {
               "name": "反転",
@@ -425,13 +550,15 @@
               "status": "日本版実装",
               "effect": "クロスボウ使いのスライディングステップを変化させる。前方の広い範囲にボルトを発射し、複数の敵に更に大きなダメージを与える。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577050",
+          "kind": "基本スキル"
         },
         {
           "name": "バスターショット",
           "slot": null,
           "tags": [],
-          "description": "ショックボルトで範囲攻撃し、強化ボルトを装填する。",
+          "description": "衝撃波のあるボルトで前方範囲攻撃し、強化ボルトを装填する。",
           "runes": [
             {
               "name": "火薬",
@@ -439,7 +566,9 @@
               "status": "日本版実装",
               "effect": "クロスボウ使いのバスターショットスキルに変化を与える。マウンティングショックが攻撃の命中した最大5体の敵に弱体効果：粉塵を付与する。弱体効果：粉塵を持つ敵が炎属性の攻撃を受けると爆発を起こし、周囲に範囲ダメージを与える。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577050",
+          "kind": "基本スキル"
         }
       ],
       "unreleased_count": 3
@@ -449,6 +578,15 @@
       "source_gamewith": "https://gamewith.jp/mabinogimobile/577049",
       "source_runes": "https://mabinogimobile.nipponhashi.com/ja/runes/",
       "skills": [
+        {
+          "name": "デススティンガー",
+          "slot": 6,
+          "tags": [],
+          "description": "強烈な矢と大量の矢を同時発射して広域制圧し、敵を押し戻して衰弱を付ける。",
+          "runes": [],
+          "kind": "究極技",
+          "description_source": "https://gamewith.jp/mabinogimobile/577049"
+        },
         {
           "name": "ウィングスキュア",
           "slot": null,
@@ -461,7 +599,8 @@
               "status": "日本版実装",
               "effect": "ロングボウ使いのウィングスキュアを変化させる。投槍支援攻撃がターゲットを中心に3回に渡って行われ、合計ダメージが小幅にアップする。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         },
         {
           "name": "クラッシュショット",
@@ -475,13 +614,14 @@
               "status": "日本版実装",
               "effect": "ロングボウ使いのクラッシュショットを変化させる。スキルダメージがアップし、カウンターで命中時、対象をブレイクさせる。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         },
         {
           "name": "シェルブレイカー",
           "slot": null,
           "tags": [],
-          "description": "連射で防御を崩し、最後の矢で被ダメージ上昇効果を付ける。",
+          "description": "速射の最後の矢で被ダメージ増加の弱体化を敵へ与える。",
           "runes": [
             {
               "name": "内傷",
@@ -495,13 +635,15 @@
               "status": "日本版実装",
               "effect": "ロングボウ使いのシェルブレイカーを変化させる。シェルブレイカーの攻撃を受けたターゲットの周辺に衝撃波が発生し、範囲ダメージを与える。範囲ダメージを受けた敵の被ダメージがアップする。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577049",
+          "kind": "基本スキル"
         },
         {
           "name": "ハートシーカー",
           "slot": null,
           "tags": [],
-          "description": "チャージ段階がある狙撃技。ルーン「超音波」で扇状の衝撃波を放つ。",
+          "description": "チャージする狙撃技。主力の強打としての運用を想定。",
           "runes": [
             {
               "name": "超音波",
@@ -509,7 +651,9 @@
               "status": "日本版実装",
               "effect": "ロングボウ使いのハートシーカースキルに変化を与える。チャージ段階ごとにターゲット方向へ半月形の衝撃波を放つ。半月形の衝撃波はダメージを与えて後ろに押し出す。［韓国2026-10-01パッチ：このルーン適用時、ハートシーカーに#連打タグが追加される。台湾は未適用］"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577049",
+          "kind": "基本スキル"
         },
         {
           "name": "フレイムアロー",
@@ -523,7 +667,8 @@
               "status": "日本版実装",
               "effect": "ロングボウ使いのフレイムアローを変化させる。スキルチャージが可能になり、チャージ段階に応じて打撃範囲がターゲットに集中される。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         }
       ],
       "unreleased_count": 3
@@ -545,7 +690,8 @@
               "status": "日本版実装",
               "effect": "魔法使いのライトニングを変化させる。連鎖的な稲妻の枝の攻撃を受けた敵の頭上に雷を落とし、周辺の敵に範囲ダメージと同時に持続ダメージ:感電を付与する。落雷は同じ敵に重複してダメージを与えることができる。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         },
         {
           "name": "ファイアボール",
@@ -559,7 +705,8 @@
               "status": "日本版実装",
               "effect": "魔法使いのファイアボールをメテオストライクに切り替える。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         },
         {
           "name": "アイスダガー",
@@ -573,7 +720,8 @@
               "status": "日本版実装",
               "effect": "魔法使いのアイスダガースキルに変化を与える。召喚する氷の破片の数が十二個に増加し、召喚と同時にターゲットに向かって破片を次々と発射する。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         },
         {
           "name": "テレキネシス",
@@ -587,7 +735,8 @@
               "status": "日本版実装",
               "effect": "魔法使いのテレキネシスを変化させる。岩の破片をターゲットに乱射してダメージを与え、一定時間敵に与える元素ダメージがアップする。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         },
         {
           "name": "マナストーム",
@@ -607,7 +756,17 @@
               "status": "日本版実装",
               "effect": "魔法使いのマナストームを変化させる。ターゲットの位置に瞬間移動し、荒々しいマナの暴風で周辺の敵に範囲ダメージを与えると同時に一定のマナを直ちに回復し、マナシールドを獲得する。スキルを再使用時、マナシールドの爆発を引き起こし、周辺の敵に範囲ダメージを与え、直ちに後方に移動する。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
+        },
+        {
+          "name": "マナインフィニティ",
+          "slot": 6,
+          "tags": [],
+          "description": "スキルの待機時間をリセットし、一定時間キャスト速度とマナ回復を引き上げる。",
+          "runes": [],
+          "kind": "究極技",
+          "description_source": "https://gamewith.jp/mabinogimobile/577189"
         }
       ],
       "unreleased_count": 1
@@ -618,10 +777,19 @@
       "source_runes": "https://mabinogimobile.nipponhashi.com/ja/runes/",
       "skills": [
         {
+          "name": "インフェルノ",
+          "slot": 6,
+          "tags": [],
+          "description": "前方へ炎の光線を放出する究極技。終了時に爆発と継続火炎領域を作り、バーニングソウルを高段階にする。",
+          "runes": [],
+          "kind": "究極技",
+          "description_source": "https://gamewith.jp/mabinogimobile/577052"
+        },
+        {
           "name": "エクスプロージョン",
           "slot": null,
           "tags": [],
-          "description": "炎を爆発させる攻撃。ルーン「灰の山」で炎の球に凝縮して撃ち出すクロスファイアへ切り替わる。",
+          "description": "熱気を全て消費し、灼熱がある敵や残った炎を一気に爆発させる。",
           "runes": [
             {
               "name": "灰の山",
@@ -629,13 +797,15 @@
               "status": "日本版実装",
               "effect": "火炎術師のエクスプロージョンをクロスファイアに切り替える。周辺の火の手を直ちに爆発させずに、火炎球の形に凝縮してターゲットに向けて発射する。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577052",
+          "kind": "基本スキル"
         },
         {
           "name": "ファイアストーム",
           "slot": null,
           "tags": [],
-          "description": "炎の渦で敵を集め、ダメージと灼熱を与える究極技。",
+          "description": "敵を引き寄せる炎の渦で攻撃して灼熱を付与。消滅時に爆発して炎を残す。",
           "runes": [
             {
               "name": "火柱",
@@ -649,13 +819,15 @@
               "status": "日本版実装",
               "effect": "火炎術師のファイアストームを変化させる。火の渦巻きの持続時間とダメージが大幅にアップし、ダメージを与えた敵の数に応じて熱気を生成する。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577052",
+          "kind": "基本スキル"
         },
         {
           "name": "フラッシュオーバー",
           "slot": null,
           "tags": [],
-          "description": "熱気を消費しながら継続的に効果を発揮する技。ルーン「噴出」で継続時間と炎の波動を強める。",
+          "description": "熱気を消費しながら連続して火炎の波動を放つ。",
           "runes": [
             {
               "name": "噴出",
@@ -663,7 +835,9 @@
               "status": "日本版実装",
               "effect": "火炎術師のフラッシュオーバースキルに変化を与える。スキルが有効な間、30の熱気を消費するたびにスキルの持続時間が1秒ずつ増加し、炎の波動が発生する。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577052",
+          "kind": "基本スキル"
         },
         {
           "name": "フレイムキャノン",
@@ -677,13 +851,14 @@
               "status": "日本版実装",
               "effect": "火炎術師のフレイムキャノンを変化させる。熱気が50以上の場合、5の熱気を消費して強化型で使用する。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         },
         {
           "name": "ラピッドファイア",
           "slot": null,
           "tags": [],
-          "description": "火炎球を連射して灼熱を付与し、条件付きで再使用が速くなる。",
+          "description": "小さな炎球を連射して灼熱を付与。別スキルの爆発を条件に一度だけ高速で再発動できる。",
           "runes": [
             {
               "name": "火種",
@@ -691,7 +866,9 @@
               "status": "日本版実装",
               "effect": "火炎術師のラピッドファイアを変化させる。複数の火炎球を同時に発射し、前方の全ての敵にダメージを与える。クールタイムがアップするが、攻撃範囲と熱気生成量がアップする。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577052",
+          "kind": "基本スキル"
         }
       ],
       "unreleased_count": 3
@@ -715,7 +892,8 @@
               "status": "日本版実装",
               "effect": "氷結術師のクリスタルエッジを変化させる。霜を一定量生成する度に霜剣を獲得し、霜剣を一定値以上集めるとクリスタルソードに強化される。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         },
         {
           "name": "グレイシアカッター",
@@ -731,7 +909,13 @@
               "status": "日本版実装",
               "effect": "氷結術師のグレイシアカッターを変化させる。グレイシアカッターのスキル使用速度と使用可能回数がアップし、クールタイムがダウンする。"
             }
-          ]
+          ],
+          "disputed_tags": [
+            "妨害"
+          ],
+          "tag_dispute": "グレイシアカッターは妨害タグも報告あり。北風による元素タグへの変更は未確定。",
+          "tag_source": "https://mabinogimobile.nipponhashi.com/ja/guides/frostmage-gem-tags/",
+          "kind": "基本スキル"
         },
         {
           "name": "アイススパイク",
@@ -753,7 +937,14 @@
               "status": "日本版実装",
               "effect": "氷結術師のアイススパイクを変化させる。アイススパイクが発動した状態で被ダメージ時、反撃ダメージと効果終了時の爆発ダメージがアップする。"
             }
-          ]
+          ],
+          "disputed_tags": [
+            "生存",
+            "補助"
+          ],
+          "tag_dispute": "「生存」「補助」を挙げる別の日本語先行資料あり。基本タグ/ルーン装着後タグのいずれかは日本実機で要確認。",
+          "tag_source": "https://gamerch.com/mabinogimobile/1019868",
+          "kind": "基本スキル"
         },
         {
           "name": "フリージングフィールド",
@@ -771,7 +962,8 @@
               "status": "日本版実装",
               "effect": "氷結術師のフリージングフィールドスキルに変化を与える。一定時間、毎秒ダメージ量が増加する。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         },
         {
           "name": "フローズンオーブ",
@@ -788,7 +980,8 @@
               "status": "日本版実装",
               "effect": "氷結術師のフローズンオーブをフローズングローブに切り替える。凍りついた球体を爆発させて範囲ダメージを与え、氷のベールを作って味方を保護する。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         },
         {
           "name": "アブソリュートゼロ",
@@ -799,7 +992,8 @@
             "生存"
           ],
           "description": "氷結術師の究極技。広域攻撃と霜・防御の管理に関わる。",
-          "runes": []
+          "runes": [],
+          "kind": "究極技"
         }
       ],
       "unreleased_count": 3
@@ -813,7 +1007,7 @@
           "name": "ライフリンク",
           "slot": 1,
           "tags": [],
-          "description": "味方をつないで支援・回復し、敵への連結時は攻撃に使う。",
+          "description": "短押しで敵へ継続ダメージ、長押しで味方へ継続回復と与ダメージ強化。連結先で機能が変わる。",
           "runes": [
             {
               "name": "誓約",
@@ -821,7 +1015,9 @@
               "status": "日本版実装",
               "effect": "ヒーラーのライフリンクを変化させる。繋がった対象が味方の場合、持続回復効果を与えると同時に移動速度がアップする。繋がった対象が敵の場合、持続ダメージを与え、移動速度をダウンさせる。更に、味方と繋がっている時に発生する光の波動の威力がアップする。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577128",
+          "kind": "基本スキル"
         },
         {
           "name": "ファントムペイン",
@@ -835,7 +1031,8 @@
               "status": "日本版実装",
               "effect": "ヒーラーのファントムペインを変化させる。生命力を凝縮させた魔力の球体が敵と味方の間を移動しながら数回に渡って爆発を引き起こす。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         },
         {
           "name": "生命の鼓動",
@@ -855,7 +1052,8 @@
               "status": "日本版実装",
               "effect": "ヒーラーの生命の鼓動を変化させる。クールタイムがダウンし、ブレイク状態でない敵に対しても与ダメージがアップする。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         },
         {
           "name": "プロテクション",
@@ -869,7 +1067,8 @@
               "status": "日本版実装",
               "effect": "ヒーラーのプロテクションを変化させる。しばらく被ダメージが追加でダウンする。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         },
         {
           "name": "サモンルミナス",
@@ -883,14 +1082,16 @@
               "status": "日本版実装",
               "effect": "ヒーラーのサモンルミナスを変化させる。ヒーラーとライフリンクで繋がったターゲットの位置に一定時間戦闘をサポートする光の結晶を召喚する。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         },
         {
           "name": "ウィングオブエンジェル",
           "slot": 6,
           "tags": [],
           "description": "ヒーラーの究極技。防御・回復支援に用いる。",
-          "runes": []
+          "runes": [],
+          "kind": "究極技"
         }
       ],
       "unreleased_count": 1
@@ -901,28 +1102,13 @@
       "source_runes": "https://mabinogimobile.nipponhashi.com/ja/runes/",
       "skills": [
         {
-          "name": "ケルティッククロス",
-          "slot": null,
-          "tags": [
-            "補助"
-          ],
-          "description": "対象に作用するシンボルの攻撃。ルーン「車輪」で維持時間と追従を強化する。",
-          "runes": [
-            {
-              "name": "車輪",
-              "grade": "エリート",
-              "status": "日本版実装",
-              "effect": "司祭のケルティッククロスを変化させる。ケルティッククロスで攻撃成功時、シンボルの移動速度がダウンし、持続時間がアップする。"
-            }
-          ]
-        },
-        {
           "name": "サモンリンカー",
-          "slot": null,
+          "slot": 1,
           "tags": [
+            "連打",
             "補助"
           ],
-          "description": "つながった対象への回復・攻撃を助ける召喚系の技。ルーン「結束」で神聖力回復と追加発動が付く。",
+          "description": "短押しは敵への持続攻撃・被ダメージ増、長押しは味方への継続回復・与ダメージ増。",
           "runes": [
             {
               "name": "結束",
@@ -930,15 +1116,63 @@
               "status": "日本版実装",
               "effect": "司祭のサモンリンカースキルに変化を与える。リンカーが接続対象に応じて回復とダメージを与えると、神聖力を一部回復する。サモンリンカー以外のスキルを使用した場合、一定確率でリンカーが再発動する。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577129",
+          "slot_source": "https://www.mabiwiki.com/classes/priest",
+          "tag_source": "https://www.mabiwiki.com/classes/priest",
+          "kind": "基本スキル"
+        },
+        {
+          "name": "ディヴァインウィング",
+          "slot": 2,
+          "tags": [
+            "補助",
+            "妨害"
+          ],
+          "description": "光を放つ支援技。リンカーで接続した対象にも働きかける。",
+          "runes": [
+            {
+              "name": "翼",
+              "grade": "エピック",
+              "status": "日本版実装",
+              "effect": "司祭のディバインウィングスキルをヘブンズドアに置き換える。鳥の形の光暈を周期的に広げる魔法陣を召喚する。対象に応じて回復とダメージを与え、神聖力を消費すると回復量が増加する。ヘブンズドアのスキルダメージが15%増加する。"
+            }
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577129",
+          "slot_source": "https://www.mabiwiki.com/classes/priest",
+          "tag_source": "https://www.mabiwiki.com/classes/priest",
+          "kind": "基本スキル"
+        },
+        {
+          "name": "ケルティッククロス",
+          "slot": 3,
+          "tags": [
+            "連打",
+            "補助",
+            "妨害"
+          ],
+          "description": "移動する光のシンボルで攻撃し、神聖力の循環を助ける。",
+          "runes": [
+            {
+              "name": "車輪",
+              "grade": "エリート",
+              "status": "日本版実装",
+              "effect": "司祭のケルティッククロスを変化させる。ケルティッククロスで攻撃成功時、シンボルの移動速度がダウンし、持続時間がアップする。"
+            }
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577129",
+          "slot_source": "https://www.mabiwiki.com/classes/priest",
+          "tag_source": "https://www.mabiwiki.com/classes/priest",
+          "kind": "基本スキル"
         },
         {
           "name": "サンクチュアリ",
-          "slot": null,
+          "slot": 4,
           "tags": [
-            "補助"
+            "補助",
+            "召喚"
           ],
-          "description": "範囲内の味方を支える聖域。ルーン「聖殿」「犠牲」で火力寄り・回復寄りに変化する。",
+          "description": "回復と神聖力管理に関わる聖域を設置する。",
           "runes": [
             {
               "name": "犠牲",
@@ -952,31 +1186,20 @@
               "status": "日本版実装",
               "effect": "司祭のサンクチュアリを変化させる。聖域内にいる間、司祭の全ての神聖力消費スキルのダメージがアップする。"
             }
-          ]
-        },
-        {
-          "name": "ディバインウィング",
-          "slot": null,
-          "tags": [
-            "補助"
           ],
-          "description": "神聖系の支援技。ルーン「翼」で定点のヘブンズドアに切り替わり回復と攻撃を行う。",
-          "runes": [
-            {
-              "name": "翼",
-              "grade": "エピック",
-              "status": "日本版実装",
-              "effect": "司祭のディバインウィングスキルをヘブンズドアに置き換える。鳥の形の光暈を周期的に広げる魔法陣を召喚する。対象に応じて回復とダメージを与え、神聖力を消費すると回復量が増加する。ヘブンズドアのスキルダメージが15%増加する。"
-            }
-          ]
+          "description_source": "https://gamewith.jp/mabinogimobile/577129",
+          "slot_source": "https://www.mabiwiki.com/classes/priest",
+          "tag_source": "https://www.mabiwiki.com/classes/priest",
+          "kind": "基本スキル"
         },
         {
           "name": "ホーリースピア",
-          "slot": null,
+          "slot": 5,
           "tags": [
+            "強打",
             "補助"
           ],
-          "description": "光の槍で攻撃する技。ルーン「光芒」で直線を貫くピアスライトに切り替わる。",
+          "description": "神聖力を消費して巨大な光の槍を落とし、敵への継続攻撃と味方への回復エリアを作る。",
           "runes": [
             {
               "name": "光芒",
@@ -984,7 +1207,26 @@
               "status": "日本版実装",
               "effect": "司祭のホーリースピアをピアスライトに切り替える。小さな光の槍を放ち、直線上の全ての敵を貫通する。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577129",
+          "slot_source": "https://www.mabiwiki.com/classes/priest",
+          "tag_source": "https://www.mabiwiki.com/classes/priest",
+          "kind": "基本スキル"
+        },
+        {
+          "name": "救いの光",
+          "slot": 6,
+          "tags": [
+            "連打",
+            "補助",
+            "生存"
+          ],
+          "description": "味方への継続回復と周囲への光波を付与。光波は敵にダメージを与え、味方に回復・蘇生の強化を与える。",
+          "runes": [],
+          "kind": "究極技",
+          "description_source": "https://gamewith.jp/mabinogimobile/577129",
+          "slot_source": "https://www.mabiwiki.com/classes/priest",
+          "tag_source": "https://www.mabiwiki.com/classes/priest"
         }
       ],
       "unreleased_count": 1
@@ -995,10 +1237,19 @@
       "source_runes": "https://mabinogimobile.nipponhashi.com/ja/runes/",
       "skills": [
         {
+          "name": "信念の要塞",
+          "slot": 6,
+          "tags": [],
+          "description": "聖域を作り、範囲内の味方へ被ダメージ軽減とブレイク・ノックバック耐性を付与する。",
+          "runes": [],
+          "kind": "究極技",
+          "description_source": "https://gamewith.jp/mabinogimobile/577130"
+        },
+        {
           "name": "化身",
           "slot": null,
           "tags": [],
-          "description": "修道士の強化状態。ルーン「光輝」「聖別」で攻撃・回復に特化させる。",
+          "description": "真言を一斉に発動し、通常攻撃とスキルを強化する。",
           "runes": [
             {
               "name": "光輝",
@@ -1012,13 +1263,15 @@
               "status": "日本版実装",
               "effect": "修道士の化身を変化させる。化身の効果持続中に回復力がアップする。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577130",
+          "kind": "基本スキル"
         },
         {
           "name": "守護陣",
           "slot": null,
           "tags": [],
-          "description": "味方にバリアを与える技。ルーン「浄化」で元素持続ダメージの解除を追加する。",
+          "description": "神聖力を消費して敵を攻撃し、味方へバリアを展開する。",
           "runes": [
             {
               "name": "浄化",
@@ -1026,13 +1279,15 @@
               "status": "日本版実装",
               "effect": "修道士の守護陣を変化させる。バリアを作る時、味方の属性持続ダメージを全て解除する。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577130",
+          "kind": "基本スキル"
         },
         {
           "name": "殺到",
           "slot": null,
           "tags": [],
-          "description": "真言が多いほど手数が増える攻撃。ルーン「因果」で通常攻撃速度の影響を受けるようになる。",
+          "description": "光の拳で直線を連打し、光の真言を得る。真言中は攻撃時に周囲の味方も回復。",
           "runes": [
             {
               "name": "因果",
@@ -1040,13 +1295,15 @@
               "status": "日本版実装",
               "effect": "修道士の殺到を変化させる。発動している真言が多いほど連打回数がアップする。更に、殺到を通常攻撃扱いとし、攻撃速度の影響を受けるようになる。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577130",
+          "kind": "基本スキル"
         },
         {
           "name": "治癒",
           "slot": null,
           "tags": [],
-          "description": "回復技。ルーン「業火」で神聖力をすべて消費する攻撃＋味方回復に変化する。",
+          "description": "神聖力を消費して低HPの味方を回復。対象周囲の敵にも攻撃する。",
           "runes": [
             {
               "name": "業火",
@@ -1054,13 +1311,15 @@
               "status": "日本版実装",
               "effect": "修道士の治癒を業火に切り替える。神聖力を全て消費し、ターゲットにダメージを与え、周辺の味方を回復させる。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577130",
+          "kind": "基本スキル"
         },
         {
           "name": "霹靂打",
           "slot": null,
           "tags": [],
-          "description": "真言との連携で強くなる攻撃。ルーン「応報」で条件成立時に霹靂掌が使用可能になる。",
+          "description": "敵を強打して力の真言を得る。真言中は追加攻撃が発生する。",
           "runes": [
             {
               "name": "応報",
@@ -1068,7 +1327,9 @@
               "status": "日本版実装",
               "effect": "修道士の霹靂打を変化させる。力、光、浄化の真言を全て発動させると10秒間霹靂掌を1回使用できる。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577130",
+          "kind": "基本スキル"
         }
       ],
       "unreleased_count": 2
@@ -1080,9 +1341,12 @@
       "skills": [
         {
           "name": "ストリングショット",
-          "slot": null,
-          "tags": [],
-          "description": "攻撃の合間に使う射撃。ルーン「急襲」で演奏につなげると速度・CTが改善する。",
+          "slot": 1,
+          "tags": [
+            "補助",
+            "妨害"
+          ],
+          "description": "連鎖攻撃と弱点露呈デバフ。演奏スキル後に使うと発動が速い。",
           "runes": [
             {
               "name": "急襲",
@@ -1090,41 +1354,21 @@
               "status": "日本版実装",
               "effect": "吟遊詩人のストリングショットを変化させる。ストリングショット使用時、しばらくスキル使用速度がアップし、演奏スキルに続けて使用すると、追加でストリングショットのクールタイムがフィーバー段階に応じてダウンする。"
             }
-          ]
-        },
-        {
-          "name": "トリプルストローク",
-          "slot": null,
-          "tags": [],
-          "description": "楽想に応じて曲を変える演奏。ルーン「和音」で3種類の演奏を切り替える。",
-          "runes": [
-            {
-              "name": "和音",
-              "grade": "エピック",
-              "status": "日本版実装",
-              "effect": "吟遊詩人のトリプルストロークスキルに変化を与える。思い浮かんだ楽想に応じて三曲のうち一曲を演奏し、追加効果を得る。"
-            }
-          ]
-        },
-        {
-          "name": "バーズテイル",
-          "slot": null,
-          "tags": [],
-          "description": "楽想に応じた演奏。ルーン「即興」では楽想がない状態で不協和音の範囲攻撃を出せる。",
-          "runes": [
-            {
-              "name": "即興",
-              "grade": "エリート",
-              "status": "日本版実装",
-              "effect": "吟遊詩人のバーズテイルを変化させる。浮かんでくる楽想がない場合、不協和音を出す変則的な演奏で周辺の全ての敵に大きなダメージを与える。"
-            }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577501",
+          "kind": "基本スキル",
+          "slot_source": "https://mabi.games-wiki.com/classes/bard",
+          "tag_source": "https://mabi.games-wiki.com/classes/bard"
         },
         {
           "name": "メロディーショック",
-          "slot": null,
-          "tags": [],
-          "description": "演奏と連携する攻撃。ルーン「嘲弄」で勝利のセレモニーを追加使用できる。",
+          "slot": 2,
+          "tags": [
+            "強打",
+            "妨害",
+            "移動"
+          ],
+          "description": "演奏と連携する近距離攻撃。目眩中の敵へ追加ダメージ。",
           "runes": [
             {
               "name": "嘲弄",
@@ -1132,7 +1376,60 @@
               "status": "日本版実装",
               "effect": "吟遊詩人のメロディーショックを変化させる。メロディーショック使用時、勝戦の演奏をする勝利のセレモニーを1回使用できる。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577501",
+          "kind": "基本スキル",
+          "slot_source": "https://mabi.games-wiki.com/classes/bard",
+          "tag_source": "https://mabi.games-wiki.com/classes/bard"
+        },
+        {
+          "name": "トリプルストローク",
+          "slot": 3,
+          "tags": [],
+          "description": "演奏で敵に目眩を付け、すでに目眩の敵には恐怖の継続攻撃を追加。",
+          "runes": [
+            {
+              "name": "和音",
+              "grade": "エピック",
+              "status": "日本版実装",
+              "effect": "吟遊詩人のトリプルストロークスキルに変化を与える。思い浮かんだ楽想に応じて三曲のうち一曲を演奏し、追加効果を得る。"
+            }
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577501",
+          "kind": "基本スキル",
+          "slot_source": "https://mabi.games-wiki.com/classes/bard"
+        },
+        {
+          "name": "バーズテイル",
+          "slot": 4,
+          "tags": [],
+          "description": "楽想により曲が変化し、味方の回復・攻撃速度の支援と敵への範囲攻撃を行う。",
+          "runes": [
+            {
+              "name": "即興",
+              "grade": "エリート",
+              "status": "日本版実装",
+              "effect": "吟遊詩人のバーズテイルを変化させる。浮かんでくる楽想がない場合、不協和音を出す変則的な演奏で周辺の全ての敵に大きなダメージを与える。"
+            }
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577501",
+          "kind": "基本スキル",
+          "slot_source": "https://mabi.games-wiki.com/classes/bard"
+        },
+        {
+          "name": "バトルシンフォニー",
+          "slot": 6,
+          "tags": [
+            "連打",
+            "生存",
+            "補助"
+          ],
+          "description": "演奏で味方の与ダメージを高め、ブレイクを防ぎながらスキルの待機時間を短縮する。",
+          "runes": [],
+          "kind": "究極技",
+          "description_source": "https://gamewith.jp/mabinogimobile/577501",
+          "slot_source": "https://mabi.games-wiki.com/classes/bard",
+          "tag_source": "https://mabi.games-wiki.com/classes/bard"
         },
         {
           "name": "ライジングウィンドミル",
@@ -1146,7 +1443,8 @@
               "status": "日本版実装",
               "effect": "吟遊詩人のライジングウィンドミルをサプライズショットに切り替える。ダウン状態の場合、直ちに起き上がって周辺の敵に特殊弾を発射し、弱体化させる。追加で、ファインチューニングのダメージと究極技ゲージ獲得量がアップする。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         },
         {
           "name": "死んだフリ",
@@ -1160,10 +1458,12 @@
               "status": "日本版実装",
               "effect": "吟遊詩人の死んだフリを食らったフリに切り替える。後方に退きながら敵に奇襲をかけ、楽想:反撃を浮かべる。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         }
       ],
-      "unreleased_count": 1
+      "unreleased_count": 1,
+      "slot_table_source": "https://mabi.games-wiki.com/classes/bard"
     },
     "dancer": {
       "class": "ダンサー",
@@ -1171,10 +1471,19 @@
       "source_runes": "https://mabinogimobile.nipponhashi.com/ja/runes/",
       "skills": [
         {
+          "name": "フィナーレ",
+          "slot": 6,
+          "tags": [],
+          "description": "テンポと公演の熱気を最大化し、消費した熱気の回数に応じて強力な終撃を放つ。",
+          "runes": [],
+          "kind": "究極技",
+          "description_source": "https://gamewith.jp/mabinogimobile/577483"
+        },
+        {
           "name": "アドリブ",
           "slot": null,
           "tags": [],
-          "description": "パーティーに影響する技。ルーン「喝采」で味方のスキル攻撃に追加攻撃効果を付与する。",
+          "description": "即興ステップで攻撃しリズムを追加で得る。",
           "runes": [
             {
               "name": "喝采",
@@ -1182,13 +1491,15 @@
               "status": "日本版実装",
               "effect": "ダンサーのアドリブを変化させる。一定範囲内にいる味方にスキル攻撃時、追加攻撃効果を付与する。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577483",
+          "kind": "基本スキル"
         },
         {
           "name": "ウィンドミル",
           "slot": null,
           "tags": [],
-          "description": "回転して周囲を攻撃。使用中はブレイクされない。",
+          "description": "周囲を回転攻撃。動作中はブレイクされず、情熱状態ならリズムを追加生成。",
           "runes": [
             {
               "name": "情熱",
@@ -1196,13 +1507,15 @@
               "status": "日本版実装",
               "effect": "ダンサーのウィンドミルを変化させる。ウィンドミル使用時、敵に持続ダメージを与え、該当の効果は情熱タイプのスキルで持続時間が延長される。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577483",
+          "kind": "基本スキル"
         },
         {
           "name": "ナチュラルターン",
           "slot": null,
           "tags": [],
-          "description": "敵へ接近・背後へ回り込みつつ範囲攻撃する。",
+          "description": "敵が遠ければ突進し、近ければ背後へ回って攻撃。優雅状態でリズム生成が増える。",
           "runes": [
             {
               "name": "蝶",
@@ -1210,7 +1523,9 @@
               "status": "日本版実装",
               "effect": "ダンサーのナチュラルターンを変化させる。ナチュラルターン使用時、敵を追跡する3匹の蝶が現れて飛んでいく。追加で、常にターゲットに向かって突進する形で使用する。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577483",
+          "kind": "基本スキル"
         },
         {
           "name": "ピルエット",
@@ -1230,7 +1545,8 @@
               "status": "日本版実装",
               "effect": "ダンサーのピルエットを変化させる。ピルエット使用後、次のスキルの与ダメージがアップする。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         },
         {
           "name": "フロントステップ",
@@ -1244,7 +1560,8 @@
               "status": "日本版実装",
               "effect": "ダンサーのフロントステップを変化させる。フロントステップで移動した距離に応じてクールタイムがダウンする。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         }
       ],
       "unreleased_count": 0
@@ -1255,10 +1572,19 @@
       "source_runes": "https://mabinogimobile.nipponhashi.com/ja/runes/",
       "skills": [
         {
+          "name": "カデンツァ",
+          "slot": 6,
+          "tags": [],
+          "description": "即興演奏で周囲へ攻撃し、同じスロットの演奏や最終ダメージを強化する。",
+          "runes": [],
+          "kind": "究極技",
+          "description_source": "https://gamewith.jp/mabinogimobile/577503"
+        },
+        {
           "name": "技巧:クライマックス",
           "slot": null,
           "tags": [],
-          "description": "演奏の締めに使う強い技。ルーン「終章」で単体への攻撃特化に変化する。",
+          "description": "蓄積した弱体化が多いほどダメージの大きいフィニッシュ技。",
           "runes": [
             {
               "name": "終章",
@@ -1266,7 +1592,9 @@
               "status": "日本版実装",
               "effect": "楽師の技巧:クライマックスを変化させる。単一ターゲットスキルに変更され、ターゲットに付与された弱体化効果に応じてダメージがアップする。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577503",
+          "kind": "基本スキル"
         },
         {
           "name": "技巧:クレッシェンド",
@@ -1286,13 +1614,14 @@
               "status": "日本版実装",
               "effect": "楽師の技巧:クレッシェンドを変化させる。技巧:クレッシェンド使用時、演奏スキルのクールタイムがダウンする。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         },
         {
           "name": "演奏:アルペジオ",
           "slot": null,
           "tags": [],
-          "description": "敵を幻惑させる演奏。ルーン「共鳴」で持続ダメージの重複数を増やす。",
+          "description": "星明かりの弾で幻惑を付与し、防御低下と持続ダメージを与える。",
           "runes": [
             {
               "name": "共鳴",
@@ -1300,13 +1629,15 @@
               "status": "日本版実装",
               "effect": "楽師の演奏:アルペジオを変化させる。弱体化効果:幻惑の持続ダメージが最大8回まで重複する。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577503",
+          "kind": "基本スキル"
         },
         {
           "name": "演奏:セレナーデ",
           "slot": null,
           "tags": [],
-          "description": "支援・妨害に使う演奏。ルーン「博愛」で前方の敵を魅惑する。",
+          "description": "演奏中に敵へ持続攻撃し、中断時に強打とスタンを与える。",
           "runes": [
             {
               "name": "博愛",
@@ -1314,7 +1645,9 @@
               "status": "日本版実装",
               "effect": "楽師の演奏:セレナーデを変化させる。前方の全ての敵を魅惑する。クレッシェンドに強化時、威力が大幅にアップする。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577503",
+          "kind": "基本スキル"
         },
         {
           "name": "演奏:星のソナタ",
@@ -1328,7 +1661,8 @@
               "status": "日本版実装",
               "effect": "楽師のスキル演奏:星のソナタを演奏:混沌の夜想曲に切り替える。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         }
       ],
       "unreleased_count": 1
@@ -1339,10 +1673,19 @@
       "source_runes": "https://mabinogimobile.nipponhashi.com/ja/runes/",
       "skills": [
         {
+          "name": "ブリッツラッシュ",
+          "slot": 6,
+          "tags": [],
+          "description": "高速で敵を斬って周囲にも範囲攻撃し、スローイングボム・奇襲のクールタイムをリセットする。",
+          "runes": [],
+          "kind": "究極技",
+          "description_source": "https://gamewith.jp/mabinogimobile/577168"
+        },
+        {
           "name": "スクリューダガー",
           "slot": null,
           "tags": [],
-          "description": "周辺を連打しながら浮かせる攻撃。",
+          "description": "周囲を連打し、オーバーチャージで追撃を増やす。毒の爆破と連動する。",
           "runes": [
             {
               "name": "狡猾",
@@ -1350,13 +1693,15 @@
               "status": "日本版実装",
               "effect": "盗賊のスクリューダガースキルに変化を与える。スクリューダガー使用時、ターゲットの体力が一定割合以上の場合は追加ダメージが適用される。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577168",
+          "kind": "基本スキル"
         },
         {
           "name": "スローイングボム",
           "slot": null,
           "tags": [],
-          "description": "爆弾を投げて範囲ダメージ。オーバーチャージで強化。",
+          "description": "爆弾で周囲を攻撃し、当たった敵の被ダメージを上げる。オーバーチャージで強化。",
           "runes": [
             {
               "name": "投擲",
@@ -1370,13 +1715,15 @@
               "status": "日本版実装",
               "effect": "盗賊のスローイングボムを変化させる。爆発属性が毒属性に変更され、持続ダメージ:中毒を付与する。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577168",
+          "kind": "基本スキル"
         },
         {
           "name": "ポイズントラップ",
           "slot": null,
           "tags": [],
-          "description": "毒を使う設置系の攻撃。ルーン「毒霧」で自分に追従する毒エリアに変化する。",
+          "description": "毒の領域を設置して中毒と鈍足を付与する。",
           "runes": [
             {
               "name": "毒霧",
@@ -1384,13 +1731,15 @@
               "status": "日本版実装",
               "effect": "盗賊のポイズントラップを変化させる。毒霧は一定時間自身に付いて回り、範囲内にいる敵に持続ダメージ:中毒を付与する。毒エリア内では自身の急所回避がアップする。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577168",
+          "kind": "基本スキル"
         },
         {
           "name": "奇襲",
           "slot": null,
           "tags": [],
-          "description": "敵の背後を取り範囲攻撃。条件に応じて一部スキルのCTをリセット。",
+          "description": "敵の背後へ回り込み刺す。オーバーチャージ時に傷を付与する。",
           "runes": [
             {
               "name": "緻密",
@@ -1398,13 +1747,15 @@
               "status": "日本版実装",
               "effect": "盗賊の奇襲を変化させる。オーバーチャージの段階に応じて奇襲に適用されるクリティカル率がアップする。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577168",
+          "kind": "基本スキル"
         },
         {
           "name": "隠密",
           "slot": null,
           "tags": [],
-          "description": "姿を隠す技。ルーン「夕闇」でほかのスキルのCT短縮につながる。",
+          "description": "敵の注意を外して潜み、直後の直接攻撃を強めてスタンさせる。",
           "runes": [
             {
               "name": "夕闇",
@@ -1412,7 +1763,9 @@
               "status": "日本版実装",
               "effect": "盗賊の隠密を変化させる。隠密使用時、隠密を除外したスキルのクールタイムがダウンする。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577168",
+          "kind": "基本スキル"
         }
       ],
       "unreleased_count": 1
@@ -1423,10 +1776,99 @@
       "source_runes": "https://mabinogimobile.nipponhashi.com/ja/runes/",
       "skills": [
         {
+          "name": "チャージングフィスト",
+          "slot": 1,
+          "tags": [
+            "強打",
+            "移動",
+            "妨害"
+          ],
+          "description": "チャージ段階で威力が増す接近攻撃。チェーン連携の起点。",
+          "runes": [
+            {
+              "name": "衝突",
+              "grade": "エピック",
+              "status": "日本版実装",
+              "effect": "格闘家のチャージングフィストを変化させる。打撃した敵を遠くへ飛ばし、飛ばされた敵が衝突した地点周辺の敵に範囲ダメージを与える。"
+            }
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577484",
+          "slot_source": "https://www.mabiwiki.com/classes/fighter",
+          "tag_source": "https://www.mabiwiki.com/classes/fighter",
+          "kind": "基本スキル"
+        },
+        {
+          "name": "スラストキック",
+          "slot": 2,
+          "tags": [
+            "強打",
+            "妨害"
+          ],
+          "description": "蹴りによる第1段階チェーン技。次のアッパーやストンプへつなげる。",
+          "runes": [
+            {
+              "name": "前進",
+              "grade": "エリート",
+              "status": "日本版実装",
+              "effect": "格闘家のスラストキックを変化させる。突進スキルに変更され、最後のチェーンスキル、コンボスキルダメージがアップする。"
+            }
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577484",
+          "slot_source": "https://www.mabiwiki.com/classes/fighter",
+          "tag_source": "https://www.mabiwiki.com/classes/fighter",
+          "kind": "基本スキル"
+        },
+        {
+          "name": "バックステップ",
+          "slot": 3,
+          "tags": [
+            "移動",
+            "生存",
+            "補助"
+          ],
+          "description": "敵から離れて被弾を避け、次のチェーン技の威力を高める。",
+          "runes": [
+            {
+              "name": "瞬発力",
+              "grade": "エリート",
+              "status": "日本版実装",
+              "effect": "格闘家のバックステップを変化させる。バックステップで敵にダメージを与えると、敵の移動速度がダウンする。"
+            }
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577484",
+          "slot_source": "https://www.mabiwiki.com/classes/fighter",
+          "tag_source": "https://www.mabiwiki.com/classes/fighter",
+          "kind": "基本スキル"
+        },
+        {
+          "name": "バーストパンチ",
+          "slot": 4,
+          "tags": [
+            "強打",
+            "補助"
+          ],
+          "description": "敵を打ち抜く強打・コンボ攻撃。高威力の連携で使う。",
+          "runes": [
+            {
+              "name": "撃破",
+              "grade": "エピック",
+              "status": "日本版実装",
+              "effect": "格闘家のバーストパンチを変化させる。バーストパンチ命中時、周辺に他の敵がいない場合、ターゲットに追加攻撃を与える。"
+            }
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577484",
+          "slot_source": "https://www.mabiwiki.com/classes/fighter",
+          "tag_source": "https://www.mabiwiki.com/classes/fighter",
+          "kind": "基本スキル"
+        },
+        {
           "name": "サマーソルト",
-          "slot": null,
-          "tags": [],
-          "description": "回転しながら攻撃する蹴り。ルーン「熱血」で炎の刃による前方範囲攻撃を出す。",
+          "slot": 5,
+          "tags": [
+            "強打",
+            "移動"
+          ],
+          "description": "3段まで連携する蹴り。移動しながら単体に連撃を重ねる。",
           "runes": [
             {
               "name": "熱血",
@@ -1434,7 +1876,25 @@
               "status": "日本版実装",
               "effect": "格闘家のサマーソルトを変化させる。足に込めた火炎のオーラを刃の形で放ち、前方の敵に範囲ダメージを与える。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577484",
+          "slot_source": "https://www.mabiwiki.com/classes/fighter",
+          "tag_source": "https://www.mabiwiki.com/classes/fighter",
+          "kind": "基本スキル"
+        },
+        {
+          "name": "オーバードライブ",
+          "slot": 6,
+          "tags": [
+            "生存",
+            "補助"
+          ],
+          "description": "一定時間スキルのクールタイムを大幅に短縮し、チェーンとコンボを集中して発動できる。",
+          "runes": [],
+          "kind": "究極技",
+          "description_source": "https://gamewith.jp/mabinogimobile/577484",
+          "slot_source": "https://www.mabiwiki.com/classes/fighter",
+          "tag_source": "https://www.mabiwiki.com/classes/fighter"
         },
         {
           "name": "ストンプキック",
@@ -1448,63 +1908,8 @@
               "status": "日本版実装",
               "effect": "格闘家のストンプキックを変化させる。着地時、攻撃範囲が拡大し、スキルの移動距離に応じて敵に大きなダメージを与える。"
             }
-          ]
-        },
-        {
-          "name": "スラストキック",
-          "slot": null,
-          "tags": [],
-          "description": "蹴りによる攻撃。ルーン「前進」で突進技に変わりコンボ終端を強める。",
-          "runes": [
-            {
-              "name": "前進",
-              "grade": "エリート",
-              "status": "日本版実装",
-              "effect": "格闘家のスラストキックを変化させる。突進スキルに変更され、最後のチェーンスキル、コンボスキルダメージがアップする。"
-            }
-          ]
-        },
-        {
-          "name": "チャージングフィスト",
-          "slot": null,
-          "tags": [],
-          "description": "溜めて拳を放つ攻撃。ルーン「衝突」で敵を吹き飛ばし衝突点にも範囲ダメージを出す。",
-          "runes": [
-            {
-              "name": "衝突",
-              "grade": "エピック",
-              "status": "日本版実装",
-              "effect": "格闘家のチャージングフィストを変化させる。打撃した敵を遠くへ飛ばし、飛ばされた敵が衝突した地点周辺の敵に範囲ダメージを与える。"
-            }
-          ]
-        },
-        {
-          "name": "バックステップ",
-          "slot": null,
-          "tags": [],
-          "description": "後退・回避用の技。ルーン「瞬発力」で敵へ鈍足を与える。",
-          "runes": [
-            {
-              "name": "瞬発力",
-              "grade": "エリート",
-              "status": "日本版実装",
-              "effect": "格闘家のバックステップを変化させる。バックステップで敵にダメージを与えると、敵の移動速度がダウンする。"
-            }
-          ]
-        },
-        {
-          "name": "バーストパンチ",
-          "slot": null,
-          "tags": [],
-          "description": "拳で敵を攻撃。ルーン「撃破」で単体相手への追撃を強める。",
-          "runes": [
-            {
-              "name": "撃破",
-              "grade": "エピック",
-              "status": "日本版実装",
-              "effect": "格闘家のバーストパンチを変化させる。バーストパンチ命中時、周辺に他の敵がいない場合、ターゲットに追加攻撃を与える。"
-            }
-          ]
+          ],
+          "kind": "チェーン派生技"
         }
       ],
       "unreleased_count": 1
@@ -1514,6 +1919,15 @@
       "source_gamewith": "https://gamewith.jp/mabinogimobile/577191",
       "source_runes": "https://mabinogimobile.nipponhashi.com/ja/runes/",
       "skills": [
+        {
+          "name": "ファイナルヒット",
+          "slot": 6,
+          "tags": [],
+          "description": "高速の連続斬撃で一体へ集中攻撃し、対象が倒れると近くの敵へ攻撃を継続する。",
+          "runes": [],
+          "kind": "究極技",
+          "description_source": "https://gamewith.jp/mabinogimobile/577191"
+        },
         {
           "name": "グライディングフューリー",
           "slot": null,
@@ -1526,7 +1940,8 @@
               "status": "日本版実装",
               "effect": "デュアルブレイドのグライディングフューリー、ライトニングフューリーを変化させる。ライトニングフューリー使用時、グライディングフューリーのクールタイムをリセットし、34%の確率で疾風リソースを1個追加で獲得する。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         },
         {
           "name": "スクリューラッシュ",
@@ -1540,13 +1955,14 @@
               "status": "日本版実装",
               "effect": "デュアルブレイドのスクリューラッシュを3960ハリケーンに切り替える。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         },
         {
           "name": "スプリットスラッシュ",
           "slot": null,
           "tags": [],
-          "description": "剣気を出す連携技。ルーン「熱傷」で前方範囲攻撃とCT短縮が付く。",
+          "description": "敵へ素早く接近して二刀で刺し、敵の近接防御を一時的に無視する。",
           "runes": [
             {
               "name": "熱傷",
@@ -1554,13 +1970,15 @@
               "status": "日本版実装",
               "effect": "デュアルブレイドのスプリットスラッシュ、スプリットダウンを変化させる。攻撃時、剣気を放って前方に範囲ダメージを与える。スキルクールタイムがダウンする。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577191",
+          "kind": "基本スキル"
         },
         {
           "name": "スプリットダウン",
           "slot": null,
           "tags": [],
-          "description": "スプリット系の続き技。ルーン「熱傷」で前方剣気とCT短縮が付く。",
+          "description": "スプリットスラッシュの強化系。防御無視効果をさらに重ねる。",
           "runes": [
             {
               "name": "熱傷",
@@ -1568,7 +1986,9 @@
               "status": "日本版実装",
               "effect": "デュアルブレイドのスプリットスラッシュ、スプリットダウンを変化させる。攻撃時、剣気を放って前方に範囲ダメージを与える。スキルクールタイムがダウンする。"
             }
-          ]
+          ],
+          "description_source": "https://gamewith.jp/mabinogimobile/577191",
+          "kind": "強化・派生技"
         },
         {
           "name": "ダブルクレセント",
@@ -1582,7 +2002,8 @@
               "status": "日本版実装",
               "effect": "デュアルブレイドのダブルクレセント、ライジングクレセントスキルに変化を与える。ブレイクされた敵に使用するとダブルクレセントのクールタイムが完全に減少する。クールタイム減少効果は一定時間ごとに一度のみ発動する。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         },
         {
           "name": "ハウリングゲイル",
@@ -1602,7 +2023,8 @@
               "status": "日本版実装",
               "effect": "デュアルブレイドのハウリングゲイル、ハウリングテンペストを変化させる。スキル使用中に究極技を除外したアクティブスキルのクールタイム回復速度がアップする。"
             }
-          ]
+          ],
+          "kind": "基本スキル"
         },
         {
           "name": "ハウリングテンペスト",
@@ -1622,7 +2044,8 @@
               "status": "日本版実装",
               "effect": "デュアルブレイドのハウリングゲイル、ハウリングテンペストを変化させる。スキル使用中に究極技を除外したアクティブスキルのクールタイム回復速度がアップする。"
             }
-          ]
+          ],
+          "kind": "強化・派生技"
         },
         {
           "name": "ライジングクレセント",
@@ -1636,7 +2059,8 @@
               "status": "日本版実装",
               "effect": "デュアルブレイドのダブルクレセント、ライジングクレセントスキルに変化を与える。ブレイクされた敵に使用するとダブルクレセントのクールタイムが完全に減少する。クールタイム減少効果は一定時間ごとに一度のみ発動する。"
             }
-          ]
+          ],
+          "kind": "強化・派生技"
         },
         {
           "name": "ライトニングフューリー",
@@ -1650,10 +2074,53 @@
               "status": "日本版実装",
               "effect": "デュアルブレイドのグライディングフューリー、ライトニングフューリーを変化させる。ライトニングフューリー使用時、グライディングフューリーのクールタイムをリセットし、34%の確率で疾風リソースを1個追加で獲得する。"
             }
-          ]
+          ],
+          "kind": "強化・派生技"
         }
       ],
       "unreleased_count": 1
     }
-  }
+  },
+  "research_sources": [
+    {
+      "label": "GameWith 18職スキル一覧",
+      "url": "https://gamewith.jp/mabinogimobile/577051",
+      "note": "各職source_gamewithを参照。基本効果は独自要約"
+    },
+    {
+      "label": "剣術士：番号とタグ（先行）",
+      "url": "https://mabi.games-wiki.com/classes/swordmaster",
+      "note": "日本訳差・Season差に注意"
+    },
+    {
+      "label": "大剣戦士：一部番号（先行）",
+      "url": "https://mabi.games-wiki.com/classes/greatsword-warrior",
+      "note": "一部番号のみ"
+    },
+    {
+      "label": "吟遊詩人：番号とタグ（先行）",
+      "url": "https://mabi.games-wiki.com/classes/bard",
+      "note": "日本訳差・Season差に注意"
+    },
+    {
+      "label": "司祭：番号とタグ",
+      "url": "https://www.mabiwiki.com/classes/priest",
+      "note": "韓国先行のタグを含む。日本S0は要確認"
+    },
+    {
+      "label": "格闘家：番号とタグ",
+      "url": "https://www.mabiwiki.com/classes/fighter",
+      "note": "日本未実装ルーンの記載は利用せず、スキル名/タグのみ参考"
+    },
+    {
+      "label": "氷魔タグ比較",
+      "url": "https://gamerch.com/mabinogimobile/1019868",
+      "note": "氷魔のタグに表記差あり"
+    },
+    {
+      "label": "ルーンDB",
+      "url": "https://mabinogimobile.nipponhashi.com/ja/runes/",
+      "note": "CC BY 4.0 由来の効果文・日本語名スナップショット"
+    }
+  ]
 }

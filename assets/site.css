@@ -105,3 +105,84 @@
 .skill-tag-coverage-row{display:flex;align-items:flex-start;gap:12px;padding:8px 0;border-bottom:1px solid #29435b;font-size:.86rem}
 .skill-tag-coverage-row>b{min-width:55px;color:#8ee6ce}.skill-tag-coverage-row span{line-height:1.7}
 .skill-tag-coverage small{display:block;margin-top:11px;line-height:1.7;color:#b9ccda}
+
+/* v6: confidence and variant labels in per-skill documentation */
+.skill-tag-disputed{background:#4b362b;color:#f6d2a5;border-color:#826248}
+.skill-research-meta{font-size:.75rem;line-height:1.65;color:#9bb6c9;margin:0 0 8px}
+.skill-research-warning{font-size:.82rem;line-height:1.75;color:#f2d2a6;background:#332d2c;border-left:3px solid #b99064;border-radius:4px;padding:9px 12px;margin:8px 0}
+
+/* v7: Stat atlas, growth planner and research guides */
+.doc-jumps{display:flex;gap:9px;overflow:auto;scrollbar-width:thin;margin:16px 0 20px;padding-bottom:5px}
+.doc-jumps a{flex:none;display:inline-block;padding:9px 12px;border:1px solid #38546d;background:#182b3f;border-radius:999px;text-decoration:none;font-size:.85rem;font-weight:700;color:#daedf8}
+.doc-jumps a:hover{background:#28556a;border-color:#76b9c5}
+.research-note{padding:16px 18px;margin:15px 0 21px;border-left:4px solid #dfa96b;border-radius:11px;background:#332e2c;color:#f3e4d2;font-size:.9rem;line-height:1.85}
+.muted-note{font-size:.88rem;color:var(--p-muted);line-height:1.82}
+.stat-demo{max-width:840px;margin:18px auto 31px;border-radius:23px;padding:24px 24px 18px;border:1px solid #365469;box-shadow:0 20px 55px #0006;background:linear-gradient(140deg,#29333d,#1b2733 68%,#24333b);overflow:hidden}
+.stat-demo-head{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:.72rem;color:#afced7;font-weight:750;letter-spacing:.08em;margin-bottom:13px}
+.stat-primary-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:5px;padding:3px 0 13px}
+.stat-primary{display:flex;align-items:center;flex-direction:column;text-decoration:none;border-radius:12px;padding:9px 2px;gap:2px;transition:background .15s}
+.stat-primary:hover{background:#ffffff12}.stat-primary span{font-size:1rem;color:inherit}.stat-primary b{font-size:.88rem;letter-spacing:.04em;color:inherit}.stat-primary strong{font-size:clamp(1.25rem,3vw,1.9rem);line-height:1.4;color:white;font-variant-numeric:tabular-nums}
+.stat-str,.stat-tone-str{--tone:#ff7767}.stat-dex,.stat-tone-dex{--tone:#ffbe6d}.stat-int,.stat-tone-int{--tone:#66d4ff}.stat-will,.stat-tone-will{--tone:#e49cfc}.stat-luck,.stat-tone-luck{--tone:#6fe4a2}
+.stat-primary{color:var(--tone)}.stat-attack-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;background:#ffffff0c;border-radius:13px;padding:14px 17px;margin-bottom:11px}
+.stat-attack-row>div{display:flex;align-items:center;gap:9px;color:#e4ecf6}.stat-attack-row span{font-weight:600}.stat-attack-row b{margin-left:auto;font-size:1.25rem;font-variant-numeric:tabular-nums}
+.stat-demo-abilities{display:grid;grid-template-columns:1fr 1fr;gap:10px 25px;padding:5px 15px}
+.stat-demo-abilities>div{display:flex;flex-direction:column;gap:5px}
+.stat-demo-line{display:flex;align-items:center;gap:8px;text-decoration:none;color:#e5ebf4;border-radius:8px;padding:4px 3px;min-width:0}
+.stat-demo-line:hover{background:#ffffff12}.stat-demo-line span{min-width:0;font-size:.95rem}.stat-demo-line b{font-size:1.08rem;margin-left:auto;font-variant-numeric:tabular-nums}
+.stat-demo-dot{display:inline-block;width:12px;height:12px;border-radius:4px;background:var(--tone);flex:none;box-shadow:0 0 11px color-mix(in srgb,var(--tone),transparent 65%)}
+.stat-demo-hint{color:#aabdc8;font-size:.77rem;margin:14px 2px 0}
+.stat-flow{margin-bottom:27px}.stat-flow-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:18px 0 5px}.stat-flow-grid>div{padding:14px;background:#213247;border:1px solid #34536a;border-radius:12px}.stat-flow-grid b{color:#a7e9e9}.stat-flow-grid p{margin:8px 0 0;font-size:.87rem;color:#c3d5e1;line-height:1.7}
+.stat-group{margin:30px 0}.stat-group-title{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:0 0 12px;padding:0 3px;border-left:5px solid var(--tone);padding-left:13px}
+.stat-group-title h2{margin:0;font-size:1.45rem;color:var(--tone)}.stat-group-title h2 small{font-size:.8rem;color:#adc6d6;font-weight:600}.stat-group-title>span{font-size:.76rem;color:#aac2d1}
+.stat-explain-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.stat-explain-card{scroll-margin-top:110px;padding:19px;border:1px solid #304b64;border-radius:14px;background:#14263b;box-shadow:0 12px 25px #0002}
+.stat-explain-top{display:flex;justify-content:space-between;gap:8px;align-items:flex-start;flex-wrap:wrap}.stat-explain-top h3{font-size:1.03rem;line-height:1.5;margin:0;color:#f1f8ff}.stat-explain-card p{font-size:.87rem;line-height:1.78;margin:8px 0}.stat-explain-card .muted-note{font-size:.81rem}
+.status-small{display:inline-block;border-radius:999px;padding:4px 9px;background:#2d4355;border:1px solid #456078;color:#b8d8e7;font-size:.7rem;font-weight:750;line-height:1.25;white-space:nowrap}
+.status-small.unknown{background:#43362f;border-color:#786047;color:#f3cb92}.status-small.estimate{background:#243d48;color:#a3e3e5;border-color:#397183}
+.stat-formula{padding:11px;margin:12px 0 8px;border-radius:10px;background:#0a1928;border:1px solid #2f5063}
+.stat-formula div{font-size:.75rem;color:#8fd8de;font-weight:750;margin-bottom:5px}.stat-formula code{display:block;white-space:pre-wrap;overflow-wrap:anywhere;color:#daebef;font:500 .78rem/1.8 ui-monospace,SFMono-Regular,Consolas,monospace}
+.stat-qualify{color:#dfc49e;font-size:.79rem;line-height:1.7}
+.mini-heading{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}.mini-heading h2{margin:4px 0 8px}
+.sim-section,.title-section{margin:28px 0;scroll-margin-top:100px}.sim-form{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:16px 0}.sim-form label{font-size:.83rem;font-weight:750;color:#a9c7d9}.sim-form input,.sim-form select{display:block;width:100%;border-radius:9px;background:#0e1e30;border:1px solid #48617b;color:#eef8fc;min-height:44px;padding:9px 11px;margin-top:7px}
+.stat-sim-result,.growth-calc-result{padding:16px 19px;background:linear-gradient(135deg,#1c4950,#1a2e47);border:1px solid #3f7e84;border-radius:12px;min-height:72px}.result-main{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 13px}.result-main b{font-size:1.8rem;color:#baf5e8;line-height:1.25}.result-main small{color:#b8d6e3}.result-columns{display:flex;gap:12px;flex-wrap:wrap;margin-top:8px;color:#dae8f1;font-size:.84rem}.result-columns>span{padding:6px 9px;background:#0f263a;border-radius:6px}
+.sim-second{margin-top:23px;padding-top:18px;border-top:1px solid #334c62}.sim-second h3{margin:0;font-size:1.12rem}.sim-second>p{font-size:.84rem;color:#b8ccda}.def-result{display:grid;grid-template-columns:1fr 1fr;gap:10px}.def-result>div{border:1px solid #32546a;background:#0d2234;border-radius:9px;padding:12px}.def-result strong{color:#bceef2;font-size:1.25rem}.def-result p{margin:4px 0;font-size:.8rem;color:#c7d9e6}
+.title-summary{display:flex;gap:12px;flex-wrap:wrap;margin:17px 0}.title-summary>div{flex:1;min-width:180px;padding:15px;border-radius:12px;background:#203649;border:1px solid #42627b}.title-summary>div>span{display:block;color:#accadb;font-size:.77rem}.title-summary strong{display:block;font-size:1.6rem;color:#c9faf4}.title-summary strong small{font-size:.75rem;color:#aec9d9}
+.title-bonus-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}.title-bonus-grid>div{border:1px solid #3a5368;padding:11px;border-radius:9px;background:#122739;text-align:center}.title-bonus-grid strong{display:block;font-size:1.22rem;font-variant-numeric:tabular-nums;color:var(--tone)}.title-bonus-grid span{color:#b3c7d2;font-size:.74rem}
+.title-actions{display:flex;gap:9px;flex-wrap:wrap;align-items:center;margin:18px 0 12px}.title-actions button{padding:8px 13px;border-radius:9px;border:1px solid #48637c;background:#25445a;color:#fff;font-weight:700}.title-actions small{font-size:.74rem;color:#a8c6d6}
+.title-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.title-choice{display:flex;align-items:center;gap:10px;padding:12px;border-radius:11px;background:#192b3e;border:1px solid #345067;min-width:0}.title-choice:has(input:checked){border-color:#66a598;background:#1e4446}
+.title-choice input{accent-color:#8de7d2;width:19px;height:19px;flex:none}.title-choice>span{display:flex;flex-direction:column;min-width:0}.title-choice strong{font-size:.93rem}.title-choice small{color:#8cadc0;font-size:.73rem}.title-choice em{font-size:.76rem;color:#cbdfef;font-style:normal;margin-left:auto;text-align:right}.title-joblink{font-size:.72rem;white-space:nowrap;color:#a0d8e8}
+.ref-links{display:flex;gap:10px;flex-wrap:wrap;margin:13px 0}.ref-links>a{border:1px solid #3a6575;border-radius:9px;text-decoration:none;padding:8px 11px;background:#1b3546;font-size:.83rem}
+.table-scroll{overflow:auto;max-width:100%}.research-table{width:100%;border-collapse:collapse;min-width:540px;font-size:.9rem}.research-table th,.research-table td{border-bottom:1px solid #345269;padding:11px 13px;text-align:left}.research-table thead{color:#afe8ec;background:#193347}.research-table th{font-weight:750}.research-table tbody tr:hover{background:#1e3548}
+.guide-steps{display:grid;gap:11px;margin:17px 0}.guide-steps>article{display:flex;gap:13px;align-items:flex-start;background:#172b40;border:1px solid #345167;border-radius:12px;padding:15px}.guide-steps>article>span{display:grid;place-items:center;flex:0 0 37px;height:37px;border-radius:10px;color:#b8f1ee;background:#285064;font-weight:900}.guide-steps h3{margin:0;font-size:1.04rem}.guide-steps p{margin:5px 0 0;font-size:.87rem;color:#bdcfdf}
+.compare-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:17px 0}.compare-cards>div{background:#1d3246;border:1px solid #3b5b74;border-radius:12px;padding:16px;flex:1}.compare-cards>div>strong{color:#80dfd9;font-size:.77rem}.compare-cards h3{margin:4px 0;font-size:1.08rem}.compare-cards p{font-size:.86rem;line-height:1.78;color:#c3d6e1;margin:6px 0}
+.equipment-flow{display:flex;align-items:stretch;gap:9px;margin:18px 0;flex-wrap:wrap}.equipment-flow>div{flex:1;min-width:190px;padding:15px;border:1px solid #43657a;border-radius:12px;background:#1c3647}.equipment-flow>div.flow-result{background:#214b4d;border-color:#6da09b}.equipment-flow h3{font-size:1rem;margin:5px 0}.equipment-flow p{font-size:.83rem;margin:0;color:#c5d8e3}.flow-label{font-size:.77rem;color:#8cdad6;font-weight:750}.flow-arrow{align-self:center;font-size:1.5rem;color:#9abfd1;font-weight:800}
+.battle-chain{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:18px 0}.battle-chain>div{padding:12px;background:#203a50;border-radius:11px;border:1px solid #426378;font-size:.8rem;font-weight:700;flex:1;text-align:center;min-width:130px}.battle-chain>span{color:#9cdfda;font-size:1.3rem;font-weight:800}
+.battle-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.battle-grid article{border:1px solid #35516b;border-radius:11px;padding:15px;background:#193046}.battle-grid b{color:#aee8df}.battle-grid p{color:#c6d9e6;font-size:.84rem;line-height:1.75;margin:8px 0 0}
+#stat-dictionary,#stat-sources,#trace-calc,#trace-table,#growth-tactics,#equip-basics,#improvement,#rune-workflow,#gem-workflow,#season-forward,#damage-chain,#hit-flags,#break-window,#field-test{scroll-margin-top:92px;margin-bottom:20px}
+@media(max-width:920px){.stat-explain-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.portal-nav a{padding:8px 10px}.stat-demo-abilities{gap:8px 14px}}
+@media(max-width:620px){.stat-demo{padding:15px 12px}.stat-primary strong{font-size:1.2rem}.stat-primary span{font-size:.78rem}.stat-primary b{font-size:.75rem}.stat-attack-row{padding:11px 10px;gap:9px}.stat-attack-row>div{gap:5px;font-size:.75rem}.stat-attack-row b{font-size:1.04rem}.stat-demo-abilities{padding:4px 1px;gap:2px 9px}.stat-demo-line{gap:5px;padding:4px 1px}.stat-demo-line span{font-size:.77rem;line-height:1.3}.stat-demo-line b{font-size:.83rem}.stat-demo-dot{width:7px;height:7px;border-radius:2px}.stat-explain-grid,.title-choices,.compare-cards,.battle-grid,.def-result{grid-template-columns:1fr}.stat-flow-grid{grid-template-columns:1fr}.stat-primary-grid{gap:0}.sim-form{grid-template-columns:1fr}.title-bonus-grid{grid-template-columns:repeat(5,minmax(0,1fr))}.title-bonus-grid>div{padding:8px 3px}.title-bonus-grid strong{font-size:1rem}.equipment-flow{flex-direction:column}.flow-arrow{align-self:flex-start}.battle-chain{flex-direction:column;align-items:stretch}.battle-chain>span{text-align:center;transform:rotate(90deg)}.stat-group-title>span{font-size:.68rem}.stat-group-title h2{font-size:1.18rem}}
+@media(max-width:620px){.title-choice{display:grid;grid-template-columns:24px minmax(0,1fr) auto;grid-template-areas:'check job link' '. bonus bonus';gap:4px 10px}.title-choice input{grid-area:check}.title-choice>span{grid-area:job}.title-choice em{grid-area:bonus;margin-left:0;text-align:left;white-space:normal}.title-choice .title-joblink{grid-area:link}.title-choice strong{font-size:.94rem}}
+.job-class65-line{display:flex;align-items:center;gap:8px 16px;flex-wrap:wrap;margin:13px 0;padding:12px 17px;border-radius:11px;border:1px solid #466c69;background:#1b383d;font-size:.84rem}.job-class65-line b{color:#9de4d9}.job-class65-line span{color:#e7f4f0}.job-class65-line a{margin-left:auto;font-size:.78rem}
+
+/* v8: クラスLv1〜65 EXP表。スマホでは数値を横スクロールして確認 */
+.growth-table-scroll{border:1px solid var(--p-border);border-radius:10px;overflow-x:auto;scrollbar-color:#4e7b94 #15273b}
+.growth-exp-table{width:100%;min-width:760px;border-collapse:separate;border-spacing:0;font-variant-numeric:tabular-nums;font-size:.87rem}
+.growth-exp-table th,.growth-exp-table td{padding:10px 14px;text-align:right;white-space:nowrap;border-bottom:1px solid #2b4157}
+.growth-exp-table th:first-child,.growth-exp-table td:first-child{text-align:left;position:sticky;left:0;background:#14263a;z-index:1;min-width:82px;box-shadow:3px 0 9px #0004}
+.growth-exp-table thead th{background:#204056;color:#a9e9ef;position:sticky;top:0;z-index:2;line-height:1.45}
+.growth-exp-table thead th:first-child{background:#204056;z-index:3}
+.growth-exp-table tbody tr:hover td,.growth-exp-table tbody tr:hover th{background:#24445b}
+.growth-exp-table tbody tr.growth-milestone td,.growth-exp-table tbody tr.growth-milestone th{background:#25413f;color:#e0fff6;font-weight:800}
+.growth-exp-table tbody tr.growth-milestone:hover td,.growth-exp-table tbody tr.growth-milestone:hover th{background:#35615a}
+.growth-milestone-links{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:13px 0}.growth-milestone-links span{font-size:13px;color:var(--p-muted)}
+.growth-milestone-links a{padding:4px 10px;border:1px solid #486a74;background:#193647;border-radius:7px;text-decoration:none;font-size:12px;font-weight:750}
+.growth-exp-table tbody tr{scroll-margin-top:120px}
+.growth-scroll-hint{font-size:.76rem;color:#a6bdcb;margin:4px 0 10px}.growth-scroll-hint span{font-size:1.2rem;color:#91dbeb}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+@media(min-width:900px){.growth-scroll-hint{display:none}}
+@media(max-width:620px){.growth-exp-table{font-size:.83rem;min-width:725px}.growth-exp-table th,.growth-exp-table td{padding:10px 10px}.growth-exp-table th:first-child,.growth-exp-table td:first-child{min-width:69px}}
+
+/* v8.1: クラス共通の育成コスト計算。職業選択を廃止し、2カラムへ */
+.sim-form.growth-level-form{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(max-width:620px){.sim-form.growth-level-form{grid-template-columns:1fr}}

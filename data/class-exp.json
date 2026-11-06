@@ -1,0 +1,490 @@
+{
+  "schemaVersion": 1,
+  "region": "KR",
+  "season": "Season 0 (2025-06-01先行掲載表)",
+  "updatedAt": "2026-11-06",
+  "kind": "class-level exp (not character-level exp)",
+  "expPerTraceEstimate": 20000,
+  "rows": [
+    {
+      "level": 1,
+      "expFromPrevious": null,
+      "expCumulative": 0,
+      "tracesFromPrevious": null,
+      "tracesCumulative": 0
+    },
+    {
+      "level": 2,
+      "expFromPrevious": 6754,
+      "expCumulative": 6754,
+      "tracesFromPrevious": 1,
+      "tracesCumulative": 1
+    },
+    {
+      "level": 3,
+      "expFromPrevious": 13508,
+      "expCumulative": 20262,
+      "tracesFromPrevious": 1,
+      "tracesCumulative": 2
+    },
+    {
+      "level": 4,
+      "expFromPrevious": 20262,
+      "expCumulative": 40524,
+      "tracesFromPrevious": 1,
+      "tracesCumulative": 3
+    },
+    {
+      "level": 5,
+      "expFromPrevious": 27014,
+      "expCumulative": 67538,
+      "tracesFromPrevious": 1,
+      "tracesCumulative": 4
+    },
+    {
+      "level": 6,
+      "expFromPrevious": 33768,
+      "expCumulative": 101306,
+      "tracesFromPrevious": 2,
+      "tracesCumulative": 6
+    },
+    {
+      "level": 7,
+      "expFromPrevious": 40522,
+      "expCumulative": 141828,
+      "tracesFromPrevious": 2,
+      "tracesCumulative": 8
+    },
+    {
+      "level": 8,
+      "expFromPrevious": 47276,
+      "expCumulative": 189104,
+      "tracesFromPrevious": 2,
+      "tracesCumulative": 10
+    },
+    {
+      "level": 9,
+      "expFromPrevious": 54030,
+      "expCumulative": 243134,
+      "tracesFromPrevious": 3,
+      "tracesCumulative": 13
+    },
+    {
+      "level": 10,
+      "expFromPrevious": 60784,
+      "expCumulative": 303918,
+      "tracesFromPrevious": 3,
+      "tracesCumulative": 16
+    },
+    {
+      "level": 11,
+      "expFromPrevious": 63000,
+      "expCumulative": 366918,
+      "tracesFromPrevious": 3,
+      "tracesCumulative": 19
+    },
+    {
+      "level": 12,
+      "expFromPrevious": 64000,
+      "expCumulative": 430918,
+      "tracesFromPrevious": 3,
+      "tracesCumulative": 22
+    },
+    {
+      "level": 13,
+      "expFromPrevious": 65000,
+      "expCumulative": 495918,
+      "tracesFromPrevious": 3,
+      "tracesCumulative": 25
+    },
+    {
+      "level": 14,
+      "expFromPrevious": 66000,
+      "expCumulative": 561918,
+      "tracesFromPrevious": 4,
+      "tracesCumulative": 29
+    },
+    {
+      "level": 15,
+      "expFromPrevious": 67000,
+      "expCumulative": 628918,
+      "tracesFromPrevious": 3,
+      "tracesCumulative": 32
+    },
+    {
+      "level": 16,
+      "expFromPrevious": 68000,
+      "expCumulative": 696918,
+      "tracesFromPrevious": 3,
+      "tracesCumulative": 35
+    },
+    {
+      "level": 17,
+      "expFromPrevious": 69000,
+      "expCumulative": 765918,
+      "tracesFromPrevious": 4,
+      "tracesCumulative": 39
+    },
+    {
+      "level": 18,
+      "expFromPrevious": 70000,
+      "expCumulative": 835918,
+      "tracesFromPrevious": 3,
+      "tracesCumulative": 42
+    },
+    {
+      "level": 19,
+      "expFromPrevious": 76000,
+      "expCumulative": 911918,
+      "tracesFromPrevious": 4,
+      "tracesCumulative": 46
+    },
+    {
+      "level": 20,
+      "expFromPrevious": 82000,
+      "expCumulative": 993918,
+      "tracesFromPrevious": 4,
+      "tracesCumulative": 50
+    },
+    {
+      "level": 21,
+      "expFromPrevious": 140000,
+      "expCumulative": 1133918,
+      "tracesFromPrevious": 7,
+      "tracesCumulative": 57
+    },
+    {
+      "level": 22,
+      "expFromPrevious": 141828,
+      "expCumulative": 1275746,
+      "tracesFromPrevious": 7,
+      "tracesCumulative": 64
+    },
+    {
+      "level": 23,
+      "expFromPrevious": 148582,
+      "expCumulative": 1424328,
+      "tracesFromPrevious": 8,
+      "tracesCumulative": 72
+    },
+    {
+      "level": 24,
+      "expFromPrevious": 155334,
+      "expCumulative": 1579662,
+      "tracesFromPrevious": 7,
+      "tracesCumulative": 79
+    },
+    {
+      "level": 25,
+      "expFromPrevious": 162088,
+      "expCumulative": 1741750,
+      "tracesFromPrevious": 9,
+      "tracesCumulative": 88
+    },
+    {
+      "level": 26,
+      "expFromPrevious": 168842,
+      "expCumulative": 1910592,
+      "tracesFromPrevious": 8,
+      "tracesCumulative": 96
+    },
+    {
+      "level": 27,
+      "expFromPrevious": 175596,
+      "expCumulative": 2086188,
+      "tracesFromPrevious": 9,
+      "tracesCumulative": 105
+    },
+    {
+      "level": 28,
+      "expFromPrevious": 182350,
+      "expCumulative": 2268538,
+      "tracesFromPrevious": 9,
+      "tracesCumulative": 114
+    },
+    {
+      "level": 29,
+      "expFromPrevious": 189104,
+      "expCumulative": 2457642,
+      "tracesFromPrevious": 9,
+      "tracesCumulative": 123
+    },
+    {
+      "level": 30,
+      "expFromPrevious": 195856,
+      "expCumulative": 2653498,
+      "tracesFromPrevious": 10,
+      "tracesCumulative": 133
+    },
+    {
+      "level": 31,
+      "expFromPrevious": 202610,
+      "expCumulative": 2856108,
+      "tracesFromPrevious": 10,
+      "tracesCumulative": 143
+    },
+    {
+      "level": 32,
+      "expFromPrevious": 1829022,
+      "expCumulative": 4685130,
+      "tracesFromPrevious": 92,
+      "tracesCumulative": 235
+    },
+    {
+      "level": 33,
+      "expFromPrevious": 1865594,
+      "expCumulative": 6550724,
+      "tracesFromPrevious": 93,
+      "tracesCumulative": 328
+    },
+    {
+      "level": 34,
+      "expFromPrevious": 4013190,
+      "expCumulative": 10563914,
+      "tracesFromPrevious": 201,
+      "tracesCumulative": 529
+    },
+    {
+      "level": 35,
+      "expFromPrevious": 7000000,
+      "expCumulative": 17563914,
+      "tracesFromPrevious": 350,
+      "tracesCumulative": 879
+    },
+    {
+      "level": 36,
+      "expFromPrevious": 10908518,
+      "expCumulative": 28472432,
+      "tracesFromPrevious": 545,
+      "tracesCumulative": 1424
+    },
+    {
+      "level": 37,
+      "expFromPrevious": 11235754,
+      "expCumulative": 39708186,
+      "tracesFromPrevious": 562,
+      "tracesCumulative": 1986
+    },
+    {
+      "level": 38,
+      "expFromPrevious": 11572798,
+      "expCumulative": 51280984,
+      "tracesFromPrevious": 579,
+      "tracesCumulative": 2565
+    },
+    {
+      "level": 39,
+      "expFromPrevious": 11919958,
+      "expCumulative": 63200942,
+      "tracesFromPrevious": 596,
+      "tracesCumulative": 3161
+    },
+    {
+      "level": 40,
+      "expFromPrevious": 12277536,
+      "expCumulative": 75478478,
+      "tracesFromPrevious": 613,
+      "tracesCumulative": 3774
+    },
+    {
+      "level": 41,
+      "expFromPrevious": 14542710,
+      "expCumulative": 90021188,
+      "tracesFromPrevious": 728,
+      "tracesCumulative": 4502
+    },
+    {
+      "level": 42,
+      "expFromPrevious": 15415272,
+      "expCumulative": 105436460,
+      "tracesFromPrevious": 770,
+      "tracesCumulative": 5272
+    },
+    {
+      "level": 43,
+      "expFromPrevious": 16340188,
+      "expCumulative": 121776648,
+      "tracesFromPrevious": 817,
+      "tracesCumulative": 6089
+    },
+    {
+      "level": 44,
+      "expFromPrevious": 17320600,
+      "expCumulative": 139097248,
+      "tracesFromPrevious": 866,
+      "tracesCumulative": 6955
+    },
+    {
+      "level": 45,
+      "expFromPrevious": 18359836,
+      "expCumulative": 157457084,
+      "tracesFromPrevious": 918,
+      "tracesCumulative": 7873
+    },
+    {
+      "level": 46,
+      "expFromPrevious": 19461426,
+      "expCumulative": 176918510,
+      "tracesFromPrevious": 973,
+      "tracesCumulative": 8846
+    },
+    {
+      "level": 47,
+      "expFromPrevious": 22769688,
+      "expCumulative": 199688198,
+      "tracesFromPrevious": 1139,
+      "tracesCumulative": 9985
+    },
+    {
+      "level": 48,
+      "expFromPrevious": 26640746,
+      "expCumulative": 226328944,
+      "tracesFromPrevious": 1332,
+      "tracesCumulative": 11317
+    },
+    {
+      "level": 49,
+      "expFromPrevious": 31169673,
+      "expCumulative": 257498617,
+      "tracesFromPrevious": 1558,
+      "tracesCumulative": 12875
+    },
+    {
+      "level": 50,
+      "expFromPrevious": 36468517,
+      "expCumulative": 293967134,
+      "tracesFromPrevious": 1824,
+      "tracesCumulative": 14699
+    },
+    {
+      "level": 51,
+      "expFromPrevious": 42668165,
+      "expCumulative": 336635299,
+      "tracesFromPrevious": 2133,
+      "tracesCumulative": 16832
+    },
+    {
+      "level": 52,
+      "expFromPrevious": 49921753,
+      "expCumulative": 386557052,
+      "tracesFromPrevious": 2496,
+      "tracesCumulative": 19328
+    },
+    {
+      "level": 53,
+      "expFromPrevious": 58408451,
+      "expCumulative": 444965503,
+      "tracesFromPrevious": 2921,
+      "tracesCumulative": 22249
+    },
+    {
+      "level": 54,
+      "expFromPrevious": 68337888,
+      "expCumulative": 513303391,
+      "tracesFromPrevious": 3417,
+      "tracesCumulative": 25666
+    },
+    {
+      "level": 55,
+      "expFromPrevious": 79955329,
+      "expCumulative": 593258720,
+      "tracesFromPrevious": 3997,
+      "tracesCumulative": 29663
+    },
+    {
+      "level": 56,
+      "expFromPrevious": 93547735,
+      "expCumulative": 686806455,
+      "tracesFromPrevious": 4678,
+      "tracesCumulative": 34341
+    },
+    {
+      "level": 57,
+      "expFromPrevious": 109450850,
+      "expCumulative": 796257305,
+      "tracesFromPrevious": 5472,
+      "tracesCumulative": 39813
+    },
+    {
+      "level": 58,
+      "expFromPrevious": 128057495,
+      "expCumulative": 924314800,
+      "tracesFromPrevious": 6403,
+      "tracesCumulative": 46216
+    },
+    {
+      "level": 59,
+      "expFromPrevious": 149827269,
+      "expCumulative": 1074142069,
+      "tracesFromPrevious": 7492,
+      "tracesCumulative": 53708
+    },
+    {
+      "level": 60,
+      "expFromPrevious": 175297905,
+      "expCumulative": 1249439974,
+      "tracesFromPrevious": 8764,
+      "tracesCumulative": 62472
+    },
+    {
+      "level": 61,
+      "expFromPrevious": 205098549,
+      "expCumulative": 1454538523,
+      "tracesFromPrevious": 10255,
+      "tracesCumulative": 72727
+    },
+    {
+      "level": 62,
+      "expFromPrevious": 239965302,
+      "expCumulative": 1694503825,
+      "tracesFromPrevious": 11999,
+      "tracesCumulative": 84726
+    },
+    {
+      "level": 63,
+      "expFromPrevious": 280759403,
+      "expCumulative": 1975263228,
+      "tracesFromPrevious": 14038,
+      "tracesCumulative": 98764
+    },
+    {
+      "level": 64,
+      "expFromPrevious": 328488502,
+      "expCumulative": 2303751730,
+      "tracesFromPrevious": 16424,
+      "tracesCumulative": 115188
+    },
+    {
+      "level": 65,
+      "expFromPrevious": 384331547,
+      "expCumulative": 2688083277,
+      "tracesFromPrevious": 19217,
+      "tracesCumulative": 134405
+    }
+  ],
+  "sources": [
+    {
+      "label": "韓国・個人実測（2025-06-01）",
+      "url": "https://adimpnem.tistory.com/149"
+    },
+    {
+      "label": "韓国・非公式センター（2025-04〜05）",
+      "url": "https://mabinogi.begchi.com/%EB%AA%A8%EB%B0%94%EC%9D%BC-%ED%81%B4%EB%9E%98%EC%8A%A4-%EA%B2%BD%ED%97%98%EC%B9%98-%ED%85%8C%EC%9D%B4%EB%B8%94-%EC%A0%95%EB%A0%B9%EC%9D%98-%ED%9D%94%EC%A0%81-%EC%86%8C%EB%AA%A8%EB%9F%89"
+    },
+    {
+      "label": "台湾コミュニティ実測 Lv1〜51",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=32564&snA=2853"
+    }
+  ],
+  "conflicts": [
+    {
+      "source": "https://danasn.tistory.com/1544",
+      "issue": "Lv64→65を400,000,000EXPとする別報告（本表は384,331,547）"
+    },
+    {
+      "source": "https://www.inven.co.kr/board/mabimo/6366/318",
+      "issue": "Lv1→65を3,137,751,367EXP、痕跡約156,888とする別報告（本表2,688,083,277EXP、痕跡134,405）"
+    }
+  ],
+  "caution": "日本版のゲーム画面での数値は未検証。痕跡は先行プレイヤー表の各段階切上げ計算であり、途中獲得EXPや端数引き継ぎで実際の必要数が変わり得ます。"
+}

@@ -13,6 +13,7 @@ SOURCE='https://erinn.tw/runes'
 WEBSITE='https://mabinogimobile.nipponhashi.com/ja/runes/'
 STATS_DATE='2026-11-01'
 jobs=json.loads((ROOT/'data/job-builds.json').read_text(encoding='utf-8'))['jobs']
+titles_by_slug={x['slug']:x for x in json.loads((ROOT/'data/class-titles.json').read_text(encoding='utf-8'))['items']} if (ROOT/'data/class-titles.json').exists() else {}
 guides=json.loads((ROOT/'data/job-guides.json').read_text(encoding='utf-8'))['jobs']
 combat=json.loads((ROOT/'data/combat-guides.json').read_text(encoding='utf-8'))['jobs']
 skilldata=json.loads((ROOT/'data/job-skills.json').read_text(encoding='utf-8'))['jobs']
@@ -83,6 +84,20 @@ def skill_detail(job):
         tags=(''.join(f'<span class="skill-tag">{esc(t)}</span>' for t in skill['tags'])
             if skill['tags'] else '<span class="skill-tag skill-tag-unverified">個別タグ：要実機確認</span>')
         desc=skill['description'] or '日本語のスキル名と対応ルーンを照合済みです。ルーン未装着時の基本効果は確認中のため、以下の改造効果と混同しないでください。'
+        warnings=[]
+        if skill.get('disputed_tags'):
+            tags+=''.join('<span class="skill-tag skill-tag-disputed">異説：'+esc(t)+'</span>' for t in skill['disputed_tags'])
+        if skill.get('tag_dispute'):warnings.append('タグ情報の差異：'+skill['tag_dispute'])
+        if skill.get('translation_note'):warnings.append('名称・派生技の注意：'+skill['translation_note'])
+        warning_html=''.join('<p class="skill-research-warning">'+esc(x)+'</p>' for x in warnings)
+        kind=skill.get('kind','基本スキル')
+        meta=[kind]
+        if number:
+            meta.append('番号：先行出典あり' if skill.get('slot_source') else '番号：先行情報')
+        else:
+            meta.append('番号：未確認')
+        meta.append('個別タグ：先行情報' if skill.get('tags') else '個別タグ：未確認')
+        skillmeta='<p class="skill-research-meta">'+esc(' ／ '.join(meta))+'</p>'
         content=[]
         for r in runes:
             href=link_to_rune(r['name'])
@@ -95,8 +110,8 @@ def skill_detail(job):
         if is_main:captions.append('<span class="skill-reco">基本特化の対象</span>')
         if number in fixed:captions.append('<span class="skill-fixed">優先固定</span>')
         cards.append('<article class="skill-entry" id="skill-entry-'+str(i+1)+'"><div class="skill-entry-head">'+label+'<div class="skill-entry-title"><h3>'+esc(skill['name'])+'</h3>'
-            +''.join(captions)+'</div></div><div class="skill-tags"><b>スキルタグ</b>'+tags+'</div>'
-            '<p class="skill-base">'+esc(desc)+'</p><div class="skill-rune-group"><h4>対応アクセサリールーン・改造効果</h4>'+''.join(content)+'</div></article>')
+            +''.join(captions)+'</div></div>'+skillmeta+'<div class="skill-tags"><b>スキルタグ</b>'+tags+'</div>'
+            +warning_html+'<p class="skill-base">'+esc(desc)+'</p><div class="skill-rune-group"><h4>対応アクセサリールーン・改造効果</h4>'+''.join(content)+'</div></article>')
     tag_map={}
     for skill in info['skills']:
         for tag in skill.get('tags',[]):
@@ -106,14 +121,18 @@ def skill_detail(job):
     intro=(f'<section class="portal-panel class-skill-panel" id="skill-dictionary"><div class="job-section-label">SKILL ENCYCLOPEDIA · JAPAN S0</div>'
       f'<h2>スキルと対応ルーンの詳細</h2><p>「スキル名 → 基本動作 → 対応ルーン → 変化する効果」の順に確認できます。'
       f'既存の日本語ルーン図鑑に収録された<strong>日本版実装扱いのアクセサリールーン</strong>をスキル名で照合しています。</p>'
-      f'<div class="skill-legend"><span>確認できたスキル名：<b>{len(info["skills"])}件</b></span><span>対応ルーン効果：<b>{sum(len(x["runes"]) for x in info["skills"])}件</b></span></div>'
+      f'<div class="skill-legend"><span>掲載スキル・派生技：<b>{len(info["skills"])}件</b></span><span>番号照合：<b>{sum(bool(x.get("slot")) for x in info["skills"])}件</b></span><span>タグ照合：<b>{sum(bool(x.get("tags")) for x in info["skills"])}件</b></span><span>ルーン対応：<b>{sum(len(x["runes"]) for x in info["skills"])}件</b></span></div>'
       f'<p class="skill-legend-tip">職全体の推奨タグ：<b>{esc(" → ".join(gemtags))}</b>。これはクラス単位のおすすめです。'
       '各スキルの個別タグや①〜⑥の番号は、裏付けがあるものだけ明記しました。未確認欄は推奨タグから推定して埋めていません。'
-      'ルーンによってタグ・スキル名・攻撃方式が変わる場合は、日本版の装着後画面を最優先してください。</p>'
+      '改造・連携による派生技も数えています。韓国の後発シーズンと混在した記述もあり得るため、日本版のスキル・タグ画面を最優先してください。</p>'
       '<div class="skill-filter-note"><span class="skill-reco">基本特化の対象</span>＝上記「おすすめスキル特化」に含まれる番号。'
       '番号が「—」のスキルは未確認であり、特化対象外という意味ではありません。</div>')
     footer='<div class="skill-sources"><strong>スキル名・説明の参照先：</strong><a href="'+esc(info['source_gamewith'])+'" target="_blank" rel="noopener noreferrer">GameWith・'+esc(job['name'])+'のスキル一覧</a>。'
     footer+='<strong>ルーン効果・名称：</strong><a href="'+esc(info['source_runes'])+'" target="_blank" rel="noopener noreferrer">アリス氏の日本語ルーンDB（CC BY 4.0）</a>。'
+    if info.get('slot_table_source'):
+        footer+='<a href="'+esc(info['slot_table_source'])+'" target="_blank" rel="noopener noreferrer">番号・タグの先行参照</a>。'
+    if job['slug'] in ('priest','fighter'):
+        footer+='<a href="https://www.mabiwiki.com/classes/'+esc(job['slug'])+'" target="_blank" rel="noopener noreferrer">番号・タグの先行参考</a>。'
     if job['slug']=='frostmage':
         footer+='<a href="https://mabinogimobile.nipponhashi.com/ja/guides/frostmage-gem-tags/" target="_blank" rel="noopener noreferrer">氷結術師タグの先行検証</a>。'
     if job['slug']=='healer':
@@ -174,7 +193,8 @@ for i,job in enumerate(jobs):
     pagernav=(f'<nav class="job-pager" aria-label="前後の職業"><a href="{pre["slug"]}.html"><span>← 前の職業</span><strong>{esc(pre["name"])}</strong></a><a href="{nxt["slug"]}.html"><span>次の職業 →</span><strong>{esc(nxt["name"])}</strong></a></nav>')
     quicknav=('<nav class="job-jump" aria-label="職業ページ内ナビゲーション"><a href="#build-guide">おすすめ構成</a><a href="#skill-guide">スキル特化</a><a href="#gem-guide">宝石タグ</a><a href="#skill-dictionary">スキル・改造</a><a href="#pet-guide">ペット</a><a href="#rune-stats">ルーン採用率</a></nav>')
     statstart='<div class="job-stats-heading" id="rune-stats"><div class="portal-kicker">04 · RUNE ADOPTION · TAIWAN</div><h2>台湾版のルーン採用率</h2><p>ここからは使用者の割合を示した統計です。上のスキル・宝石・ペットの推薦根拠とは異なります。</p></div>'
-    body=overview+quicknav+rec+combat_detail(job)+guide_detail(job)+skill_detail(job)+explanations+statstart+block+tail+links+pagernav+'<footer class="portal-foot">非公式の攻略ノート。日本版ゲーム内の最新表記を優先してください。</footer>'
+    class65 = (f'<div class="job-class65-line"><b>Lv65称号（韓国先行・要日本確認）</b><span>{" + ".join(a+"+25" for a in titles_by_slug[job["slug"]]["attrs"])}</span><a href="../stats/index.html#class-title">全18職の所持効果を見る →</a></div>' if job['slug'] in titles_by_slug else '')
+    body=overview+class65+quicknav+rec+combat_detail(job)+guide_detail(job)+skill_detail(job)+explanations+statstart+block+tail+links+pagernav+'<footer class="portal-foot">非公式の攻略ノート。日本版ゲーム内の最新表記を優先してください。</footer>'
     (ROOT/'jobs'/f'{job["slug"]}.html').write_text(page_doc(f'{job["name"]}のスキル特化・宝石・ペット・ルーン採用率｜エリン調査ノート',body,desc=f'{job["name"]}のスキル特化・宝石タグ・同行ペット・ルーン構成。台湾の武器防具アクセ採用率。'),encoding='utf-8')
 
 families=['戦士系','弓系','魔法系','回復系','音楽系','盗賊系']

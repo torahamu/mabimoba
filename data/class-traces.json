@@ -1,0 +1,67 @@
+{
+  "reference_date": "2026-11-06",
+  "entries": [
+    {
+      "level": 1,
+      "quantity": 0
+    },
+    {
+      "level": 5,
+      "quantity": 4
+    },
+    {
+      "level": 10,
+      "quantity": 16
+    },
+    {
+      "level": 15,
+      "quantity": 32
+    },
+    {
+      "level": 20,
+      "quantity": 50
+    },
+    {
+      "level": 25,
+      "quantity": 88
+    },
+    {
+      "level": 30,
+      "quantity": 133
+    },
+    {
+      "level": 35,
+      "quantity": 879
+    },
+    {
+      "level": 40,
+      "quantity": 3774
+    },
+    {
+      "level": 45,
+      "quantity": 7873
+    },
+    {
+      "level": 50,
+      "quantity": 14699
+    },
+    {
+      "level": 55,
+      "quantity": 29663
+    },
+    {
+      "level": 60,
+      "quantity": 62472
+    },
+    {
+      "level": 65,
+      "quantity": 134405
+    }
+  ],
+  "conflict": {
+    "level": 65,
+    "another_report": 156888,
+    "remarks": "資料間不一致。Lv65累計134,405と156,888を同一条件の確定値として使用しない。"
+  },
+  "usage": "レベル間の差分は表中の対象レベル同士だけ計算できる。間のレベルは公式補間値がないため使わない。"
+}
